@@ -1,0 +1,12 @@
+---
+id: 14
+title: Joining the Ranks of the Linux Noobs!
+date: 2006-08-19T21:40:43+00:00
+author: Greg Woods
+layout: post
+guid: http://gregwoods.co.uk/?p=14
+permalink: /2006/08/joining-the-ranks-of-the-linux-noobs/
+categories:
+  - Linux
+---
+Well, I finally decided to seriously try out Linux. Several things have led to this: 1) A work colleague had been playing around with Ubuntu and was enthusing about it. 2) I don&#8217;t want to pay for 2 copies of Vista when it comes out. One is more than enough 3) You can&#8217;t escape Linux magazines, so maybe it&#8217;s startign to reach critical mass after all this time 4) There&#8217;s always a temptation to try something new. So, here I am on a working copy of Ubuntu typing this blog entry. What&#8217;s my verdict? So far, very mixed. The OS seems good. There are a lot more apps than I imagined. However, setting some things up has been infuriatingly difficult. Synaptic package manager &#8211; a great idea in theory, but it&#8217;s easily confused. First thing I did after the install was do the updates. It&#8217;s a habit when you&#8217;re a windows user. Next, I try to install Samba and Swat for creating a network share. Problem is that Samba depended on a component I already had installed, but this component was a later version than the one Samba wanted. It took me two days to figure out I had to uninstall the shared component, then install Samba, which would download the correct version of the dependencies, then do another system update to discover both the dependent component and Samba had later compatible versions. I had almost identical problems with a video driver, VMWare and Swat. It seems the Ubuntu repository isn&#8217;t kept up to date with the same files offered by the Update service. This is just a general description of the problems I&#8217;ve had. true, it feels satisfying when you find the answer, but it INFURIATING when a perfectly user friendly UI indicates that you should be able to do something, but then you can&#8217;t. That brings me to another subject which I&#8217;ll cover in another post. &#8220;Linux Geeks are holding back Linux&#8221; Shameless plug for a friends site I designed. I&#8217;m determined to get it into google! <a src="http://www.cedarhill.co.uk">www.cedarhill.co.uk</a>
