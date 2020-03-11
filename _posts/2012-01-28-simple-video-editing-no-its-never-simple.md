@@ -33,7 +33,7 @@ After installing lots of apps and codecs, and failing to make progress, I stumbl
   * Install AviSynth (this is the important bit)
   * For each video file you need to open in VirtualDub, create a .AVS script file 
       * In it, simply add the following line:
-      * DirectShowSource("fullPathAndFilename.mp4&#8243;)
+      * DirectShowSource("fullPathAndFilename.mp4")
 
 At first I thought that creating this script file every clip was a bind. Then I glanced over the documentation [avisynth.org ](http://avisynth.org "avisynth.org")
 

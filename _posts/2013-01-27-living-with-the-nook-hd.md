@@ -10,7 +10,7 @@ permalink: /2013/01/living-with-the-nook-hd/
 categories:
   - Review
 ---
-So, I got rid of my Kindle DX, which I decided was unsuitable for technical manuals. And due to Amazon's culling of the product I made a nice profit on it on ebay, and snagged myself a 9&#8243; Nook HD+ (used) for £135. How have I found using it for the last few weeks?
+So, I got rid of my Kindle DX, which I decided was unsuitable for technical manuals. And due to Amazon's culling of the product I made a nice profit on it on ebay, and snagged myself a 9" Nook HD+ (used) for £135. How have I found using it for the last few weeks?
 
 #### My Use Case
 
@@ -19,7 +19,7 @@ Although I did once find myself jealous of iPad-wielding friends with their fanc
 #### Strengths
 
   * The 'retina' class screen resolution
-  * The large 9&#8243; screen
+  * The large 9" screen
   * Magazine-page-ratio is pretty good for books
   * Excellent PDF support, including table of contents
   * Good web browser
@@ -31,7 +31,7 @@ Although I did once find myself jealous of iPad-wielding friends with their fanc
 
   * Occasional browser bugs. Google Reader doesn't always render well
   * Locked down, so tinkering with it is just more of a challenge (must resist temptation to root it)!
-  * Most books show with black bars at the top and bottom of the screen. Usable screen is actually 8.2&#8243; for many books
+  * Most books show with black bars at the top and bottom of the screen. Usable screen is actually 8.2" for many books
   * (The best aspect ratio for programming books is probably 4:3 - an iPad)
   * Pinch-zooming-in on a PDF doesn't shrink those black bars. You instead immediately get a vertical scroll bar. A poor implementation of zoom
   * The only icons I use on the home screens are 'Library' and 'Web'. It would be nice to be able to show entire folder contents on a home screen to cut down on navigation taps
