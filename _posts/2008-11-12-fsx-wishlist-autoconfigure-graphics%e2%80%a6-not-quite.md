@@ -18,18 +18,18 @@ What I’d like is the ability for FSX to keep track of my frame rates as I fly,
 
 So my own global preferences would be:
 
-  * 1920 x 1200: Mandatory
-  * Anti-aliasing: Mandatory (I just like it, OK)
-  * Frame rate above 15fps: Mandatory
-  * Desired Framerate: 25fps
-  * Scenery Complexity: Medium Priority
-  * Texture quality: Low priority
-  * Water Effects: Low priority
+* 1920 x 1200: Mandatory
+* Anti-aliasing: Mandatory (I just like it, OK)
+* Frame rate above 15fps: Mandatory
+* Desired Framerate: 25fps
+* Scenery Complexity: Medium Priority
+* Texture quality: Low priority
+* Water Effects: Low priority
 
 For my saved New York helicopter free flight, the additional preferences would apply
 
-  * Scenery Complexity: Very Dense or higher: Mandatory
-  * Autogen Scenery: Low Priority
+* Scenery Complexity: Very Dense or higher: Mandatory
+* Autogen Scenery: Low Priority
 
 (as for UI, the above list could be a user sortable list, with a mandatory section at the top, nice to haves in the middle, and low priority in the bottom)
 
