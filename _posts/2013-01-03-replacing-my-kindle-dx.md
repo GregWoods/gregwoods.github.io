@@ -17,7 +17,7 @@ I had high hopes for the Kindle DX. A 9.7&#8243; screen e-reader with PDF suppor
   * Being able to show a full page of PDF without reflowing or zooming is great
   * However...
   * I rarely read outside (blame the British summer)
-  * Incredibly annoying &#8220;screensaver&#8221; is not good when you may be referring to the same page for days at a time
+  * Incredibly annoying "screensaver" is not good when you may be referring to the same page for days at a time
   * Table of Contents doesn't work for PDFs
   * Flicking back and forth between pages is frustratingly slow
 

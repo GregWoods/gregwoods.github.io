@@ -21,7 +21,7 @@ Stuff that must be backed up and synced
 
 ### Music Collection
 
-Is currently backed up on <a title="SkyDrive" href="http://windows.microsoft.com/en-US/skydrive/compare" target="_blank">SkyDrive</a>, since I have a Windows Phone, and adding an extra 20Gb to give me total of 45Gb only cost me £6 per year. However, it makes no sense to physically store my music online when my copy of &#8220;Muse - The 2nd Law&#8221; is the same as everybody else's. So for the future I will be looking at a paid for &#8220;music match&#8221; type of service. When I've decided which one, I'll let you know.
+Is currently backed up on <a title="SkyDrive" href="http://windows.microsoft.com/en-US/skydrive/compare" target="_blank">SkyDrive</a>, since I have a Windows Phone, and adding an extra 20Gb to give me total of 45Gb only cost me £6 per year. However, it makes no sense to physically store my music online when my copy of "Muse - The 2nd Law" is the same as everybody else's. So for the future I will be looking at a paid for "music match" type of service. When I've decided which one, I'll let you know.
 
 ### Books
 

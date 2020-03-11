@@ -37,7 +37,7 @@ Use version 2.2.2.0 because it is signed. When installing, I unchecked the optio
 
 ## My Scenario
 
-I have an Arduino on COM3, and some PC Software which talks to it, called &#8220;PC Lap Counter&#8221; (PCLC) - it's a race management solution for slotcar racing. PCLC sends race and lap info to the Arduino over the serial connection, but I want to be able to look in on this info as it is happening.
+I have an Arduino on COM3, and some PC Software which talks to it, called "PC Lap Counter" (PCLC) - it's a race management solution for slotcar racing. PCLC sends race and lap info to the Arduino over the serial connection, but I want to be able to look in on this info as it is happening.
 
 ### Step 1: Setup the Virtual COM port Pairs
 

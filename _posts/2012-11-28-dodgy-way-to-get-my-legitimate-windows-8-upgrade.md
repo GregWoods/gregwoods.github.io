@@ -16,9 +16,9 @@ So, when I saw the opportunity to upgrade my legitimate Windows Vista Home Premi
 
 The problem is that in order to get to my download (which I don't really need), and the Product Key (which I do need), is the Upgrade Assistant. This app checks that the operating system you are running qualifies for the upgrade. My problem is that I'm already running Win8, and don't want to wipe it, then install Vista, then have to upgrade it to Win8 again. I tried the process using a virtual machine, but I still needed a Vista OEM disc, but I  don't have one, as Acer preloaded the OS onto the hard disk.
 
-Here's my slightly &#8220;irregular&#8221; solution
+Here's my slightly "irregular" solution
 
-  * Download a Vista Home Premium torrent (told you it was irregular) - Unfortunately, unadulterated iso files are hard to find, the ones with activation &#8220;workarounds&#8221; are well seeded, so I got one of those.
+  * Download a Vista Home Premium torrent (told you it was irregular) - Unfortunately, unadulterated iso files are hard to find, the ones with activation "workarounds" are well seeded, so I got one of those.
   * Create a new Virtual Box VM, with 1024Mb RAM (any less and the upgrade advisor fails)
   * Mount the Vista  iso on the VM, Install Vista
   * When prmoted, use the genuine Product Key from the Certificate of Authenticity stuck to the PC
@@ -36,4 +36,4 @@ Here's my slightly &#8220;irregular&#8221; solution
 
 The downloaded file appears not to care about whether you are upgrading or performing a fresh install. I tested a new instalation on another new VM, and the installation process proceeded up to the entering Product Key dialog without complaining about there being no qualifying OS present. This is good news. I didn't try  to input the product key obviously, as I had used it already, but I'm confident that if I had to perform a clean install on this laptop, I wouldn't have to go through the trauma of installing Windows Vista first.
 
-I hope this info encourages more people to use those COA stickers to upgrade to Windows 8 for £25. Note: offer is &#8220;for a limited time&#8221; - which I'm sure I read somewhere is Jan 2013.
+I hope this info encourages more people to use those COA stickers to upgrade to Windows 8 for £25. Note: offer is "for a limited time" - which I'm sure I read somewhere is Jan 2013.

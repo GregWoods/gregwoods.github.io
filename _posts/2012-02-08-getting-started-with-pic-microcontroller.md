@@ -36,12 +36,12 @@ Installed in this order
 
 Although, I want to be writing my own code in C, to test the environment is working, I will first send a pre-compiled HEX file to the demo board, and test.
 
-  * Hit the &#8220;Auto Import Hex + Write Device&#8221; button
+  * Hit the "Auto Import Hex + Write Device" button
   * Choose a demo file from **C:\Program Files (x86)\Microchip\PICkit 2 v2\DBE Demo\16F887Demo.HEX**
   * The programmer should erase and then program the chip, but you won't see anything happen
   * You must manually supply power to the board using the &#8216;VDD PICkit2&#8242; &#8216;On' checkbox
 
-I must have spent 2 hours programming and reprogramming the device wondering why the demo wasn't running. Eventually I tried the &#8216;VDD PICKit2&#8242; &#8216;On' option, hoping it wouldn't fry my board, and it worked instantly. I'll put it down to bad UI design of the PICkit2 Programmer - it's clearly designed with Microchip engineers in mind, and not Joe Public. The help file, whilst technically accurate, needs to spell it out clearly: &#8220;Once you have programmed your demo board, you need to supply it with power. The PiICkit2 can do this for you, but you need to tell it using this option [big arrow pointing to diagram]&#8221;.
+I must have spent 2 hours programming and reprogramming the device wondering why the demo wasn't running. Eventually I tried the &#8216;VDD PICKit2&#8242; &#8216;On' option, hoping it wouldn't fry my board, and it worked instantly. I'll put it down to bad UI design of the PICkit2 Programmer - it's clearly designed with Microchip engineers in mind, and not Joe Public. The help file, whilst technically accurate, needs to spell it out clearly: "Once you have programmed your demo board, you need to supply it with power. The PiICkit2 can do this for you, but you need to tell it using this option [big arrow pointing to diagram]".
 
 Other pre-compiled demos can be found on the PICkit2 CD-ROM, in the **44Pin Demo Board** folder.
 

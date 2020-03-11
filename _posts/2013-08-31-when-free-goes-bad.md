@@ -12,7 +12,7 @@ categories:
 ---
 We all love free stuff. Google mail, calendar, contacts, docs(drive), music. All superb free services. Dropbox, SkyDrive, UbuntuOne all add options for free cloud storage. Various other startups offer free services such as notes and picture storage. Free is appealing. But it's risky, and as our dependency on these services grows, and the costs associated with running them goes up, we'll see more and more either go to the wall, or start charging.
 
-This week I got stung rather badly by the news that Catch.com - the ultra simple online note taking app, decided to &#8220;move in another direction&#8221;, and discontinue the service with only one month's notice. Thankfully I can get my notes out, and import into another service. My problem is that I had spent a year learning, and developing a Windows Phone app that was 100% dependent on their API. Oh dear! That is a lot of wasted man-hours of work.
+This week I got stung rather badly by the news that Catch.com - the ultra simple online note taking app, decided to "move in another direction", and discontinue the service with only one month's notice. Thankfully I can get my notes out, and import into another service. My problem is that I had spent a year learning, and developing a Windows Phone app that was 100% dependent on their API. Oh dear! That is a lot of wasted man-hours of work.
 
 This is the second time I've been caught out by a free online service disappearing. I was an avid user of Google Reader before the plug was pulled. For those companies who keep their products, we are seeing a shift towards a pay model.
 

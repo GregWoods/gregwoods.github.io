@@ -13,15 +13,15 @@ categories:
 ---
 ## Problem
 
-The Eee PC 901 XP edition comes with a 4Gb SSD for booting Windows, and a slower 8Gb one for storage. To reinstall XP Home with SP3, you will need more than 4Gb unless you want to spend weeks of your life trimming down a custom &#8220;XP Lite&#8221; installation disc.
+The Eee PC 901 XP edition comes with a 4Gb SSD for booting Windows, and a slower 8Gb one for storage. To reinstall XP Home with SP3, you will need more than 4Gb unless you want to spend weeks of your life trimming down a custom "XP Lite" installation disc.
 
 The 8Gb disc is not installed to be easy to access. I read somewhere it is even soldered onto the motherboard, so replacing this is a no-go.
 
-The 4Gb is easily accessible under the &#8220;maintenance&#8221; cover on the back of the netbook, so this is the solution. A 70mm long SSD was purchased to enable me to screw the card down.
+The 4Gb is easily accessible under the "maintenance" cover on the back of the netbook, so this is the solution. A 70mm long SSD was purchased to enable me to screw the card down.
 
 Once installed, due to the way the Eee PC's hard disk interfaces are designed, the new SSD is recognised as a Primary Slave. This has 2 negative effects:  
-1) You 8Gb secondary SSD now &#8220;disappears&#8221; from the BIOS, and cannot be used. I can live with this.  
-2) At every boot, you are interuppted with a message to the effect of &#8220;Primary Master not found, Press F1 to continue&#8221; - this is a pain in the backside.
+1) You 8Gb secondary SSD now "disappears" from the BIOS, and cannot be used. I can live with this.  
+2) At every boot, you are interuppted with a message to the effect of "Primary Master not found, Press F1 to continue" - this is a pain in the backside.
 
 ## Fixing it
 

@@ -33,14 +33,14 @@ Note: one my work machine I can clone into &#8216;.' (the current directory), ye
 
   *  open VS2013 as Administrator (if you don't, some NuGet commands will not work)
   * open NuGet package Manager console
-  * You'll see a message &#8220;Some NuGet packages are missing from this solution. Click to restore from your online package sources.&#8221;  - click &#8220;Restore&#8221;
+  * You'll see a message "Some NuGet packages are missing from this solution. Click to restore from your online package sources."  - click "Restore"
   * Build solution
   * Run solution - it should all work, with sample data populated
   * NOTE: on my home PC, I updated EF first and it wouldn't run until I installed EF SqlServerCompact. RETEST without the EF upgrade
 
 ##  Modify it work with Azure db
 
-In order to see the sample data, we need to enable something called &#8216;Data Migrations', which is part of Entity Framework Code First. However, the NuGet command &#8220;Enable-Migrations&#8221; isn't available with Entity Framework 5.0.0 which is setup by default with this solution So in NuGet package manager <span style="line-height: 1.5em;">Get-Help EntityFramework doesn't work! you may need to update help still doesn't work </span>
+In order to see the sample data, we need to enable something called &#8216;Data Migrations', which is part of Entity Framework Code First. However, the NuGet command "Enable-Migrations" isn't available with Entity Framework 5.0.0 which is setup by default with this solution So in NuGet package manager <span style="line-height: 1.5em;">Get-Help EntityFramework doesn't work! you may need to update help still doesn't work </span>
 
 <span style="line-height: 1.5em;">Update-Package EntityFramework</span>
 
@@ -82,14 +82,14 @@ CreateDatabaseIfNotExists<CodeCamperDbContext>      // when model is stable
 
 ## Publish It
 
-In solution explorer, right click &#8220;CodeCamper.web&#8221;, click Publish... In VS2013, there is an option &#8220;Windows Azure Web Sites&#8221;. Choose it, and log in to your Azure account
+In solution explorer, right click "CodeCamper.web", click Publish... In VS2013, there is an option "Windows Azure Web Sites". Choose it, and log in to your Azure account
 
-Create a &#8220;New...&#8221; website Add a unique site name, choose your locale, and create a new Database server, filling in name and credential fields
+Create a "New..." website Add a unique site name, choose your locale, and create a new Database server, filling in name and credential fields
 
-Go through each page of the wizard NOTE to self: &#8220;Execute code first migrations&#8221; is disabled. Because we haven't run it, the published app will have no data
+Go through each page of the wizard NOTE to self: "Execute code first migrations" is disabled. Because we haven't run it, the published app will have no data
 
 Under the Settings Tab, you will see 2 entries for database. I have no idea why, but it caused me problems.
 
-For the first, check &#8220;Use this connection string at runtime&#8221; AND &#8220;Execute Code First Migrations&#8221;
+For the first, check "Use this connection string at runtime" AND "Execute Code First Migrations"
 
-For the second one (&#8220;DefaultConnection&#8221;), uncheck &#8220;Use this connection string at runtime&#8221; WHen finished in the wizard, you'll be taken to a working web site
+For the second one ("DefaultConnection"), uncheck "Use this connection string at runtime" WHen finished in the wizard, you'll be taken to a working web site
