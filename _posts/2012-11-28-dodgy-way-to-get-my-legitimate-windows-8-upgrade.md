@@ -10,7 +10,7 @@ permalink: /2012/11/dodgy-way-to-get-my-legitimate-windows-8-upgrade/
 categories:
   - SysAdmin
 ---
-My secondhand laptop was supplied with Windows Vista Home Premium - though I've always run it with an MSDN copy of Windows 7, and more recently Windows 8. However, after reading carefully the small print of the licence agreement, it turns out that I wasn't completely legal in doing this. You have to be using the PC exclusively for software development to be legit&#8230; as far as I can tell.
+My secondhand laptop was supplied with Windows Vista Home Premium - though I've always run it with an MSDN copy of Windows 7, and more recently Windows 8. However, after reading carefully the small print of the licence agreement, it turns out that I wasn't completely legal in doing this. You have to be using the PC exclusively for software development to be legit... as far as I can tell.
 
 So, when I saw the opportunity to upgrade my legitimate Windows Vista Home Premium to Windows 8 Pro, for the princely sum of £24.99, I had to go for it.
 

@@ -1,6 +1,6 @@
 ---
 id: 16
-title: 'Best and Worst Customer Service in UK&#8230; (and a bit about Linux)'
+title: 'Best and Worst Customer Service in UK... (and a bit about Linux)'
 date: 2006-08-08T21:45:39+00:00
 author: Greg Woods
 layout: single
@@ -11,7 +11,7 @@ categories:
   - Customer Service
   - Linux
 ---
-A couple of recent customer service experiences I've had recently&#8230;.
+A couple of recent customer service experiences I've had recently....
  
   1. Nationwide Building Society (Direct)- Their online mortgage application service and subsequent phone based customer services is definately the worst customer service I have ever seen. How can a mortgage application take from March to August to complete, when there are no special circumstances at all, just NationwideBS Customer Service incompetence?
   2. Nationwide Building Society (Local branch) - being a geek I'd much rather do stuff online than talk to a real person. Sad but true. However, in desperation, after an email and complaint letter got no response, I went into local (Lancaster) branch to see if they could do something to sort my mortgage out. The service was excellent. I was always phoned back (sometimes an hour late, but that can slip), and they sorted the problem within 3 days. Nationwide Direct couldn't sort it after 3 months. Well done Emma!

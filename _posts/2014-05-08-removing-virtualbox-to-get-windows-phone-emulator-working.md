@@ -26,6 +26,6 @@ THe easiest way to do this was using <a href="http://live.sysinternals.com/" tit
 
 Because there were so many to delete, it was easier to export the parent key, edit in Notepad, then save as a .reg file and re-import.
 
-After doing this, removing all references to &#8216;vbox' and &#8216;virtualbox' from the registry, deleting other invisible network adapters from the registry, running cccleaner, rebooting, removing Hyper-V from Windows, rebooting again, Adding Hyper-V to windows&#8230; I finally got my emulator to work.
+After doing this, removing all references to &#8216;vbox' and &#8216;virtualbox' from the registry, deleting other invisible network adapters from the registry, running cccleaner, rebooting, removing Hyper-V from Windows, rebooting again, Adding Hyper-V to windows... I finally got my emulator to work.
 
 Lesson: Don't ever install VirtualBox, stick to Hyper-V (as long as you meet Microsoft's <a href="http://social.technet.microsoft.com/wiki/contents/articles/1401.hyper-v-list-of-slat-capable-cpus-for-hosts.aspx" title="Hyper-V hardware requirements" target="_blank">bizarrely restrictive processor requirements</a> of course)

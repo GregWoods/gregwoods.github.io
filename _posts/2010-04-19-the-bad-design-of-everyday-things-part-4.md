@@ -16,7 +16,7 @@ I don't really need to say anything more about that.
 **Similarities to Software Development**  
 I cannot tell whether the problems are:
 
-  1. Irrelevant&#8230; no-one cares but me
+  1. Irrelevant... no-one cares but me
   2. The fault of cost-cutting
   3. The fault of architects or interior designers who prefer minimal over usable
 

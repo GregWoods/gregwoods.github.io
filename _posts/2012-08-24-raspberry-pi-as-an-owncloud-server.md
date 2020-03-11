@@ -44,7 +44,7 @@ shows disk is /dev/sda and partition number is 1  (in my case)
 
 <pre>sudo nano /etc/fstab</pre>
 
-Add an entry&#8230;
+Add an entry...
 
 <pre>/dev/sda1 /media/disk ntfs permissions 0 0</pre>
 

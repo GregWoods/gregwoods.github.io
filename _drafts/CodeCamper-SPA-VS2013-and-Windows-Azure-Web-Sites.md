@@ -10,7 +10,7 @@ permalink: /?p=463
 categories:
   - Programming
 ---
-OK, I'm very late to the party with Windows Azure. My feeble excuse is that I've no use for it in the day job. Like I said.. feeble. Anyway, I decided I wanted to play with Azure, but desired more than &#8216;Hello World' static web page. My WebDev skills need some serious updating, so I wanted a small application which used a database, and built using cutting edge technologies. After a not very exhaustive search, I decided John Papa's CodeCamper app would be ideal. Unfortunately, several half baked or out of date guides on getting it to run on Azure left me frustrated.  So, after about a dozen clone-modify-publish-delete cycles&#8230; I got it to work. Here are the steps.
+OK, I'm very late to the party with Windows Azure. My feeble excuse is that I've no use for it in the day job. Like I said.. feeble. Anyway, I decided I wanted to play with Azure, but desired more than &#8216;Hello World' static web page. My WebDev skills need some serious updating, so I wanted a small application which used a database, and built using cutting edge technologies. After a not very exhaustive search, I decided John Papa's CodeCamper app would be ideal. Unfortunately, several half baked or out of date guides on getting it to run on Azure left me frustrated.  So, after about a dozen clone-modify-publish-delete cycles... I got it to work. Here are the steps.
 
 ## Software pre-requisities
 
@@ -93,9 +93,9 @@ removed ctor from CodeCamperDbContext.cs
 
 ## Publish It
 
-In solution explorer, right click &#8220;CodeCamper.web&#8221;, click Publish&#8230; In VS2013, there is an option &#8220;Windows Azure Web Sites&#8221;. Choose it, and log in to your Azure account
+In solution explorer, right click &#8220;CodeCamper.web&#8221;, click Publish... In VS2013, there is an option &#8220;Windows Azure Web Sites&#8221;. Choose it, and log in to your Azure account
 
-Create a &#8220;New&#8230;&#8221; website Add a unique site name, choose your locale, and create a new Database server, filling in name and credential fields
+Create a &#8220;New...&#8221; website Add a unique site name, choose your locale, and create a new Database server, filling in name and credential fields
 
 Go through each page of the wizard NOTE to self: &#8220;Execute code first migrations&#8221; is disabled. Because we haven't run it, the published app will have no data
 

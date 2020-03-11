@@ -72,7 +72,7 @@ git config --global user.email "your email id"
 git config --local user.email "your email id"
 git config -l</pre>
 
-still in the ~/.vim folder&#8230;
+still in the ~/.vim folder...
 
 <pre>git add .
 git commit -m "Initial commit of my vim configuration"</pre>
@@ -88,7 +88,7 @@ git pull https://github.com/GregWoods/.vim</pre>
 
 My VIMconfiguration is now on github.
 
-### To install my Vim Config onto a new server&#8230;
+### To install my Vim Config onto a new server...
 
     cd ~
     git clone https://github.com/GregWoods/.vim.git .vim

@@ -15,7 +15,7 @@ categories:
 I had high hopes for the Kindle DX. A 9.7&#8243; screen e-reader with PDF support. Ideal for reading technical manuals. The battery life measured in weeks not hours. Readable outside with an easy on the eyes passive e-ink screen. After owning one for over a year, a summary of my thoughts are:
 
   * Being able to show a full page of PDF without reflowing or zooming is great
-  * However&#8230;
+  * However...
   * I rarely read outside (blame the British summer)
   * Incredibly annoying &#8220;screensaver&#8221; is not good when you may be referring to the same page for days at a time
   * Table of Contents doesn't work for PDFs
@@ -333,7 +333,7 @@ How do the current crop of tablets compare to my criteria? (sorted by screen siz
 
 ### Conclusions
 
-For my use case, which primarily reading PDFs and web sites&#8230;
+For my use case, which primarily reading PDFs and web sites...
 
   * All except the ipad mini and Microsoft Surface meet my minimum resolution of 1280 x 800
   * However, I need to look at the iPad mini in person, preferably with some techy PDFs

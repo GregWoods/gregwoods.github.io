@@ -64,12 +64,12 @@ Problem is, it doesn't work with websockets.
 
 I set up SuperWebSocketsServerWeb,  the sample web app from the SuperWebSockets project. I used iis to host it.
 
-  * With the loopback route deleted&#8230;
-  * browsing to http://<local ip>/SuperWebSocketWeb &#8230; the web site doesn't work
-  * browsing to http://localhost/SuperWebSocketWeb &#8230; the web site works, the connection opens and I can use the chat demo - though nothing is captured in Wireshark
+  * With the loopback route deleted...
+  * browsing to http://<local ip>/SuperWebSocketWeb ... the web site doesn't work
+  * browsing to http://localhost/SuperWebSocketWeb ... the web site works, the connection opens and I can use the chat demo - though nothing is captured in Wireshark
 
-  * With the route added&#8230;
-  * browsing to http://<local ip>/SuperWebSocketWeb &#8230; the web site works, the connection opens, a few packets are captured in Wireshark,  then the connection closes a few seconds later.
+  * With the route added...
+  * browsing to http://<local ip>/SuperWebSocketWeb ... the web site works, the connection opens, a few packets are captured in Wireshark,  then the connection closes a few seconds later.
 
 <div>
   I can't see why this last option doesn't work.
@@ -79,7 +79,7 @@ I set up SuperWebSocketsServerWeb,  the sample web app from the SuperWebSockets
 </div>
 
 <div>
-  My next step&#8230; is to try debugging SuperWebSocketWeb - initial attempts have proved unsuccessful however.
+  My next step... is to try debugging SuperWebSocketWeb - initial attempts have proved unsuccessful however.
 </div>
 
 &nbsp;

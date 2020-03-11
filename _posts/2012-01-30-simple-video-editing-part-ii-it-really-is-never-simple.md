@@ -10,7 +10,7 @@ permalink: /2012/01/simple-video-editing-part-ii-it-really-is-never-simple/
 categories:
   - VideoEditing
 ---
-So&#8230; I tried what feels like a hack to get my MP4 video to open in VirtualDub.
+So... I tried what feels like a hack to get my MP4 video to open in VirtualDub.
 
 Two problems now present themselves
 

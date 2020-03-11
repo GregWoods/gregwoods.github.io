@@ -40,7 +40,7 @@ replace
 
 <pre>iface etho0 inet dhcp</pre>
 
-with&#8230; (adjust to your environment, obviously)
+with... (adjust to your environment, obviously)
 
 <pre>iface eth0 inet static
  address 192.168.0.3

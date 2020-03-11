@@ -13,7 +13,7 @@ Using the Arduino IDE, we can bring up the Serial Monitor to send and receive da
 
 ## Note on driver types **(it is relevant!)**
 
-On Windows 8.1 64 bit (and true for 64 bit Vista and Win7 as far as I know) you have 3 types of driver&#8230;
+On Windows 8.1 64 bit (and true for 64 bit Vista and Win7 as far as I know) you have 3 types of driver...
 
   * Signed driver - This is preferred. It is how you are used to installing and using windows devices, but the developer must pay for it to be signed. Not an option for com0com.
   * Unsigned driver - every time you want to use the unsigned virtual COM ports, you must reboot your PC twice to get to the Allow Unsigned Driver option. It is a pain. This is true of the latest com0com 3.0.0.0. If using 64bit Windows, avoid like the plague
@@ -98,7 +98,7 @@ I have an Arduino on COM3, and some PC Software which talks to it, called &#8220
 
 <div>
   <div>
-    From std command prompt&#8230;
+    From std command prompt...
   </div>
   
   <div>

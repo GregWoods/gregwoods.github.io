@@ -32,7 +32,7 @@ Reading around, it turns out you can enable a feature in the BIOS called Boot Bo
   * Note the location of the partition. Mine was /dev/sda2 (disk: /dev/sda. partition: 2)
   * Still in gParted, open a Terminal window 
       * sudo sfdisk -change-id /dev/sda 2 [note the space before the &#8216;2']
-  * check it worked&#8230; 
+  * check it worked... 
       * sudo sfdisk -print-id /dev/sda 2
   * Reboot, press F2 to access BIOS
 

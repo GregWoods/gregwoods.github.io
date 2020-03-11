@@ -12,7 +12,7 @@ categories:
 ---
 [<img src="http://gregwoods.co.uk/wp-content/uploads/2010/04/dinovofornotebookscropped-300x138.jpg" alt="" title="Logitech DiNovo for Notebooks" width="300" height="138" class="alignright size-medium wp-image-61" />](http://gregwoods.co.uk/wp-content/uploads/2010/04/dinovofornotebookscropped.jpg)At home, my ancient Trust wireless rechargeable mouse died several months ago. I've since been using the mouse bundled with a Logitech DiNovo for Notebooks bundle.  
 Now I like the DiNovo for Notebooks keyboard. I have a tiny desk, I rarely use a numeric pad, so it stays in the cupboard. I like the fact it's low profile. I love that they haven't squished the vital cursor keys and home, end, pgup, pgdn and delete keys into an unusable space, as so many &#8216;compact' keyboards do. I like the fact that without a number pad, my right hand is closer to my mouse.  
-However, the mouse is not so nice to use. It is tiny. My hands are the same size when I use a laptop as when I use a desktop, so why shrink the mouse? The DiNovo for Notebooks is a great mouse&#8230; for a child.
+However, the mouse is not so nice to use. It is tiny. My hands are the same size when I use a laptop as when I use a desktop, so why shrink the mouse? The DiNovo for Notebooks is a great mouse... for a child.
 
 So, my requirements for a mouse are
 
