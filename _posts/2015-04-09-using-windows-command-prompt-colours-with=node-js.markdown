@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Using Windows Command Prompt Colours with Node Js"
 date:   2015-04-09 17:58:31 +0000
 categories: design node windows cmd terminal
