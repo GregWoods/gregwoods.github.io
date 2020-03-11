@@ -21,7 +21,7 @@ The 4Gb is easily accessible under the &#8220;maintenance&#8221; cover on the ba
 
 Once installed, due to the way the Eee PC's hard disk interfaces are designed, the new SSD is recognised as a Primary Slave. This has 2 negative effects:  
 1) You 8Gb secondary SSD now &#8220;disappears&#8221; from the BIOS, and cannot be used. I can live with this.  
-2) At every boot, you are interuppted with a message to the effect of &#8220;Primary Master not found, Press F1 to continue&#8221; &#8211; this is a pain in the backside.
+2) At every boot, you are interuppted with a message to the effect of &#8220;Primary Master not found, Press F1 to continue&#8221; - this is a pain in the backside.
 
 ## Fixing it
 
@@ -31,9 +31,9 @@ Reading around, it turns out you can enable a feature in the BIOS called Boot Bo
   * Make this parition &#8216;Primary' and unformatted.
   * Note the location of the partition. Mine was /dev/sda2 (disk: /dev/sda. partition: 2)
   * Still in gParted, open a Terminal window 
-      * sudo sfdisk &#8211;change-id /dev/sda 2 [note the space before the &#8216;2']
+      * sudo sfdisk -change-id /dev/sda 2 [note the space before the &#8216;2']
   * check it worked&#8230; 
-      * sudo sfdisk &#8211;print-id /dev/sda 2
+      * sudo sfdisk -print-id /dev/sda 2
   * Reboot, press F2 to access BIOS
 
 You should now have a Boot Booster option available

@@ -1,6 +1,6 @@
 ---
 id: 75
-title: 'PHP Coders  &#8211; Please Think More Carefully About Code Layout'
+title: 'PHP Coders  - Please Think More Carefully About Code Layout'
 date: 2010-05-14T08:30:12+00:00
 author: Greg Woods
 layout: single

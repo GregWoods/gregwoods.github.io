@@ -32,7 +32,7 @@ Although I did once find myself jealous of iPad-wielding friends with their fanc
   * Occasional browser bugs. Google Reader doesn't always render well
   * Locked down, so tinkering with it is just more of a challenge (must resist temptation to root it)!
   * Most books show with black bars at the top and bottom of the screen. Usable screen is actually 8.2&#8243; for many books
-  * (The best aspect ratio for programming books is probably 4:3 &#8211; an iPad)
+  * (The best aspect ratio for programming books is probably 4:3 - an iPad)
   * Pinch-zooming-in on a PDF doesn't shrink those black bars. You instead immediately get a vertical scroll bar. A poor implementation of zoom
   * The only icons I use on the home screens are &#8216;Library' and &#8216;Web'. It would be nice to be able to show entire folder contents on a home screen to cut down on navigation taps
 
@@ -40,7 +40,7 @@ Although I did once find myself jealous of iPad-wielding friends with their fanc
 
 It's a great experience. I'm reading more, which is the real benchmark of success. Being able to quickly flit back and forth between different book pages, and the web is making the learning stick. An e-ink reader is totally unsuited to this form of reading.
 
-How long will I keep it? Unknown. The more suitable aspect ratio of the iPad is tempting, but I will never shell out £399 for a reader. A iPad mini could win me over, if the screen resolution were  better. When the iPad mini with retina display comes out &#8211; as I'm sure it will &#8211;  it could sway me to the dark side.  The only problem then will be the temptation to use it for 1001 other things rather than catching up on all my nerdy reading.
+How long will I keep it? Unknown. The more suitable aspect ratio of the iPad is tempting, but I will never shell out £399 for a reader. A iPad mini could win me over, if the screen resolution were  better. When the iPad mini with retina display comes out - as I'm sure it will -  it could sway me to the dark side.  The only problem then will be the temptation to use it for 1001 other things rather than catching up on all my nerdy reading.
 
 &nbsp;
 

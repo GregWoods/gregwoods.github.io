@@ -33,7 +33,7 @@ For my saved New York helicopter free flight, the additional preferences would a
 
 (as for UI, the above list could be a user sortable list, with a mandatory section at the top, nice to haves in the middle, and low priority in the bottom)
 
-Notice that I’m not specifying settings, just a prioritised list of what I’d like. Also, the program should not automatically change settings based on the last time the mission was flown, but should give recommendations, which you can choose to reject &#8211; if your barrel rolls were out of character; accept and save along with the mission; or accept and save globally if you were really happy with them.
+Notice that I’m not specifying settings, just a prioritised list of what I’d like. Also, the program should not automatically change settings based on the last time the mission was flown, but should give recommendations, which you can choose to reject - if your barrel rolls were out of character; accept and save along with the mission; or accept and save globally if you were really happy with them.
 
 These recommendations will no doubt have to include lowering your expectations if you’ve dragged all the high settings into the mandatory pile!
 

@@ -10,7 +10,7 @@ permalink: /2012/11/dodgy-way-to-get-my-legitimate-windows-8-upgrade/
 categories:
   - SysAdmin
 ---
-My secondhand laptop was supplied with Windows Vista Home Premium &#8211; though I've always run it with an MSDN copy of Windows 7, and more recently Windows 8. However, after reading carefully the small print of the licence agreement, it turns out that I wasn't completely legal in doing this. You have to be using the PC exclusively for software development to be legit&#8230; as far as I can tell.
+My secondhand laptop was supplied with Windows Vista Home Premium - though I've always run it with an MSDN copy of Windows 7, and more recently Windows 8. However, after reading carefully the small print of the licence agreement, it turns out that I wasn't completely legal in doing this. You have to be using the PC exclusively for software development to be legit&#8230; as far as I can tell.
 
 So, when I saw the opportunity to upgrade my legitimate Windows Vista Home Premium to Windows 8 Pro, for the princely sum of £24.99, I had to go for it.
 
@@ -18,11 +18,11 @@ The problem is that in order to get to my download (which I don't really need), 
 
 Here's my slightly &#8220;irregular&#8221; solution
 
-  * Download a Vista Home Premium torrent (told you it was irregular) &#8211; Unfortunately, unadulterated iso files are hard to find, the ones with activation &#8220;workarounds&#8221; are well seeded, so I got one of those.
+  * Download a Vista Home Premium torrent (told you it was irregular) - Unfortunately, unadulterated iso files are hard to find, the ones with activation &#8220;workarounds&#8221; are well seeded, so I got one of those.
   * Create a new Virtual Box VM, with 1024Mb RAM (any less and the upgrade advisor fails)
   * Mount the Vista  iso on the VM, Install Vista
   * When prmoted, use the genuine Product Key from the Certificate of Authenticity stuck to the PC
-  * The online activation appears to have been crippled on this iso &#8211; you are supposed to use a very naughty program included on the iso to trick the OS into believing it is activated. Do NOT use this, you need to be genuinely activated to proceed
+  * The online activation appears to have been crippled on this iso - you are supposed to use a very naughty program included on the iso to trick the OS into believing it is activated. Do NOT use this, you need to be genuinely activated to proceed
   * Search for &#8216;Activation' in the Vista Start Menu, and launch the wizard
   * Although the online activation is crippled, you can still be able to use the Automated Telephone Activation service. You dial a freephone number, type in some numbers, get some numbers back, enter them into the wizard. Hey presto, activated legitimately.
   * Run the Windows  8 Upgrade Assistant, pass all the checks, hand over your credit card details
@@ -36,4 +36,4 @@ Here's my slightly &#8220;irregular&#8221; solution
 
 The downloaded file appears not to care about whether you are upgrading or performing a fresh install. I tested a new instalation on another new VM, and the installation process proceeded up to the entering Product Key dialog without complaining about there being no qualifying OS present. This is good news. I didn't try  to input the product key obviously, as I had used it already, but I'm confident that if I had to perform a clean install on this laptop, I wouldn't have to go through the trauma of installing Windows Vista first.
 
-I hope this info encourages more people to use those COA stickers to upgrade to Windows 8 for £25. Note: offer is &#8220;for a limited time&#8221; &#8211; which I'm sure I read somewhere is Jan 2013.
+I hope this info encourages more people to use those COA stickers to upgrade to Windows 8 for £25. Note: offer is &#8220;for a limited time&#8221; - which I'm sure I read somewhere is Jan 2013.

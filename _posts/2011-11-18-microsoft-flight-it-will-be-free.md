@@ -1,6 +1,6 @@
 ---
 id: 240
-title: 'Microsoft Flight &#8211; It will be free'
+title: 'Microsoft Flight - It will be free'
 date: 2011-11-18T22:41:42+00:00
 author: Greg Woods
 layout: single
@@ -22,7 +22,7 @@ Spetember also contains a screenshot of the [](http://www.ifa.hawaii.edu/mko/ "M
 The October screenshots contains a picture of the Battleship Missouri in Pearl Harbour.  
 Even the videos without recognisable landmarks have a very volcanic landscape look about them. Very Hawaii!
 
-To keep the cash rolling in, I'd expect no more than three free aircraft &#8211; hopefully one will be a helicopter. I wouldn't expect an airliner for free &#8211; you flyboys are where the big bucks are!
+To keep the cash rolling in, I'd expect no more than three free aircraft - hopefully one will be a helicopter. I wouldn't expect an airliner for free - you flyboys are where the big bucks are!
 
 The advantage to us is that more ongoing effort can go into creating awesome scenery, aircraft and missions. It may be seen as a disadvantage to the many software houses who develop add-ons. I would expect that there will always be room for quality third party enhancements, so long as Microsoft don't lock the thing down tight.
 

@@ -1,6 +1,6 @@
 ---
 id: 369
-title: 'RaspberryPi Setup &#8211; Miscellaneous Notes'
+title: 'RaspberryPi Setup - Miscellaneous Notes'
 date: 2012-08-24T21:18:49+00:00
 author: Greg Woods
 layout: single
@@ -15,7 +15,7 @@ For basic setup, see [http://gregwoods.co.uk/2012/08/setting-up-the-raspberry-p
 
 ## 
 
-## Remote Access &#8211; Graphical
+## Remote Access - Graphical
 
 <pre><strong id="internal-source-marker_0.667615579906851"> </strong>sudo apt-get install xrdp</pre>
 
@@ -25,7 +25,7 @@ The remote desktop to that IP address. Full LXDE desktop shown, even though ‘s
 
 <a title="http://elinux.org/RPi_config.txt" href="http://elinux.org/RPi_config.txt" target="_blank">http://elinux.org/RPi_config.txt</a>
 
-## Remote Access &#8211; SSH
+## Remote Access - SSH
 
 already enabled in Wheezy
 

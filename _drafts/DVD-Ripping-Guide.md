@@ -10,15 +10,15 @@ permalink: /?p=375
 categories:
   - Uncategorized
 ---
-Decrypt with DVDFab to your hard disk &#8211; rip either the Main Movie or the whole disk. I'm sure one of these options will still be available after the &#8216;trial' period expires
+Decrypt with DVDFab to your hard disk - rip either the Main Movie or the whole disk. I'm sure one of these options will still be available after the &#8216;trial' period expires
 
 handbrake to encode  
 Start with the Apple TV3 preset  
-Video tab &#8211; change framerate to same as source (just because it seems sensible to me)  
-Audio tab &#8211; should be all OK, The aim is two tracks  
+Video tab - change framerate to same as source (just because it seems sensible to me)  
+Audio tab - should be all OK, The aim is two tracks  
 Dolby ProLogic II stereo track (if there are stereo and surround tracks on the source, I tend to downmix from the 5.1 source)  
-AC3 Surround passthru track &#8211; for surround sound with a A/V receiver or 5.1 soundcard  
-SubTitles &#8211; for non-English films  
+AC3 Surround passthru track - for surround sound with a A/V receiver or 5.1 soundcard  
+SubTitles - for non-English films  
 Add a subtitle. i prefer not to burn it into the output, so I can let my player (VLC) choose font sizes  
 However, often the subtitles are stored on the disc as images, rendered using a hideous font.  
 Detect this using the Preview feature of handbrake. If it is the case, I leave this subtitle track in place, so I can compare  

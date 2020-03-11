@@ -14,7 +14,7 @@ We're in for some big changes in the area of desktop computing. The desktop pers
 
 ### Who Needs a Desktop Anyway?
 
-Anyone who does real work using a computing device for 8 hours a day. Examples are software development, video editing, graphic design, number crunching in Excel &#8211; all are tasks which are made better for using one or more 24&#8243; monitors. Can these users and their applications adapt to a touchscreen world?
+Anyone who does real work using a computing device for 8 hours a day. Examples are software development, video editing, graphic design, number crunching in Excel - all are tasks which are made better for using one or more 24&#8243; monitors. Can these users and their applications adapt to a touchscreen world?
 
 ### The Catch-22 of Touch
 
@@ -65,7 +65,7 @@ It doesn't take a lot of imagination to picture a 30&#8243; x 40&#8243; multi-to
   </p>
 </div>
 
-For plain text entry, nothing as yet beats a real keyboard &#8211; so I envisage an ergonomic keyboard of around 70 keys, built into the lower edge. The keyboard would not tilt with the rest of the surface. The less used options of a traditional keyboard will be put on the touch screen. Ideally the keycaps of the keyboard would each be a mini LCD or eInk display like the optimus popularis, so they can adapt to the application's needs. Despite the naturalness of touch, keyboard shortcuts will feature heavily in the OS and applications. <a href="http://www.hanselman.com/blog/TheWebIsTheNewTerminalAreYouUsingTheWebsKeyboardShortcutsAndHotkeys.aspx" target="_blank">Keyboard shortcuts are already making a comeback on the web</a>, and will reduce the amount of arm waving for many tasks.
+For plain text entry, nothing as yet beats a real keyboard - so I envisage an ergonomic keyboard of around 70 keys, built into the lower edge. The keyboard would not tilt with the rest of the surface. The less used options of a traditional keyboard will be put on the touch screen. Ideally the keycaps of the keyboard would each be a mini LCD or eInk display like the optimus popularis, so they can adapt to the application's needs. Despite the naturalness of touch, keyboard shortcuts will feature heavily in the OS and applications. <a href="http://www.hanselman.com/blog/TheWebIsTheNewTerminalAreYouUsingTheWebsKeyboardShortcutsAndHotkeys.aspx" target="_blank">Keyboard shortcuts are already making a comeback on the web</a>, and will reduce the amount of arm waving for many tasks.
 
 Such an integrated desktop solution will likely need to come with a chair designed for this new way of working. We'll be much more mobile at our &#8216;desks'. Gone will be the micro-movements of the mouse and it's single slow pointer. When we can use both hands, we'll need to be able to comfortably lean forwards in our seats to reach the top of the screen, or lean back and use the keyboard. Standing up may become a normal way of working. Drafting chairs are often no more than bar stools for perching rather than the huge padded &#8216;executive' style chair we see today. This extra movement could be a good thing for bodies too.
 
@@ -83,9 +83,9 @@ There will also be pain for hardware manufacturers who lose sales to tablets, an
 
 ### Apple to the Rescue
 
-I believe the only company with the guts to pull of this kind of computing revolution is Apple. A future iMac could be more iDesk. A large piece of furniture with the styling of an object d'art and a heart of silicon. The whole experience will have to be carefully designed &#8211; exactly what Apple is so good at.
+I believe the only company with the guts to pull of this kind of computing revolution is Apple. A future iMac could be more iDesk. A large piece of furniture with the styling of an object d'art and a heart of silicon. The whole experience will have to be carefully designed - exactly what Apple is so good at.
 
-As long as they haven't tried to patent the design of a drafting table (which wouldn't surprise me), others will follow &#8211; cautiously at first, and then we'll see generic &#8216;desks' able to run Windows or Linux. Different shapes and sizes will appear. Geeky ones with hidden LED arrays, flat pack IKEA inspired styles, retro and vintage designs. These will need to be upgradable &#8211; and we may unfortunately see a return to proprietary upgrades to keep revenue flowing.
+As long as they haven't tried to patent the design of a drafting table (which wouldn't surprise me), others will follow - cautiously at first, and then we'll see generic &#8216;desks' able to run Windows or Linux. Different shapes and sizes will appear. Geeky ones with hidden LED arrays, flat pack IKEA inspired styles, retro and vintage designs. These will need to be upgradable - and we may unfortunately see a return to proprietary upgrades to keep revenue flowing.
 
 It will be interesting to see how this pans out. But I suspect it will be a longer time frame than the change from text-based operating systems to windowed.  
-The PC may disappear from a great many homes, but in our places of work, including our home offices, the next few years are going to see a revolution in the design of the desktop PC &#8211; and it's long overdue.
+The PC may disappear from a great many homes, but in our places of work, including our home offices, the next few years are going to see a revolution in the design of the desktop PC - and it's long overdue.

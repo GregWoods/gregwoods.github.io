@@ -20,7 +20,7 @@ So the next part of my mission came to be opening the MP4 file in VirtualDub.
 
 After installing lots of apps and codecs, and failing to make progress, I stumbles across this YouTube tutorial [youtube.com](http://www.youtube.com/watch?v=nXLEAScqN0U) , and followed the steps. For the sake of my own future sanity, I've noted them here.
 
-  * Start fresh &#8211; uninstall as many codec and video editing apps you can find 
+  * Start fresh - uninstall as many codec and video editing apps you can find 
       * ffdshow
       * virtualDub
       * Quicktime
@@ -39,6 +39,6 @@ At first I thought that creating this script file every clip was a bind. Then I 
 
 You can script your video editing! As a programmer this is awesome. I could source control my edits. If I decide to swap editing software, I don't have to start everything again, as my filter settings, in and out points, andf likely a ton of other stuff is safe in my text file.
 
-I've yet to explore this properly &#8211; this is one evening's exploration, so there should be more to come.
+I've yet to explore this properly - this is one evening's exploration, so there should be more to come.
 
 &nbsp;

@@ -33,9 +33,9 @@ Note: one my work machine I can clone into &#8216;.' (the current directory), ye
 
   *  open VS2013 as Administrator (if you don't, some NuGet commands will not work)
   * open NuGet package Manager console
-  * You'll see a message &#8220;Some NuGet packages are missing from this solution. Click to restore from your online package sources.&#8221;  &#8211; click &#8220;Restore&#8221;
+  * You'll see a message &#8220;Some NuGet packages are missing from this solution. Click to restore from your online package sources.&#8221;  - click &#8220;Restore&#8221;
   * Build solution
-  * Run solution &#8211; it should all work, with sample data populated
+  * Run solution - it should all work, with sample data populated
   * NOTE: on my home PC, I updated EF first and it wouldn't run until I installed EF SqlServerCompact. RETEST without the EF upgrade
 
 ##  Modify it work with Azure db

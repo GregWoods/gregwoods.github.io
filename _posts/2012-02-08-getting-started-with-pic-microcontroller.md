@@ -13,7 +13,7 @@ categories:
 ---
 A couple of years ago I bought a PICKit2 for the princely sum of £5 including postage. It was a special offer from Microchip that I couldn't refuse. I'd tinkered with the Atmel AVR chip in the past, but liked the on-board USB features of the Microchip  PIC18F range. I knew it would be useful for some custom [HID](javascript:void() "Human Interface Device, e.g. keyboard, mouse, joystick") devices for Flight Simulator one day.
 
-Anyway, I've got a simple alarm clock idea which wakes you up by gradually increasing the brightness of an LED strip light behind the headboard of the bed. As a minimum, it needs a simple microcontroller, a real time clock (RTC) of some sort, one or more power transistors for the LEDs, and an LCD screen and buttons for the UI. If I wanted to get this thing done quickly, I'd probably go for an Arduino solution &#8211; there are less hardware options and more really good demos and tutorials. However, I already have this PICKit2, and learning the raw nuts and bolts of the PIC range will allow me to avoid the cost of a £20 Arduino in every project.
+Anyway, I've got a simple alarm clock idea which wakes you up by gradually increasing the brightness of an LED strip light behind the headboard of the bed. As a minimum, it needs a simple microcontroller, a real time clock (RTC) of some sort, one or more power transistors for the LEDs, and an LCD screen and buttons for the UI. If I wanted to get this thing done quickly, I'd probably go for an Arduino solution - there are less hardware options and more really good demos and tutorials. However, I already have this PICKit2, and learning the raw nuts and bolts of the PIC range will allow me to avoid the cost of a £20 Arduino in every project.
 
 ## The Hardware
 
@@ -25,7 +25,7 @@ Anyway, I've got a simple alarm clock idea which wakes you up by gradually incre
 Installed in this order
 
   * Java SE Runtime version 6 (32 bit version, despite being on 64bit OS) (version 7 doesn't seem to work with MPLAB X)
-  * MPLAB X from Microchip &#8211; don't download the compilers from this page, they are never the most up to date
+  * MPLAB X from Microchip - don't download the compilers from this page, they are never the most up to date
   * HI-TEC C compiler for PIC10,12,16 (version 9.83 as of Feb 2012, signin required)
   * HI-TEC C compiler for PIC18 (version 9.80 as of Feb 2012, signin required)
   * Microchip PICKit2 programmer (latest is v2.61 in Feb 2012)
@@ -41,7 +41,7 @@ Although, I want to be writing my own code in C, to test the environment is work
   * The programmer should erase and then program the chip, but you won't see anything happen
   * You must manually supply power to the board using the &#8216;VDD PICkit2&#8242; &#8216;On' checkbox
 
-I must have spent 2 hours programming and reprogramming the device wondering why the demo wasn't running. Eventually I tried the &#8216;VDD PICKit2&#8242; &#8216;On' option, hoping it wouldn't fry my board, and it worked instantly. I'll put it down to bad UI design of the PICkit2 Programmer &#8211; it's clearly designed with Microchip engineers in mind, and not Joe Public. The help file, whilst technically accurate, needs to spell it out clearly: &#8220;Once you have programmed your demo board, you need to supply it with power. The PiICkit2 can do this for you, but you need to tell it using this option [big arrow pointing to diagram]&#8221;.
+I must have spent 2 hours programming and reprogramming the device wondering why the demo wasn't running. Eventually I tried the &#8216;VDD PICKit2&#8242; &#8216;On' option, hoping it wouldn't fry my board, and it worked instantly. I'll put it down to bad UI design of the PICkit2 Programmer - it's clearly designed with Microchip engineers in mind, and not Joe Public. The help file, whilst technically accurate, needs to spell it out clearly: &#8220;Once you have programmed your demo board, you need to supply it with power. The PiICkit2 can do this for you, but you need to tell it using this option [big arrow pointing to diagram]&#8221;.
 
 Other pre-compiled demos can be found on the PICkit2 CD-ROM, in the **44Pin Demo Board** folder.
 

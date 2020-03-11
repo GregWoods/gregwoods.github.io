@@ -20,9 +20,9 @@ Two problems now present themselves
 So, I am reluctantly going to re-encode clips I want to use. This is a problem because:
 
   1. It takes time. Encoding is several times slower than realtime on my aging Athlon XP processor, and worse on my Intel Core 2 Duo
-  2. There is an inevitbale loss in quality &#8211; though whether I can see this on video that has effectively been taken on a pinhole camera, remains to be seen
+  2. There is an inevitbale loss in quality - though whether I can see this on video that has effectively been taken on a pinhole camera, remains to be seen
 
-Currently I'm converting using the SourceForge hosted project: [MP4Cam2AVI Easy Converter](http://sourceforge.net/projects/mp4cam2avi/?source=directory "Find out more about MP4Cam2AVI Easy Converter") &#8211; which I suspect was born from someone else's frustrations at trying to accomplish the same thing.
+Currently I'm converting using the SourceForge hosted project: [MP4Cam2AVI Easy Converter](http://sourceforge.net/projects/mp4cam2avi/?source=directory "Find out more about MP4Cam2AVI Easy Converter") - which I suspect was born from someone else's frustrations at trying to accomplish the same thing.
 
 I will re-encode using &#8220;XVid MPEG-4 TV HD 16:9&#8243;, and PCM (uncompressed audio)
 

@@ -12,4 +12,4 @@ categories:
 ---
 [AVSim Forums: Simconnect toggle switch input](http://forums1.avsim.net/index.php?showtopic=224218&st=0&gopid=1531511&#entry1531511)
 
-[AVSim Forums: Need some help &#8211; Custom Panel](http://forums1.avsim.net/index.php?showtopic=135487&st=0&p=1529952&#entry1529952)
+[AVSim Forums: Need some help - Custom Panel](http://forums1.avsim.net/index.php?showtopic=135487&st=0&p=1529952&#entry1529952)

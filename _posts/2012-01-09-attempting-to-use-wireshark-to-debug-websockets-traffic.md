@@ -10,7 +10,7 @@ permalink: /2012/01/attempting-to-use-wireshark-to-debug-websockets-traffic/
 categories:
   - Programming
 ---
-I've been attempting to get some WebSockets code to work using SuperWebSockets and a simple html + javascript page in Chrome. My success has been limited to say the least. To add to the frustration, there is no easy way to examine the TCP data of the WebSocket stream. I use Fiddler extensively when developing web apps, but it is no use for WebSockets &#8211; at least not at the moment. Although some support is present &#8211; from what I can tell, you can only see the headers, not the stream.
+I've been attempting to get some WebSockets code to work using SuperWebSockets and a simple html + javascript page in Chrome. My success has been limited to say the least. To add to the frustration, there is no easy way to examine the TCP data of the WebSocket stream. I use Fiddler extensively when developing web apps, but it is no use for WebSockets - at least not at the moment. Although some support is present - from what I can tell, you can only see the headers, not the stream.
 
 It doesn't take much googling of this problem before you are told to go and use Wireshark. Although I've come across this network packet analyser before, I'd always quickly given up on it. This is not a reflection of the software, but of my impatience in getting to know enough of it to be usable. For WebSockets work, it seems I'm going to have to bite the bullet.
 
@@ -26,13 +26,13 @@ To test this out, I will use [netcat for windows](http://joncraton.org/blog/netc
 
 The easiest way to do this is to open two elevated command prompts.
 
-**In Prompt 1 &#8211; set up the server**
+**In Prompt 1 - set up the server**
 
 <pre>nc -L -p 8111</pre>
 
 <pre>-L mean listen, -p is port number</pre>
 
-**In prompt 2 &#8211; Create a Route**
+**In prompt 2 - Create a Route**
 
 <pre>route add&lt;your ip&gt; &lt;your gateway ip&gt;</pre>
 
@@ -44,7 +44,7 @@ e.g.
 
 <pre><strong></strong>tcp.port == 8111</pre>
 
-**In prompt 2 &#8211; Connect to the server**
+**In prompt 2 - Connect to the server**
 
 <pre>nc &lt;your ip&gt; 8111</pre>
 
@@ -66,7 +66,7 @@ I set up SuperWebSocketsServerWeb,  the sample web app from the SuperWebSockets
 
   * With the loopback route deleted&#8230;
   * browsing to http://<local ip>/SuperWebSocketWeb &#8230; the web site doesn't work
-  * browsing to http://localhost/SuperWebSocketWeb &#8230; the web site works, the connection opens and I can use the chat demo &#8211; though nothing is captured in Wireshark
+  * browsing to http://localhost/SuperWebSocketWeb &#8230; the web site works, the connection opens and I can use the chat demo - though nothing is captured in Wireshark
 
   * With the route added&#8230;
   * browsing to http://<local ip>/SuperWebSocketWeb &#8230; the web site works, the connection opens, a few packets are captured in Wireshark,  then the connection closes a few seconds later.
@@ -79,7 +79,7 @@ I set up SuperWebSocketsServerWeb,  the sample web app from the SuperWebSockets
 </div>
 
 <div>
-  My next step&#8230; is to try debugging SuperWebSocketWeb &#8211; initial attempts have proved unsuccessful however.
+  My next step&#8230; is to try debugging SuperWebSocketWeb - initial attempts have proved unsuccessful however.
 </div>
 
 &nbsp;

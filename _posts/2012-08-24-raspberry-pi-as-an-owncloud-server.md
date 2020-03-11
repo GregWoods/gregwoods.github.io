@@ -72,7 +72,7 @@ save and quit nano
 ## Upgrading OwnCloud
 
 NOTE: I've only done this once, so I'll ikely find a better way of doing it next time.  
-This method doesn’t preserve config &#8211; try preserving it next time.  
+This method doesn’t preserve config - try preserving it next time.  
 Looks like it rescans the folders, possibly recreating the database  
 COnfig is in /var/www/owncloud/config  
 Maybe need to compare old and new config files after an upgrade
