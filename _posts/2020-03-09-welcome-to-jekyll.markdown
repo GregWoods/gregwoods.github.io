@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Welcome"
 date:   2015-04-09 17:58:31 +0000
 categories: cmd
