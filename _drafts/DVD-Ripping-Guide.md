@@ -10,7 +10,7 @@ permalink: /?p=375
 categories:
   - Uncategorized
 ---
-Decrypt with DVDFab to your hard disk &#8211; rip either the Main Movie or the whole disk. I&#8217;m sure one of these options will still be available after the &#8216;trial&#8217; period expires
+Decrypt with DVDFab to your hard disk &#8211; rip either the Main Movie or the whole disk. I'm sure one of these options will still be available after the &#8216;trial' period expires
 
 handbrake to encode  
 Start with the Apple TV3 preset  
@@ -26,5 +26,5 @@ the accuracy of the SRT based track I add next.
 Download an SRT subtitle file (try http://www.subtitles.com.br or google!)  
 Add the track, make it default  
 Preview again, playing the video in turn with each subtitle track. This should give you some info about the time accuracy of the SRT file  
-Because you can&#8217;t guarantee the accuracy for the duration of the film, I leave on the original pixellated subtitle, so I can switch to it  
+Because you can't guarantee the accuracy for the duration of the film, I leave on the original pixellated subtitle, so I can switch to it  
 if the SRT turns out to be inaccurate

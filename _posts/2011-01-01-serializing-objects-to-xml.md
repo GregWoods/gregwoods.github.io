@@ -13,7 +13,7 @@ tags:
   - 'c#'
   - xml
 ---
-Paste the following C# code directly in [LINQPad](http://www.linqpad.net/), change language to &#8216;C# Program&#8217; and run it.
+Paste the following C# code directly in [LINQPad](http://www.linqpad.net/), change language to &#8216;C# Program' and run it.
 
 <!-- code formatted by http://manoli.net/csharpformat/ -->
 

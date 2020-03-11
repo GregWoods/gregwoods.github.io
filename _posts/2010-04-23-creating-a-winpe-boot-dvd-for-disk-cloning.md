@@ -25,7 +25,7 @@ Below are the steps I took to get a useful WinPE boot disc (command prompt only)
   * copype.cmd amd64 d:\win7pe
   * `copy d:\win7pe\winpe.wim d:\win7pe\ISO\sources\boot.wim`
   * `Dism /Mount-Wim /WimFile:D:\win7pe\ISO\sources\boot.wim /index:1 /MountDir:D:\win7pe\mount`
-  * Copy ImageX to the mounted iso image (crazy that it&#8217;s not included) 
+  * Copy ImageX to the mounted iso image (crazy that it's not included) 
       * `copy "C:\Program Files\Windows AIK\Tools\amd64\imagex.exe" D:\win7pe\mount\Windows\System32`
   * Copy BootRec to the mounted iso image (the util that allows easy boot problem repairs). We must get this util by mounting a Windows 7 DVD and extracting the relevant files. 
       * `copy <windvd>\sources\boot.wim d:\win7dvd.wim`

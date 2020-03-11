@@ -10,12 +10,12 @@ permalink: /2010/05/php-coders-please-think-more-carefully-about-code-layout/
 categories:
   - Programming
 ---
-I&#8217;ve only recently started to use PHP again, but have coded a lot of classic ASP over the last few years, and both platforms share the same potential annoyances in code layout. Both languages were designed for the easy intermingling of server side code and html. Whilst I like this ease, it can result in spagetti code. My top tip is to make a decision. Your page is either:
+I've only recently started to use PHP again, but have coded a lot of classic ASP over the last few years, and both platforms share the same potential annoyances in code layout. Both languages were designed for the easy intermingling of server side code and html. Whilst I like this ease, it can result in spagetti code. My top tip is to make a decision. Your page is either:
 
   1. Almost entirely server side code with some html. In his case, replace most of your inline php tags with print commands. More code, but easier to read
-  2. An html template with a scattering of simple, server-side placeholder variables. In this case, don&#8217;t put any logic in the inline php, move it elsewhere
+  2. An html template with a scattering of simple, server-side placeholder variables. In this case, don't put any logic in the inline php, move it elsewhere
 
-My second gripe is around indenting, and placement of php tags.  Here&#8217;s a php code fragment from the WordPress Codex:
+My second gripe is around indenting, and placement of php tags.  Here's a php code fragment from the WordPress Codex:
 
 <pre>&lt;?php $my_query = new WP_Query('category_name=featured&#038;posts_per_page=1');
 while ($my_query-&gt;have_posts()) : $my_query-&gt;the_post();

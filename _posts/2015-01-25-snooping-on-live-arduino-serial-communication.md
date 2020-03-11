@@ -9,7 +9,7 @@ guid: http://gregwoods.co.uk/?p=483
 permalink: /2015/01/snooping-on-live-arduino-serial-communication/
 categories: microcontroller programming 
 ---
-Using the Arduino IDE, we can bring up the Serial Monitor to send and receive data from the Arduino. However, if you&#8217;re using Windows, this completely ties up the COM port so that it cannot be used for anything else. If your Arduino needs to communication with other piece of software on your PC, that software gets exclusive access to that port so you can no longer use the Serial Monitor. Needless to say, it would be very nice to be able to peek at real data being sent between your PC app and the Arduino. A reliable way I&#8217;ve found to do this in Window is using com0com and hub4com. Here&#8217;s how it works.
+Using the Arduino IDE, we can bring up the Serial Monitor to send and receive data from the Arduino. However, if you're using Windows, this completely ties up the COM port so that it cannot be used for anything else. If your Arduino needs to communication with other piece of software on your PC, that software gets exclusive access to that port so you can no longer use the Serial Monitor. Needless to say, it would be very nice to be able to peek at real data being sent between your PC app and the Arduino. A reliable way I've found to do this in Window is using com0com and hub4com. Here's how it works.
 
 ## Note on driver types **(it is relevant!)**
 
@@ -27,7 +27,7 @@ Use version 2.2.2.0 because it is signed. When installing, I unchecked the optio
 
 <div>
   <div>
-    v2.2.2.0 signed doesn&#8217;t have the graphical setupg program, so need to use setupc for everthing
+    v2.2.2.0 signed doesn't have the graphical setupg program, so need to use setupc for everthing
   </div>
   
   <div>
@@ -37,7 +37,7 @@ Use version 2.2.2.0 because it is signed. When installing, I unchecked the optio
 
 ## My Scenario
 
-I have an Arduino on COM3, and some PC Software which talks to it, called &#8220;PC Lap Counter&#8221; (PCLC) &#8211; it&#8217;s a race management solution for slotcar racing. PCLC sends race and lap info to the Arduino over the serial connection, but I want to be able to look in on this info as it is happening.
+I have an Arduino on COM3, and some PC Software which talks to it, called &#8220;PC Lap Counter&#8221; (PCLC) &#8211; it's a race management solution for slotcar racing. PCLC sends race and lap info to the Arduino over the serial connection, but I want to be able to look in on this info as it is happening.
 
 ### Step 1: Setup the Virtual COM port Pairs
 
@@ -94,7 +94,7 @@ I have an Arduino on COM3, and some PC Software which talks to it, called &#8220
   </div>
 </div>
 
-### Step 2: Join the COM port pairs together with hub4com&#8217;s Routes
+### Step 2: Join the COM port pairs together with hub4com's Routes
 
 <div>
   <div>
@@ -122,6 +122,6 @@ I have an Arduino on COM3, and some PC Software which talks to it, called &#8220
 
 ### Step 3: Snoop away
 
-Using Putty, create a new &#8216;Serial&#8217; connection. In the above example, it is connected to COM6 at 9600baud
+Using Putty, create a new &#8216;Serial' connection. In the above example, it is connected to COM6 at 9600baud
 
 ###

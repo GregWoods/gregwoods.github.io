@@ -18,10 +18,10 @@ I had high hopes for the Kindle DX. A 9.7&#8243; screen e-reader with PDF suppor
   * However&#8230;
   * I rarely read outside (blame the British summer)
   * Incredibly annoying &#8220;screensaver&#8221; is not good when you may be referring to the same page for days at a time
-  * Table of Contents doesn&#8217;t work for PDFs
+  * Table of Contents doesn't work for PDFs
   * Flicking back and forth between pages is frustratingly slow
 
-So I&#8217;ve come to the conclusion &#8211; a little later than Amazon who recently canned the Kindle DX &#8211; that a LCD screen tablet would be better for my purposes. But which one? For technical books with diagrams, tables and formatted code listings it is important to be able to view the content of PDFs as they were originally intended. So the most important qualities are the combination of screen resolution and screen size. PDFs viewed on my laptop&#8217;s 1280 x 800 16:10 ratio screen look good when I rotate the screen to portrait mode, so I&#8217;m looking for this resolution and higher. Even at this resolution, I&#8217;m not convinced that viewing a full page on a 7&#8243; device will be comfortable without turning into landscape mode and doing a lot more scrolling. I also found whilst playing with a variety of tablets in HMV a year ago, that an (overpriced at the time) 8.9&#8243; Samsung tablet seemed the sweet spot for size. My final criteria is price. I won&#8217;t pay £400 for a tablet, half of that is more reasonable.
+So I've come to the conclusion &#8211; a little later than Amazon who recently canned the Kindle DX &#8211; that a LCD screen tablet would be better for my purposes. But which one? For technical books with diagrams, tables and formatted code listings it is important to be able to view the content of PDFs as they were originally intended. So the most important qualities are the combination of screen resolution and screen size. PDFs viewed on my laptop's 1280 x 800 16:10 ratio screen look good when I rotate the screen to portrait mode, so I'm looking for this resolution and higher. Even at this resolution, I'm not convinced that viewing a full page on a 7&#8243; device will be comfortable without turning into landscape mode and doing a lot more scrolling. I also found whilst playing with a variety of tablets in HMV a year ago, that an (overpriced at the time) 8.9&#8243; Samsung tablet seemed the sweet spot for size. My final criteria is price. I won't pay £400 for a tablet, half of that is more reasonable.
 
 How do the current crop of tablets compare to my criteria? (sorted by screen size)
 
@@ -351,7 +351,7 @@ For my use case, which primarily reading PDFs and web sites&#8230;
 #### The Nook HD+
 
 The Lenovo looked good on paper, but <a target="_blank" href="http://reviews.cnet.com/tablets/lenovo-ideatab-a2109/4505-3126_7-35430027.html">CNET</a> slated the dull display &#8211; which is my main criteria.  
-So, the Nook HD+ is (currently) the winner, with the unreleased in the UK Kindle Fire HD 8.9 close behind. It has my favourite screen size, awesome resolution, reading-centric aspect ratio, and is extremely well priced. The downside? I&#8217;m tied to the Barnes and Noble ecosystem, which may not survive alongside Amazon, Google, Apple and Microsoft &#8211; and this will affect my ebay resale price in a year&#8217;s time.
+So, the Nook HD+ is (currently) the winner, with the unreleased in the UK Kindle Fire HD 8.9 close behind. It has my favourite screen size, awesome resolution, reading-centric aspect ratio, and is extremely well priced. The downside? I'm tied to the Barnes and Noble ecosystem, which may not survive alongside Amazon, Google, Apple and Microsoft &#8211; and this will affect my ebay resale price in a year's time.
 
 Of course, between now and me parting with cash, we could see the UK release of the Kindle Fire HD 8.9, or who knows, maybe even a Google Nexus 9. Either of these events could sway me.
 
