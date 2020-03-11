@@ -7,7 +7,8 @@ excerpt: |
   <p>I recently had to rebuild my PC at work. Knowing that this takes about a week to get fully up to speed, I thought it’d be useful to image the disk once I’d got all the apps installed, so that other devs can quickly get up and running. The last time I did this was 2008 using Vista, and unfortunately, I’d lost the WinPE (Preinstall Environment) boot disk required to do the cloning.</p>
   
   <p>The process has changed in Windows 7, so here’s the steps I took to create a Windows 7 working WinPE boot disk. </p>
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=49
 permalink: /2010/04/creating-a-winpe-boot-dvd-for-disk-cloning/
 categories:

@@ -3,7 +3,8 @@ id: 196
 title: General update (and the FSX mini-controller project)
 date: 2009-07-20T23:32:39+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=196
 permalink: /2009/07/general-update-and-the-fsx-mini-controller-project/
 categories:

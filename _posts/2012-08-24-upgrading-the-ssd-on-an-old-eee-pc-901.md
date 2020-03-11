@@ -3,7 +3,8 @@ id: 350
 title: Upgrading the SSD on an old Eee PC 901
 date: 2012-08-24T18:54:56+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=350
 permalink: /2012/08/upgrading-the-ssd-on-an-old-eee-pc-901/
 categories:

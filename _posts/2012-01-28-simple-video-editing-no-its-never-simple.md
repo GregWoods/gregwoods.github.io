@@ -3,7 +3,8 @@ id: 264
 title: 'Simple Video Editing (No, it&#8217;s never simple)'
 date: 2012-01-28T00:11:42+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=264
 permalink: /2012/01/simple-video-editing-no-its-never-simple/
 categories:

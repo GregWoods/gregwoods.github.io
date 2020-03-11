@@ -3,7 +3,8 @@ id: 240
 title: 'Microsoft Flight &#8211; It will be free'
 date: 2011-11-18T22:41:42+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=240
 permalink: /2011/11/microsoft-flight-it-will-be-free/
 categories:

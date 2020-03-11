@@ -3,7 +3,8 @@ id: 59
 title: Microsoft Wireless Mouse 5000 Review
 date: 2010-05-09T14:10:26+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=59
 permalink: /2010/05/microsoft-wireless-mouse-5000-review/
 categories:

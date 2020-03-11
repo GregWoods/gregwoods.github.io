@@ -3,7 +3,8 @@ id: 431
 title: Sleep Credit
 date: 2013-01-04T08:34:15+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=431
 permalink: /2013/01/sleep-credit/
 categories:

@@ -3,7 +3,8 @@ id: 159
 title: Flight Sim Joystick Config Project Update
 date: 2011-08-06T22:57:27+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=159
 permalink: /?p=159
 categories:

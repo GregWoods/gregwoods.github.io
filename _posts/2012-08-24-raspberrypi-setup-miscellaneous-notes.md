@@ -3,7 +3,8 @@ id: 369
 title: 'RaspberryPi Setup &#8211; Miscellaneous Notes'
 date: 2012-08-24T21:18:49+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=369
 permalink: /2012/08/raspberrypi-setup-miscellaneous-notes/
 categories:

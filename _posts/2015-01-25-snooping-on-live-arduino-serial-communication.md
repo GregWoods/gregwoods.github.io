@@ -3,7 +3,8 @@ id: 483
 title: Snooping on Live Arduino Serial Communication
 date: 2015-01-25T16:10:55+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=483
 permalink: /2015/01/snooping-on-live-arduino-serial-communication/
 categories: microcontroller programming 

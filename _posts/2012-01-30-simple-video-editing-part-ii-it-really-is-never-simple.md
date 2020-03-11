@@ -3,7 +3,8 @@ id: 276
 title: 'Simple Video Editing Part II (It <i>really</i> is never simple)'
 date: 2012-01-30T16:46:46+00:00
 author: Greg Woods
-layout: post
+layout: single
+classes: wide
 guid: http://gregwoods.co.uk/?p=276
 permalink: /2012/01/simple-video-editing-part-ii-it-really-is-never-simple/
 categories:
