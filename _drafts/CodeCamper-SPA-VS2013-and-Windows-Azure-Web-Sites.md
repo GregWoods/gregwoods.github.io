@@ -10,7 +10,7 @@ permalink: /?p=463
 categories:
   - Programming
 ---
-OK, I'm very late to the party with Windows Azure. My feeble excuse is that I've no use for it in the day job. Like I said.. feeble. Anyway, I decided I wanted to play with Azure, but desired more than &#8216;Hello World' static web page. My WebDev skills need some serious updating, so I wanted a small application which used a database, and built using cutting edge technologies. After a not very exhaustive search, I decided John Papa's CodeCamper app would be ideal. Unfortunately, several half baked or out of date guides on getting it to run on Azure left me frustrated.  So, after about a dozen clone-modify-publish-delete cycles... I got it to work. Here are the steps.
+OK, I'm very late to the party with Windows Azure. My feeble excuse is that I've no use for it in the day job. Like I said.. feeble. Anyway, I decided I wanted to play with Azure, but desired more than 'Hello World' static web page. My WebDev skills need some serious updating, so I wanted a small application which used a database, and built using cutting edge technologies. After a not very exhaustive search, I decided John Papa's CodeCamper app would be ideal. Unfortunately, several half baked or out of date guides on getting it to run on Azure left me frustrated.  So, after about a dozen clone-modify-publish-delete cycles... I got it to work. Here are the steps.
 
 ## Software pre-requisities
 
@@ -30,7 +30,7 @@ I won't go into details here, but here is what you need to be able to access <pi
 
 <pre> <span style="line-height: 1.5em;">git clone </span><span style="line-height: 1.5em;">https://github.com/johnpapa/CodeCamper.git "C:\development\codecampergwtest"</span></pre>
 
-Note: one my work machine I can clone into &#8216;.' (the current directory), yet at home, it results in a directory not empty message
+Note: one my work machine I can clone into '.' (the current directory), yet at home, it results in a directory not empty message
 
 ## Get it running locally
 
@@ -43,7 +43,7 @@ Note: one my work machine I can clone into &#8216;.' (the current directory), ye
 
 ##  Modify it work with Azure db
 
-In order to see the sample data, we need to enable something called &#8216;Data Migrations', which is part of Entity Framework Code First. However, the NuGet command "Enable-Migrations" isn't available with Entity Framework 5.0.0 which is setup by default with this solution So in NuGet package manager <span style="line-height: 1.5em;">Get-Help EntityFramework doesn't work! you may need to update help still doesn't work </span>
+In order to see the sample data, we need to enable something called 'Data Migrations', which is part of Entity Framework Code First. However, the NuGet command "Enable-Migrations" isn't available with Entity Framework 5.0.0 which is setup by default with this solution So in NuGet package manager <span style="line-height: 1.5em;">Get-Help EntityFramework doesn't work! you may need to update help still doesn't work </span>
 
 <span style="line-height: 1.5em;">Update-Package EntityFramework</span>
 
@@ -51,7 +51,7 @@ In order to see the sample data, we need to enable something called &#8216;Data 
 
 <span style="line-height: 1.5em;">Enable-Migrations -StartupProjectName CodeCamper.web -ProjectName CodeCamper.Data -EnableAutomaticMigrations </span>
 
-<span style="line-height: 1.5em;">No Entity Framework provider found for the ADO.NET provider with invariant name &#8216;System.Data.SqlServerCe.4.0&#8242; Looks like I need EF for CE first</span>
+<span style="line-height: 1.5em;">No Entity Framework provider found for the ADO.NET provider with invariant name 'System.Data.SqlServerCe.4.0&#8242; Looks like I need EF for CE first</span>
 
 Using the NuGet GUI, installed EntityFramework.SqlServerCompact  installed to CodeCamper.Data and CodeCamper.Web  (NOTE: unsure if I need both)
 

@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=191
 permalink: /2009/02/a-peek-inside-a-757-200-cockpit/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 On the return journey from this year’s skiing holiday, we had the misfortune of being boarded onto the plane, whilst a large number of passengers were known to be stuck in the aftermath of a road traffic accident. The decision was taken to wait for them, resulting in us being sat for over an hour on the stand. On the plus side, one of our party was cheeky enough to ask for a peek into the cockpit, and then shouted me over for a look. In these security conscious days, it was a rare opportunity. Although we couldn’t put one foot inside the cockpit, we spent a good 10 minutes crammed into the doorway talking to the First Officer about various aspects of the flight deck, and the similarities and differences between the real thing, and FSX. 
 

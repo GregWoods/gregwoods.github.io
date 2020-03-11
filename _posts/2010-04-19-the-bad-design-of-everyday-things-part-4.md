@@ -32,4 +32,4 @@ Customer: We'll go with the 15 option
 Now, a grumpy software developer is of no concern to the paying customers. But when the customer's customers get grumpy because of bad design - that will cost sales.
 
 <a style="float: left; padding-right: 1.0em;" href="http://www.amazon.co.uk/gp/product/0465067107?ie=UTF8&tag=thscagrtoyo-21&linkCode=as2&camp=1634&creative=19450&creativeASIN=0465067107"><img src="http://gregwoods.co.uk/wp-content/uploads/2010/04/41qlmVH9jPL._SL160_.jpg" alt="" border="0" /></a><img style="border: none !important; margin: 0px !important;" src="http://www.assoc-amazon.co.uk/e/ir?t=thscagrtoyo-21&l=as2&o=2&a=0465067107" alt="" width="1" height="1" border="0" />  
-If you are involved in interactive design in any way - be it shower heads or software, then &#8216;The Design of Everyday Things' is a must read. Click the image to buy from Amazon.co.uk.
+If you are involved in interactive design in any way - be it shower heads or software, then 'The Design of Everyday Things' is a must read. Click the image to buy from Amazon.co.uk.

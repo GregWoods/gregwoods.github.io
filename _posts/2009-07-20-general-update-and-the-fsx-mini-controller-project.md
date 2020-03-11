@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=196
 permalink: /2009/07/general-update-and-the-fsx-mini-controller-project/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 Well, it’s been a long time. An update is in order. Since my last post…
 

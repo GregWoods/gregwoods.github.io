@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=175
 permalink: /2008/11/head-tracking-update/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 Well, I’ve got head tracking working. I hope to add some pics soon, but for now, here’s what I used.
 

@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=509
 permalink: /2008/11/see-how-it-flies-2/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 To a flight simmer, flying an aircraft may at first seem to be an easy task. Throttle up, gain speed, pull back on the stick and take off. Moving the stick left or right makes you turn… left or right. Easy! Yes, as long as everything is working as it should and you’re in perfect weather conditions. Add some crosswind, or an engine out in a twin, and it becomes more complex.
 

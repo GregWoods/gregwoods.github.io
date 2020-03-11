@@ -18,13 +18,13 @@ Although I did once find myself jealous of iPad-wielding friends with their fanc
 
 #### Strengths
 
-  * The &#8216;retina' class screen resolution
+  * The 'retina' class screen resolution
   * The large 9&#8243; screen
   * Magazine-page-ratio is pretty good for books
   * Excellent PDF support, including table of contents
   * Good web browser
   * Locked down, so little temptation to tinker with it
-  * &#8216;Resume reading' icon always available
+  * 'Resume reading' icon always available
   * ArticleView on web pages is a nice touch
 
 #### Weaknesses
@@ -34,7 +34,7 @@ Although I did once find myself jealous of iPad-wielding friends with their fanc
   * Most books show with black bars at the top and bottom of the screen. Usable screen is actually 8.2&#8243; for many books
   * (The best aspect ratio for programming books is probably 4:3 - an iPad)
   * Pinch-zooming-in on a PDF doesn't shrink those black bars. You instead immediately get a vertical scroll bar. A poor implementation of zoom
-  * The only icons I use on the home screens are &#8216;Library' and &#8216;Web'. It would be nice to be able to show entire folder contents on a home screen to cut down on navigation taps
+  * The only icons I use on the home screens are 'Library' and 'Web'. It would be nice to be able to show entire folder contents on a home screen to cut down on navigation taps
 
 #### Overall
 

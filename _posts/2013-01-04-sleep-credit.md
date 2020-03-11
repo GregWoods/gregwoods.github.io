@@ -10,7 +10,7 @@ permalink: /2013/01/sleep-credit/
 categories:
   - Life
 ---
-Sleep appears to be an area of human &#8216;activity' which we are still learning about. One observation of sleep is that we can rack up a <a href="http://en.wikipedia.org/wiki/Sleep_debt" title="sleep debt" target="_blank">sleep debt</a> - where we can go a night or two with reduced sleep, and perhaps feel OK for those few days. Eventually the debt must be repaid, or we'll start falling asleep at the wheel, getting irritable with others etc.
+Sleep appears to be an area of human 'activity' which we are still learning about. One observation of sleep is that we can rack up a <a href="http://en.wikipedia.org/wiki/Sleep_debt" title="sleep debt" target="_blank">sleep debt</a> - where we can go a night or two with reduced sleep, and perhaps feel OK for those few days. Eventually the debt must be repaid, or we'll start falling asleep at the wheel, getting irritable with others etc.
 
 Well, I've long maintained that I build up sleep credit. My optimum sleep is likely 7 hours, maybe as low as 6. Mrs Woods seems to need at least 8. So we go to bed somewhere in between - which I suspect is doing neither of us any good. I wake up alert early, fail to get up because the bed is a nice place to be. So I fall back to sleep and the alarm then wakes me in some part of the sleep cycle which you probably shouldn't be woken from. I feel OK, but not as good as I did when I first woke.
 
@@ -22,4 +22,4 @@ Maybe I should try <a href="http://en.wikipedia.org/wiki/Polyphasic_sleep" title
 
 Footnote
 
-Sleep is a complex thing. My little &#8216;sleep credit' theory could be complete rubbish. Subconscious anxiety, too much caffeine (I admit my body can't handle caffeine as well these days), a slightly disturbed sleep environment could all have contributed to last nights sleep deprivation. Though the sleepless nights do seem to follow a vague pattern.
+Sleep is a complex thing. My little 'sleep credit' theory could be complete rubbish. Subconscious anxiety, too much caffeine (I admit my body can't handle caffeine as well these days), a slightly disturbed sleep environment could all have contributed to last nights sleep deprivation. Though the sleepless nights do seem to follow a vague pattern.

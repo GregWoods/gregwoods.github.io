@@ -122,6 +122,6 @@ I have an Arduino on COM3, and some PC Software which talks to it, called "PC La
 
 ### Step 3: Snoop away
 
-Using Putty, create a new &#8216;Serial' connection. In the above example, it is connected to COM6 at 9600baud
+Using Putty, create a new 'Serial' connection. In the above example, it is connected to COM6 at 9600baud
 
 ###

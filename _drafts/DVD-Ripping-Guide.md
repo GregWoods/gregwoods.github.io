@@ -10,7 +10,7 @@ permalink: /?p=375
 categories:
   - Uncategorized
 ---
-Decrypt with DVDFab to your hard disk - rip either the Main Movie or the whole disk. I'm sure one of these options will still be available after the &#8216;trial' period expires
+Decrypt with DVDFab to your hard disk - rip either the Main Movie or the whole disk. I'm sure one of these options will still be available after the 'trial' period expires
 
 handbrake to encode  
 Start with the Apple TV3 preset  

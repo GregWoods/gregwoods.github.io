@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=159
 permalink: /?p=159
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 Ok, so this project has been on the go for several years now. Fast progress is made for a couple of weeks at a time, then it has to go on the back burner.
 

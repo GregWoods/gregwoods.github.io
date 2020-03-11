@@ -15,7 +15,7 @@ tags:
 ---
 Save the output of the [Serialize](http://gregwoods.co.uk/2011/01/serializing-objects-to-xml/) post to a file called sample.xml
 
-Paste the following C# code directly in [LINQPad](http://www.linqpad.net/), change language to &#8216;C# Program' and run it.
+Paste the following C# code directly in [LINQPad](http://www.linqpad.net/), change language to 'C# Program' and run it.
 
 <!-- code formatted by http://manoli.net/csharpformat/ -->
 

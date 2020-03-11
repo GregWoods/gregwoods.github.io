@@ -16,7 +16,7 @@ It doesn't take much googling of this problem before you are told to go and use 
 
 # First Problem: Localhost doesn't have a network interface
 
-Why is this a problem? Because Wireshark needs a network interface to capture packets from. This interface is provided by your network card. Unix systems provide a &#8216;fake' loopback network adapter for localhost. Windows doesn't.
+Why is this a problem? Because Wireshark needs a network interface to capture packets from. This interface is provided by your network card. Unix systems provide a 'fake' loopback network adapter for localhost. Windows doesn't.
 
 The solution is to add an entry to  Windows' network routing table, so that traffic sent to your local ip address is routed to your network gateway, which will send it straight back to your ip address. Since the traffic now goes through your network adapter, Wireshark should be able to see it.
 

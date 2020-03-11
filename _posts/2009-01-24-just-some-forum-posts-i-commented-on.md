@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=188
 permalink: /2009/01/just-some-forum-posts-i-commented-on/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 [AVSim Forums: Simconnect toggle switch input](http://forums1.avsim.net/index.php?showtopic=224218&st=0&gopid=1531511&#entry1531511)
 

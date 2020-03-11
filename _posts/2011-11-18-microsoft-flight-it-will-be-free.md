@@ -8,11 +8,11 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=240
 permalink: /2011/11/microsoft-flight-it-will-be-free/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 Looking throught the material at <a href="http://www.microsoft.com/games/flight/" title="http://www.microsoft.com/games/flight/" target="_blank"></a>, I've come to the conclusion that the next version of Microsoft's Flight Simulator will be available for free.
 
-Yes, I believe the &#8216;Fly for Free' tag on Webisode 3 is not just a metaphor for the feeling of flying free like a bird. The game will actually be free. It's the perfect way for MS to snag a lot more users. The sales model has already been used in <a href="http://ageofempiresonline.com/" title="Age of Empires Online" target="_blank">Age of Empires Online</a>, where a playable, exceptionally high quality game is available for free. The free stuff has limitations, and you buy either extras or a subscription to keep receiving regular new content.
+Yes, I believe the 'Fly for Free' tag on Webisode 3 is not just a metaphor for the feeling of flying free like a bird. The game will actually be free. It's the perfect way for MS to snag a lot more users. The sales model has already been used in <a href="http://ageofempiresonline.com/" title="Age of Empires Online" target="_blank">Age of Empires Online</a>, where a playable, exceptionally high quality game is available for free. The free stuff has limitations, and you buy either extras or a subscription to keep receiving regular new content.
 
 There are three main areas that are expandable in MS Flight: Scenery, Aircraft, and Missions.
 

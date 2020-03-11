@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=165
 permalink: '/2008/11/fsx-wishlist-autoconfigure-graphics%e2%80%a6-not-quite/'
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 I can see me spending many hours trying to get the optimum balance between visual clarity and frames per second in FSX, especially since it eats up whatever CPU and GPU I throw at it. The trouble is, that different flights need different settings. High polygon count cities or canyons will likely need some settings turning down, or features such as shadows or water effects turning off. A slow cross country navigation route over flat countryside should be able to cope with most settings turned up.
 

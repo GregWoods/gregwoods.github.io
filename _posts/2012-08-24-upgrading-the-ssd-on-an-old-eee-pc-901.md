@@ -28,10 +28,10 @@ Once installed, due to the way the Eee PC's hard disk interfaces are designed, t
 Reading around, it turns out you can enable a feature in the BIOS called Boot Booster. This gets around the HiIt F1 error, and does make bootup a lot faster. Before the option even appears in the BIOS, you need to set up an EFI partition. Below are the steps to do this.
 
   * Boot GParted, shrink your Windows XP installation partition so that have at least 8Mb free at the end of the disk. I ended up with 39Mb
-  * Make this parition &#8216;Primary' and unformatted.
+  * Make this parition 'Primary' and unformatted.
   * Note the location of the partition. Mine was /dev/sda2 (disk: /dev/sda. partition: 2)
   * Still in gParted, open a Terminal window 
-      * sudo sfdisk -change-id /dev/sda 2 [note the space before the &#8216;2']
+      * sudo sfdisk -change-id /dev/sda 2 [note the space before the '2']
   * check it worked... 
       * sudo sfdisk -print-id /dev/sda 2
   * Reboot, press F2 to access BIOS

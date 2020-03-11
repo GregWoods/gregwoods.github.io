@@ -23,7 +23,7 @@ Here's my slightly "irregular" solution
   * Mount the Vista  iso on the VM, Install Vista
   * When prmoted, use the genuine Product Key from the Certificate of Authenticity stuck to the PC
   * The online activation appears to have been crippled on this iso - you are supposed to use a very naughty program included on the iso to trick the OS into believing it is activated. Do NOT use this, you need to be genuinely activated to proceed
-  * Search for &#8216;Activation' in the Vista Start Menu, and launch the wizard
+  * Search for 'Activation' in the Vista Start Menu, and launch the wizard
   * Although the online activation is crippled, you can still be able to use the Automated Telephone Activation service. You dial a freephone number, type in some numbers, get some numbers back, enter them into the wizard. Hey presto, activated legitimately.
   * Run the Windows  8 Upgrade Assistant, pass all the checks, hand over your credit card details
   * Start the download and get a shiny new Product Key

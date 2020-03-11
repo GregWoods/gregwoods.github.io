@@ -8,7 +8,7 @@ classes: wide
 guid: http://gregwoods.co.uk/?p=168
 permalink: /2008/11/tricky-airliner-landing/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 Honduras landing. Tricky stuff. Would make a nice little ‘mission’ in FSX! Toncontin International Airport in Tegucigalpa, Honduras… MHGT
 
