@@ -1,3 +1,6 @@
+Great documentation on the minimal-mistakes theme
+https://mmistakes.github.io/minimal-mistakes/docs/layouts/#home-page
+
 
 Site wide
 ---------

@@ -1,6 +1,6 @@
 ---
 id: 264
-title: 'Simple Video Editing (No, it's never simple)'
+title: "Simple Video Editing (No, it's never simple)"
 date: 2012-01-28T00:11:42+00:00
 author: Greg Woods
 layout: single
@@ -10,7 +10,6 @@ permalink: /2012/01/simple-video-editing-no-its-never-simple/
 categories:
   - VideoEditing
 ---
-&nbsp;
 
 I went snowboarding last week. I took along a £99 Samsung WM200 pocket camcorder. I didn't take many clips, and they weren't that good, but I knew they could be improved by shortening and splicing a couple together to form a short sequence. I've use Premiere Pro a little in the past, and although it did everything I wanted it to, nothing was ever intuitive (like most Adobe products). So I decided to suppress some of my creative urges and use the simplest app I could find, Windows Live Movie maker.
 
@@ -20,25 +19,23 @@ So the next part of my mission came to be opening the MP4 file in VirtualDub.
 
 After installing lots of apps and codecs, and failing to make progress, I stumbles across this YouTube tutorial [youtube.com](http://www.youtube.com/watch?v=nXLEAScqN0U) , and followed the steps. For the sake of my own future sanity, I've noted them here.
 
-  * Start fresh - uninstall as many codec and video editing apps you can find 
-      * ffdshow
-      * virtualDub
-      * Quicktime
-      * Codec packs
-  * Install a fresh new copy of VirtualDub
-  * Install the K-Lite Codec pack, both 32bit and 64bit versions (I have Win7 64bit) 
-      * Leave the configuration until later
-  * Install updated ffdshow MPEG-4 codec, both 32bit and 64bit version
-  * Configure ffdshow (make sure H. 264/AVC is assigned a decoder)
-  * Install AviSynth (this is the important bit)
-  * For each video file you need to open in VirtualDub, create a .AVS script file 
-      * In it, simply add the following line:
-      * DirectShowSource("fullPathAndFilename.mp4")
+* Start fresh - uninstall as many codec and video editing apps you can find 
+    * ffdshow
+    * virtualDub
+    * Quicktime
+    * Codec packs
+* Install a fresh new copy of VirtualDub
+* Install the K-Lite Codec pack, both 32bit and 64bit versions (I have Win7 64bit) 
+    * Leave the configuration until later
+* Install updated ffdshow MPEG-4 codec, both 32bit and 64bit version
+* Configure ffdshow (make sure H. 264/AVC is assigned a decoder)
+* Install AviSynth (this is the important bit)
+* For each video file you need to open in VirtualDub, create a .AVS script file 
+    * In it, simply add the following line:
+    * DirectShowSource("fullPathAndFilename.mp4")
 
 At first I thought that creating this script file every clip was a bind. Then I glanced over the documentation [avisynth.org ](http://avisynth.org "avisynth.org")
 
 You can script your video editing! As a programmer this is awesome. I could source control my edits. If I decide to swap editing software, I don't have to start everything again, as my filter settings, in and out points, andf likely a ton of other stuff is safe in my text file.
 
 I've yet to explore this properly - this is one evening's exploration, so there should be more to come.
-
-&nbsp;
