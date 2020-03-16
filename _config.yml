@@ -53,7 +53,7 @@ kramdown:
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-UK"
+locale                   : "en-GB"
 title_separator          : "-"
 name                     : "XGreg WoodsX"
 # description              : "An amazing website."
