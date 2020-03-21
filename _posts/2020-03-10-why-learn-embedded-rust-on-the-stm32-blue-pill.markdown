@@ -1,13 +1,14 @@
 ---
-layout: post
+layout: single
 title:  "Learning Embedded Rust on the STM32F103 Blue Pill... Why?"
 date:   2020-03-10 19:32:31 +0000
-categories: microcontroller rust stm32
+categories: microcontroller embedded rust stm32
+published: false
 ---
 
 I have spent quite a bit of time recently trying to learn the Rust programming language for use on the $2 ARM Cortex M3 STM32 board, commonly known as the "Blue Pill". The learning process has often been frustrating, and it has not been quick. But I feel I can share some code, and tips which can make it less painful.
 
-Where have I come from?
+## Where have I come from?
 
 I am a full time developer working on the Microsoft stack for a number of years in the high level C# realm. As a hobbyist, I have a strong interest in microcontrollers, and have tinkered with PIC and AVR using assembly language, C, and Arduino. I love the Arduino platform due to it's accessibility for noobs, but I've been itching to move away from it. Why?
 
