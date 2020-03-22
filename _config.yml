@@ -24,7 +24,7 @@ logo: "/assets/images/88x88.png"
 
 email: gregwoodslancs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal blog of Greg Woods with an emphasis on microcontroller projects
+  Personal blog of Greg Woods with an emphasis on microcontroller,
   computing, and other hobby projects
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -61,16 +61,24 @@ title_separator          : "-"
 name                     : "Greg Woods"
 repository               : "gregwoods/gregwoods.github.io"
 
+
+
 # Site Author
 author:
   name             : "Greg Woods"
   #avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I enjoy good design in all forms. 
-                      I am a big fan of microcontroller projects, 
-                      where physical design meets code.
-                      
-                      
-                      Prone to ranting"
+  bio              : "Personal blog of Greg Woods with an emphasis on microcontrollers, 
+                      computing, and other hobby projects."
+  # bio              : "  I enjoy good design in all forms. 
+  # I am a big fan of microcontroller projects, 
+  # where physical design meets code.
+  # 
+  #
+  # Prone to ranting"
+
+
+
+  
 
   location         : "Lancashire, UK"
   email            : "gregwoodslancs@gmail.com"
@@ -254,3 +262,11 @@ defaults:
       comments: # true
       share: true
       related: true
+      #sidebar:
+      #  - title: "Title"
+      #    image: http://placehold.it/350x250
+      #    image_alt: "image"
+      #    text: "Some text here."
+      #    
+       # - title: "Another Title"
+       #   text: "More text here."
