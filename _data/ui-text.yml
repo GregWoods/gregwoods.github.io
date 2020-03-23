@@ -2,5 +2,5 @@
 
 # English (default)
 # -----------------
-  en: &DEFAULT_EN
-    recent_posts               : "Not So Recent posts"
+  en-GB: &DEFAULT_EN
+    recent_posts               : "XNot So Recent posts"
