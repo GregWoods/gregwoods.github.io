@@ -2,7 +2,7 @@
 id: 11
 title: Blog on Blogging
 date: 2009-12-24T21:30:35+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=11

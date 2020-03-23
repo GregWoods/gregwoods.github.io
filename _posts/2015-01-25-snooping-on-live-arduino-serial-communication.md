@@ -2,13 +2,12 @@
 id: 483
 title: Snooping on Live Arduino Serial Communication
 date: 2015-01-25T16:10:55+00:00
-author: Greg Woods
 layout: single
-classes: wide
 guid: http://gregwoods.co.uk/?p=483
 permalink: /2015/01/snooping-on-live-arduino-serial-communication/
 categories: microcontroller programming 
 ---
+
 Using the Arduino IDE, we can bring up the Serial Monitor to send and receive data from the Arduino. However, if you're using Windows, this completely ties up the COM port so that it cannot be used for anything else. If your Arduino needs to communication with other piece of software on your PC, that software gets exclusive access to that port so you can no longer use the Serial Monitor. Needless to say, it would be very nice to be able to peek at real data being sent between your PC app and the Arduino. A reliable way I've found to do this in Window is using com0com and hub4com. Here's how it works.
 
 ## Note on driver types **(it is relevant!)**
@@ -124,4 +123,3 @@ I have an Arduino on COM3, and some PC Software which talks to it, called "PC La
 
 Using Putty, create a new 'Serial' connection. In the above example, it is connected to COM6 at 9600baud
 
-###

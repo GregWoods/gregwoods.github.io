@@ -2,7 +2,7 @@
 id: 481
 title: 'Getting into Arduino - Better late than Never'
 date: 2014-10-03T07:58:28+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=481

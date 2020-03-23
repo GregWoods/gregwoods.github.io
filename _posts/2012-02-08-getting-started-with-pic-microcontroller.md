@@ -2,7 +2,7 @@
 id: 286
 title: Getting Started with PIC Microcontroller
 date: 2012-02-08T10:10:45+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=286

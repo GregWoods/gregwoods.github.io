@@ -2,7 +2,7 @@
 id: 447
 title: Syntax highlighting in VIM on a remote RaspberryPi
 date: 2014-01-11T16:55:59+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=447

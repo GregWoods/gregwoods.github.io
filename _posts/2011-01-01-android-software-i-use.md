@@ -2,7 +2,7 @@
 id: 108
 title: Android Software I Use
 date: 2011-01-01T17:18:25+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=108

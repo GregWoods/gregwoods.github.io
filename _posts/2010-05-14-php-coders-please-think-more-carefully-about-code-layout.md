@@ -2,7 +2,7 @@
 id: 75
 title: 'PHP Coders  - Please Think More Carefully About Code Layout'
 date: 2010-05-14T08:30:12+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=75

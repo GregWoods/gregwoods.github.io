@@ -2,7 +2,7 @@
 id: 178
 title: See How It Flies
 date: 2008-12-09T18:47:22+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=178

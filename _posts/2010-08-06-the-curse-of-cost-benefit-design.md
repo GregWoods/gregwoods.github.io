@@ -2,7 +2,7 @@
 id: 82
 title: The Curse of Cost-Benefit Design
 date: 2010-08-06T12:07:12+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=82

@@ -2,7 +2,7 @@
 id: 377
 title: Windows 8 Pro Upgrade for £25 with Just a Vista COA
 date: 2012-11-28T01:48:42+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=377

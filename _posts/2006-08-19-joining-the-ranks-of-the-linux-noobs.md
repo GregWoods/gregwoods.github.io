@@ -2,7 +2,7 @@
 id: 14
 title: Joining the Ranks of the Linux Noobs!
 date: 2006-08-19T21:40:43+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=14

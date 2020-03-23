@@ -2,7 +2,7 @@
 id: 470
 title: CodeCamper SPA, VS2013 and Windows Azure Web Sites
 date: 2014-04-18T11:27:54+00:00
-author: Greg Woods
+
 layout: revision
 guid: http://gregwoods.co.uk/2014/04/463-revision-v1/
 permalink: /2014/04/463-revision-v1/

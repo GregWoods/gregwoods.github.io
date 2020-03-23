@@ -2,7 +2,7 @@
 id: 18
 title: The (Bad) Design of Everyday Things (Part 2)
 date: 2010-04-17T05:38:33+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=18

@@ -2,7 +2,7 @@
 id: 306
 title: The Future of Your Desktop Computer
 date: 2012-02-23T10:17:11+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=306

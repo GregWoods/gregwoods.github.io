@@ -2,7 +2,7 @@
 id: 393
 title: 'Adobe Reader 11 - Thumbnails Fix'
 date: 2012-12-21T09:54:26+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=393

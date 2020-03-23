@@ -2,7 +2,7 @@
 id: 442
 title: When Free Goes Bad
 date: 2013-08-31T15:43:01+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=442

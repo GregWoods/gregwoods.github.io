@@ -2,7 +2,7 @@
 id: 461
 title: Using my VIM config in Windows (gVim)
 date: 2014-02-03T21:27:23+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=461

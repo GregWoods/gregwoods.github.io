@@ -2,7 +2,7 @@
 id: 184
 title: Absolutely Free Trim Wheel Controller
 date: 2009-01-11T20:24:00+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=184

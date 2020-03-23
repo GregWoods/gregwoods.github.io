@@ -2,7 +2,7 @@
 id: 397
 title: Replacing My Kindle DX
 date: 2013-01-03T09:36:26+00:00
-author: Greg Woods
+
 layout: single
 classes: wide
 guid: http://gregwoods.co.uk/?p=397
