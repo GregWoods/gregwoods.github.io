@@ -3,4 +3,7 @@
 # English (default)
 # -----------------
   en-GB: &DEFAULT_EN
-    recent_posts               : "XNot So Recent posts"
+    #recent_posts               : ""
+    date_created_label                 : "Created"
+    date_updated_label                 : "Updated"
+
