@@ -30,14 +30,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gregwoods
 github_username:  gregwoods
-teaser: /assets/teaser.png
+# teaser: /assets/teaser.png
 
 # Build settings
 # theme: minima
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.19.0"
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 
@@ -230,10 +230,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
-      share: true
-      related: true
+      share: false
+      related: false
 
       #sidebar:
       #  - title: "Title"
