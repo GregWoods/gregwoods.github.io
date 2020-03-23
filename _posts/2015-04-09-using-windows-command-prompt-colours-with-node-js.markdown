@@ -2,14 +2,11 @@
 layout: single
 title:  "Using Windows Command Prompt Colours with Node Js"
 date:   2015-04-09 17:58:31 +0000
+last_modified_at: 2020-03-01 17:58:31 +0000
 categories: windows shell
 ---
 
----
-**UPDATE:** 5 years after the original post... Microsoft has improved the UI for the command prompt colours... by introducing the new "Windows Terminal". It is in the Microsoft Store. Go and get it, it has json based config just like VS Code, easy colour schemes, and support for various shells, including command prompt, Powershell, Powershell Core, and Linux through Windows Subsystem for Linux (WSL)
-
----
-
+> **UPDATE:** 5 years after the original post... Microsoft has improved the UI for the command prompt colours... by introducing the new "Windows Terminal". It is in the Microsoft Store. Go and get it. It has json based config just like VS Code, easy colour schemes, and support for various shells, including command prompt, Powershell, Powershell Core, and Linux through Windows Subsystem for Linux (WSL)
 
 
 I have happily used the Windows command prompt for years. As a matter of habit, I always change the font to Consolas 14pt and background colour to something a little less harsh than #000000. Usually a muted dark blue or green. When doing so, I’ve simply changed any one of the colour swatches to my desired colour and assign it to the “Screen Background” radio button. This seems to be how the dialog was designed, and it works fine when using standard windows command prompt. However, some recent tinkering with Node.Js made it all go horribly wrong.
