@@ -2,22 +2,21 @@
 id: 483
 title: Snooping on Live Arduino Serial Communication
 date: 2015-01-25T16:10:55+00:00
-author: Greg Woods
 layout: single
-classes: wide
 guid: http://gregwoods.co.uk/?p=483
 permalink: /2015/01/snooping-on-live-arduino-serial-communication/
 categories: microcontroller programming 
 ---
-Using the Arduino IDE, we can bring up the Serial Monitor to send and receive data from the Arduino. However, if you&#8217;re using Windows, this completely ties up the COM port so that it cannot be used for anything else. If your Arduino needs to communication with other piece of software on your PC, that software gets exclusive access to that port so you can no longer use the Serial Monitor. Needless to say, it would be very nice to be able to peek at real data being sent between your PC app and the Arduino. A reliable way I&#8217;ve found to do this in Window is using com0com and hub4com. Here&#8217;s how it works.
+
+Using the Arduino IDE, we can bring up the Serial Monitor to send and receive data from the Arduino. However, if you're using Windows, this completely ties up the COM port so that it cannot be used for anything else. If your Arduino needs to communication with other piece of software on your PC, that software gets exclusive access to that port so you can no longer use the Serial Monitor. Needless to say, it would be very nice to be able to peek at real data being sent between your PC app and the Arduino. A reliable way I've found to do this in Window is using com0com and hub4com. Here's how it works.
 
 ## Note on driver types **(it is relevant!)**
 
-On Windows 8.1 64 bit (and true for 64 bit Vista and Win7 as far as I know) you have 3 types of driver&#8230;
+On Windows 8.1 64 bit (and true for 64 bit Vista and Win7 as far as I know) you have 3 types of driver...
 
-  * Signed driver &#8211; This is preferred. It is how you are used to installing and using windows devices, but the developer must pay for it to be signed. Not an option for com0com.
-  * Unsigned driver &#8211; every time you want to use the unsigned virtual COM ports, you must reboot your PC twice to get to the Allow Unsigned Driver option. It is a pain. This is true of the latest com0com 3.0.0.0. If using 64bit Windows, avoid like the plague
-  * Test Signed Driver &#8211; you can run a simple command line instruction to tell Windows to allow Test-Signed drivers. The setting persists between reboot, so it is convenient. For com0com, this is true for the signed version of 2.2.2.0
+  * Signed driver - This is preferred. It is how you are used to installing and using windows devices, but the developer must pay for it to be signed. Not an option for com0com.
+  * Unsigned driver - every time you want to use the unsigned virtual COM ports, you must reboot your PC twice to get to the Allow Unsigned Driver option. It is a pain. This is true of the latest com0com 3.0.0.0. If using 64bit Windows, avoid like the plague
+  * Test Signed Driver - you can run a simple command line instruction to tell Windows to allow Test-Signed drivers. The setting persists between reboot, so it is convenient. For com0com, this is true for the signed version of 2.2.2.0
 
 ## Installation
 
@@ -27,7 +26,7 @@ Use version 2.2.2.0 because it is signed. When installing, I unchecked the optio
 
 <div>
   <div>
-    v2.2.2.0 signed doesn&#8217;t have the graphical setupg program, so need to use setupc for everthing
+    v2.2.2.0 signed doesn't have the graphical setupg program, so need to use setupc for everthing
   </div>
   
   <div>
@@ -37,7 +36,7 @@ Use version 2.2.2.0 because it is signed. When installing, I unchecked the optio
 
 ## My Scenario
 
-I have an Arduino on COM3, and some PC Software which talks to it, called &#8220;PC Lap Counter&#8221; (PCLC) &#8211; it&#8217;s a race management solution for slotcar racing. PCLC sends race and lap info to the Arduino over the serial connection, but I want to be able to look in on this info as it is happening.
+I have an Arduino on COM3, and some PC Software which talks to it, called "PC Lap Counter" (PCLC) - it's a race management solution for slotcar racing. PCLC sends race and lap info to the Arduino over the serial connection, but I want to be able to look in on this info as it is happening.
 
 ### Step 1: Setup the Virtual COM port Pairs
 
@@ -50,11 +49,11 @@ I have an Arduino on COM3, and some PC Software which talks to it, called &#8220
   </div>
   
   <div>
-     command> <span style="font-family: 'Courier New';">install 0 PortName=COM5 &#8211;</span>
+     command> <span style="font-family: 'Courier New';">install 0 PortName=COM5 -</span>
   </div>
   
   <div>
-     command> <span style="font-family: 'Courier New';">install 1 PortName=COM6 &#8211;</span>
+     command> <span style="font-family: 'Courier New';">install 1 PortName=COM6 -</span>
   </div>
   
   <div>
@@ -94,25 +93,25 @@ I have an Arduino on COM3, and some PC Software which talks to it, called &#8220
   </div>
 </div>
 
-### Step 2: Join the COM port pairs together with hub4com&#8217;s Routes
+### Step 2: Join the COM port pairs together with hub4com's Routes
 
 <div>
   <div>
-    From std command prompt&#8230;
+    From std command prompt...
   </div>
   
   <div>
   </div>
   
   <p>
-    <span style="font-family: 'Courier New';">    hub4com &#8211;baud=9600 &#8211;octs=off &#8211;ox=on &#8211;route=0,2:All &#8211;no-default-fc-route=0,1:All \\.\CNCB0 \\.\CNCB1  \\.\COM3 </span>
+    <span style="font-family: 'Courier New';">    hub4com -baud=9600 -octs=off -ox=on -route=0,2:All -no-default-fc-route=0,1:All \\.\CNCB0 \\.\CNCB1  \\.\COM3 </span>
   </p>
   
   <div>
   </div>
   
   <div>
-    unsure what the &#8211;no-default-fc-route is all about. Try without!
+    unsure what the -no-default-fc-route is all about. Try without!
   </div>
   
   <div>
@@ -122,6 +121,5 @@ I have an Arduino on COM3, and some PC Software which talks to it, called &#8220
 
 ### Step 3: Snoop away
 
-Using Putty, create a new &#8216;Serial&#8217; connection. In the above example, it is connected to COM6 at 9600baud
+Using Putty, create a new 'Serial' connection. In the above example, it is connected to COM6 at 9600baud
 
-###

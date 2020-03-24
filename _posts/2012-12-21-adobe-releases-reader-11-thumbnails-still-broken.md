@@ -2,9 +2,9 @@
 id: 387
 title: 'Adobe Releases Reader 11  - Thumbnails Still Broken'
 date: 2012-12-21T09:19:10+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=387
 permalink: /2012/12/adobe-releases-reader-11-thumbnails-still-broken/
 categories: adobe

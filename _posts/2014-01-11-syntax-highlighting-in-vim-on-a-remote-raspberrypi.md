@@ -2,9 +2,9 @@
 id: 447
 title: Syntax highlighting in VIM on a remote RaspberryPi
 date: 2014-01-11T16:55:59+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=447
 permalink: /2014/01/syntax-highlighting-in-vim-on-a-remote-raspberrypi/
 categories:
@@ -13,13 +13,13 @@ categories:
 ---
 To VIM or not to VIM. The decades old text editor inspires avid devotion or utter hatred. I fell into the latter camp.
 
-However, now that I&#8217;m experimenting with the Raspberry Pi for some hardware projects, it&#8217;s obvious I need something with more features than the nano editor. VIM pretty universal, will run in a terminal, or a non-GUI linux, and is undeniably fast editing once the steep learning curve is overcome.
+However, now that I'm experimenting with the Raspberry Pi for some hardware projects, it's obvious I need something with more features than the nano editor. VIM pretty universal, will run in a terminal, or a non-GUI linux, and is undeniably fast editing once the steep learning curve is overcome.
 
-So here are some of notes on VIM &#8211; particularly,setting up syntax highlighting with a nice colour scheme &#8211; a first step in making VIM palatable to my GUI insticts.
+So here are some of notes on VIM - particularly,setting up syntax highlighting with a nice colour scheme - a first step in making VIM palatable to my GUI insticts.
 
 ## Colour Schemes
 
-If I&#8217;d spent half the time learning VIM as I&#8217;d spent trying to customise the colours, I&#8217;d be a VIM Jedi already.
+If I'd spent half the time learning VIM as I'd spent trying to customise the colours, I'd be a VIM Jedi already.
 
 ### Good Schemes
 
@@ -72,7 +72,7 @@ git config --global user.email "your email id"
 git config --local user.email "your email id"
 git config -l</pre>
 
-still in the ~/.vim folder&#8230;
+still in the ~/.vim folder...
 
 <pre>git add .
 git commit -m "Initial commit of my vim configuration"</pre>
@@ -88,7 +88,7 @@ git pull https://github.com/GregWoods/.vim</pre>
 
 My VIMconfiguration is now on github.
 
-### To install my Vim Config onto a new server&#8230;
+### To install my Vim Config onto a new server...
 
     cd ~
     git clone https://github.com/GregWoods/.vim.git .vim

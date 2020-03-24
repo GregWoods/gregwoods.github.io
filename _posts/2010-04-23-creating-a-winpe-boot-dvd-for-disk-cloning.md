@@ -2,13 +2,13 @@
 id: 49
 title: Creating a WinPE Boot DVD for Disk Cloning
 date: 2010-04-23T16:55:31+00:00
-author: Greg Woods
+
 excerpt: |
   <p>I recently had to rebuild my PC at work. Knowing that this takes about a week to get fully up to speed, I thought it’d be useful to image the disk once I’d got all the apps installed, so that other devs can quickly get up and running. The last time I did this was 2008 using Vista, and unfortunately, I’d lost the WinPE (Preinstall Environment) boot disk required to do the cloning.</p>
   
   <p>The process has changed in Windows 7, so here’s the steps I took to create a Windows 7 working WinPE boot disk. </p>
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=49
 permalink: /2010/04/creating-a-winpe-boot-dvd-for-disk-cloning/
 categories:
@@ -25,7 +25,7 @@ Below are the steps I took to get a useful WinPE boot disc (command prompt only)
   * copype.cmd amd64 d:\win7pe
   * `copy d:\win7pe\winpe.wim d:\win7pe\ISO\sources\boot.wim`
   * `Dism /Mount-Wim /WimFile:D:\win7pe\ISO\sources\boot.wim /index:1 /MountDir:D:\win7pe\mount`
-  * Copy ImageX to the mounted iso image (crazy that it&#8217;s not included) 
+  * Copy ImageX to the mounted iso image (crazy that it's not included) 
       * `copy "C:\Program Files\Windows AIK\Tools\amd64\imagex.exe" D:\win7pe\mount\Windows\System32`
   * Copy BootRec to the mounted iso image (the util that allows easy boot problem repairs). We must get this util by mounting a Windows 7 DVD and extracting the relevant files. 
       * `copy <windvd>\sources\boot.wim d:\win7dvd.wim`

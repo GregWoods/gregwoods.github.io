@@ -2,9 +2,9 @@
 id: 137
 title: Deserializing XML to Objects
 date: 2011-01-01T22:34:17+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=137
 permalink: /2011/01/deserializing-xml-to-objects/
 categories:
@@ -15,7 +15,7 @@ tags:
 ---
 Save the output of the [Serialize](http://gregwoods.co.uk/2011/01/serializing-objects-to-xml/) post to a file called sample.xml
 
-Paste the following C# code directly in [LINQPad](http://www.linqpad.net/), change language to &#8216;C# Program&#8217; and run it.
+Paste the following C# code directly in [LINQPad](http://www.linqpad.net/), change language to 'C# Program' and run it.
 
 <!-- code formatted by http://manoli.net/csharpformat/ -->
 

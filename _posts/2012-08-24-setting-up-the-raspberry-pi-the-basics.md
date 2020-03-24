@@ -1,10 +1,10 @@
 ---
 id: 359
-title: 'Setting up the Raspberry Pi &#8211; the basics'
+title: 'Setting up the Raspberry Pi - the basics'
 date: 2012-08-24T21:00:58+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=359
 permalink: /2012/08/setting-up-the-raspberry-pi-the-basics/
 categories:
@@ -40,7 +40,7 @@ replace
 
 <pre>iface etho0 inet dhcp</pre>
 
-with&#8230; (adjust to your environment, obviously)
+with... (adjust to your environment, obviously)
 
 <pre>iface eth0 inet static
  address 192.168.0.3
@@ -83,4 +83,4 @@ upgrade raspi config
 
 <pre>sudo shutdown -h now</pre>
 
-Use Win32DiskImager to backup the whole 4Gb SD card &#8211; though the process is faster if you do it before resizing the partition!
+Use Win32DiskImager to backup the whole 4Gb SD card - though the process is faster if you do it before resizing the partition!

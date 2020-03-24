@@ -179,9 +179,20 @@ $intro-transition: intro 0.3s both !default;
 
 
 
+/* ====== Greg's Customisations ======== */
 
+.page__taxonomy {
+   font-size: 0.75em;
 
-
+   .sep {
+     display: none;
+   }
+ 
+   strong {
+     margin-right: 10px;
+     color: $muted-text-color;
+   }
+ }
 
 
 

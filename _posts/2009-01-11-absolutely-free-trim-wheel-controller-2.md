@@ -2,13 +2,13 @@
 id: 506
 title: Absolutely Free Trim Wheel Controller
 date: 2009-01-11T11:50:28+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=506
 permalink: /2009/01/absolutely-free-trim-wheel-controller-2/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 The more I read about flying, the more important the trim wheel becomes – and as much as I’d like to have a big, fully analogue, Cessna style trim wheel under my desk, with a needle style indicator to show how much trim I’ve got applied…it’s part of my cockpit that’s a long way off. However, you can do a pretty good job with nothing more than your mouse wheel! Here’s how.
 

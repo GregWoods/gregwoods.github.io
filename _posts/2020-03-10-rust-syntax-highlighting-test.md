@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title:  "Rust syntax highlighting"
+title:  "Rust syntax highlighting test"
 date:   2020-03-10 17:58:31 +0000
 categories: rust test
 ---

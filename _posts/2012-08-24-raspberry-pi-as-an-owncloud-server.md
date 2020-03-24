@@ -2,9 +2,9 @@
 id: 355
 title: Raspberry Pi as an OwnCloud Server
 date: 2012-08-24T21:14:51+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=355
 permalink: /2012/08/raspberry-pi-as-an-owncloud-server/
 categories:
@@ -44,7 +44,7 @@ shows disk is /dev/sda and partition number is 1  (in my case)
 
 <pre>sudo nano /etc/fstab</pre>
 
-Add an entry&#8230;
+Add an entry...
 
 <pre>/dev/sda1 /media/disk ntfs permissions 0 0</pre>
 
@@ -71,8 +71,8 @@ save and quit nano
 
 ## Upgrading OwnCloud
 
-NOTE: I&#8217;ve only done this once, so I&#8217;ll ikely find a better way of doing it next time.  
-This method doesn’t preserve config &#8211; try preserving it next time.  
+NOTE: I've only done this once, so I'll ikely find a better way of doing it next time.  
+This method doesn’t preserve config - try preserving it next time.  
 Looks like it rescans the folders, possibly recreating the database  
 COnfig is in /var/www/owncloud/config  
 Maybe need to compare old and new config files after an upgrade

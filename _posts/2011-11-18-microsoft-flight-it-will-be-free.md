@@ -1,18 +1,18 @@
 ---
 id: 240
-title: 'Microsoft Flight &#8211; It will be free'
+title: 'Microsoft Flight - It will be free'
 date: 2011-11-18T22:41:42+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=240
 permalink: /2011/11/microsoft-flight-it-will-be-free/
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
-Looking throught the material at <a href="http://www.microsoft.com/games/flight/" title="http://www.microsoft.com/games/flight/" target="_blank"></a>, I&#8217;ve come to the conclusion that the next version of Microsoft&#8217;s Flight Simulator will be available for free.
+Looking throught the material at <a href="http://www.microsoft.com/games/flight/" title="http://www.microsoft.com/games/flight/" target="_blank"></a>, I've come to the conclusion that the next version of Microsoft's Flight Simulator will be available for free.
 
-Yes, I believe the &#8216;Fly for Free&#8217; tag on Webisode 3 is not just a metaphor for the feeling of flying free like a bird. The game will actually be free. It&#8217;s the perfect way for MS to snag a lot more users. The sales model has already been used in <a href="http://ageofempiresonline.com/" title="Age of Empires Online" target="_blank">Age of Empires Online</a>, where a playable, exceptionally high quality game is available for free. The free stuff has limitations, and you buy either extras or a subscription to keep receiving regular new content.
+Yes, I believe the 'Fly for Free' tag on Webisode 3 is not just a metaphor for the feeling of flying free like a bird. The game will actually be free. It's the perfect way for MS to snag a lot more users. The sales model has already been used in <a href="http://ageofempiresonline.com/" title="Age of Empires Online" target="_blank">Age of Empires Online</a>, where a playable, exceptionally high quality game is available for free. The free stuff has limitations, and you buy either extras or a subscription to keep receiving regular new content.
 
 There are three main areas that are expandable in MS Flight: Scenery, Aircraft, and Missions.
 
@@ -22,9 +22,9 @@ Spetember also contains a screenshot of the [](http://www.ifa.hawaii.edu/mko/ "M
 The October screenshots contains a picture of the Battleship Missouri in Pearl Harbour.  
 Even the videos without recognisable landmarks have a very volcanic landscape look about them. Very Hawaii!
 
-To keep the cash rolling in, I&#8217;d expect no more than three free aircraft &#8211; hopefully one will be a helicopter. I wouldn&#8217;t expect an airliner for free &#8211; you flyboys are where the big bucks are!
+To keep the cash rolling in, I'd expect no more than three free aircraft - hopefully one will be a helicopter. I wouldn't expect an airliner for free - you flyboys are where the big bucks are!
 
-The advantage to us is that more ongoing effort can go into creating awesome scenery, aircraft and missions. It may be seen as a disadvantage to the many software houses who develop add-ons. I would expect that there will always be room for quality third party enhancements, so long as Microsoft don&#8217;t lock the thing down tight.
+The advantage to us is that more ongoing effort can go into creating awesome scenery, aircraft and missions. It may be seen as a disadvantage to the many software houses who develop add-ons. I would expect that there will always be room for quality third party enhancements, so long as Microsoft don't lock the thing down tight.
 
 So, what do you think?  
 Comments are moderated, or you can tweet me for instant gratification @gregwoods

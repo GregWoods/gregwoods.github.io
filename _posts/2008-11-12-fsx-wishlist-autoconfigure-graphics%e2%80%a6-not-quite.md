@@ -2,13 +2,13 @@
 id: 165
 title: 'FSX Wishlist: Autoconfigure Graphics… Not Quite'
 date: 2008-11-12T23:54:16+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=165
 permalink: '/2008/11/fsx-wishlist-autoconfigure-graphics%e2%80%a6-not-quite/'
 categories:
-  - Flight Simulation
+  - FlightSim
 ---
 I can see me spending many hours trying to get the optimum balance between visual clarity and frames per second in FSX, especially since it eats up whatever CPU and GPU I throw at it. The trouble is, that different flights need different settings. High polygon count cities or canyons will likely need some settings turning down, or features such as shadows or water effects turning off. A slow cross country navigation route over flat countryside should be able to cope with most settings turned up.
 
@@ -18,22 +18,22 @@ What I’d like is the ability for FSX to keep track of my frame rates as I fly,
 
 So my own global preferences would be:
 
-  * 1920 x 1200: Mandatory
-  * Anti-aliasing: Mandatory (I just like it, OK)
-  * Frame rate above 15fps: Mandatory
-  * Desired Framerate: 25fps
-  * Scenery Complexity: Medium Priority
-  * Texture quality: Low priority
-  * Water Effects: Low priority
+* 1920 x 1200: Mandatory
+* Anti-aliasing: Mandatory (I just like it, OK)
+* Frame rate above 15fps: Mandatory
+* Desired Framerate: 25fps
+* Scenery Complexity: Medium Priority
+* Texture quality: Low priority
+* Water Effects: Low priority
 
 For my saved New York helicopter free flight, the additional preferences would apply
 
-  * Scenery Complexity: Very Dense or higher: Mandatory
-  * Autogen Scenery: Low Priority
+* Scenery Complexity: Very Dense or higher: Mandatory
+* Autogen Scenery: Low Priority
 
 (as for UI, the above list could be a user sortable list, with a mandatory section at the top, nice to haves in the middle, and low priority in the bottom)
 
-Notice that I’m not specifying settings, just a prioritised list of what I’d like. Also, the program should not automatically change settings based on the last time the mission was flown, but should give recommendations, which you can choose to reject &#8211; if your barrel rolls were out of character; accept and save along with the mission; or accept and save globally if you were really happy with them.
+Notice that I’m not specifying settings, just a prioritised list of what I’d like. Also, the program should not automatically change settings based on the last time the mission was flown, but should give recommendations, which you can choose to reject - if your barrel rolls were out of character; accept and save along with the mission; or accept and save globally if you were really happy with them.
 
 These recommendations will no doubt have to include lowering your expectations if you’ve dragged all the high settings into the mandatory pile!
 
