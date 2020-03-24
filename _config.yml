@@ -77,9 +77,6 @@ author:
   # Prone to ranting"
 
 
-
-  
-
   location         : "Lancashire, UK"
   # email            : "gregwoodslancs@gmail.com"
   links:
@@ -93,6 +90,12 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/gregwoods"
 
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
 
 
 
@@ -231,7 +234,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: false
       related: false
 
