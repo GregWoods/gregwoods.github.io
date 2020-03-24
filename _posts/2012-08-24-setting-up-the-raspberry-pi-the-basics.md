@@ -2,9 +2,9 @@
 id: 359
 title: 'Setting up the Raspberry Pi - the basics'
 date: 2012-08-24T21:00:58+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=359
 permalink: /2012/08/setting-up-the-raspberry-pi-the-basics/
 categories:

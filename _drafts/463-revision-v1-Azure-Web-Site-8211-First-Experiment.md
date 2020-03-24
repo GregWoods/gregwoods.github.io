@@ -2,7 +2,7 @@
 id: 468
 title: 'Azure Web Site - First Experiment'
 date: 2014-04-18T10:14:22+00:00
-author: Greg Woods
+
 layout: revision
 guid: http://gregwoods.co.uk/2014/04/463-revision-v1/
 permalink: /2014/04/463-revision-v1/

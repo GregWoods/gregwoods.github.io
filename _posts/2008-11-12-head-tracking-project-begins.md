@@ -2,9 +2,9 @@
 id: 161
 title: Head Tracking Project Begins
 date: 2008-11-12T23:00:03+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=161
 permalink: /2008/11/head-tracking-project-begins/
 categories:

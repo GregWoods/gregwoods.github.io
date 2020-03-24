@@ -2,7 +2,7 @@
 id: 200
 title: Flight Sim Joystick Config Project Update
 date: 2011-08-06T22:57:27+00:00
-author: Greg Woods
+
 layout: revision
 guid: http://gregwoods.co.uk/2011/08/159-revision-2/
 permalink: /2011/08/159-revision-2/

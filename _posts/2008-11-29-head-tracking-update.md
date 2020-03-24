@@ -2,9 +2,9 @@
 id: 175
 title: Head Tracking Update
 date: 2008-11-29T23:16:27+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=175
 permalink: /2008/11/head-tracking-update/
 categories:

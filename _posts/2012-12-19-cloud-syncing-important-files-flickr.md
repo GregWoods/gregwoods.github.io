@@ -2,9 +2,9 @@
 id: 384
 title: 'Cloud Syncing Important Files - Flickr'
 date: 2012-12-19T13:19:27+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=384
 permalink: /2012/12/cloud-syncing-important-files-flickr/
 categories:

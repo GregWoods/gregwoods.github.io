@@ -2,10 +2,10 @@
 id: 24
 title: The (Bad) Design of Everyday Things (Part 1)
 date: 2010-04-16T07:06:03+00:00
-author: Greg Woods
+
 excerpt: 'Recent trends in bathroom design. Often seen in hotels, but increasingly so in residences. Put style ahead of usability, longevity and maintainability. Here are some observations, from a recent hotel stay in Lisbon. Part 1 - the demise of the shower head rail.'
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=24
 permalink: /2010/04/the-bad-design-of-everyday-things-part-1/
 categories:

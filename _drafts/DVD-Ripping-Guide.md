@@ -2,9 +2,9 @@
 id: 375
 title: DVD Ripping Guide
 date: 2012-10-18T08:42:49+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=375
 permalink: /?p=375
 categories:

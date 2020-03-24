@@ -2,9 +2,9 @@
 id: 165
 title: 'FSX Wishlist: Autoconfigure Graphics… Not Quite'
 date: 2008-11-12T23:54:16+00:00
-author: Greg Woods
+
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=165
 permalink: '/2008/11/fsx-wishlist-autoconfigure-graphics%e2%80%a6-not-quite/'
 categories:

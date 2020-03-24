@@ -18,23 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Greg Woods - Occasionally Useful
+title: "Greg Woods - Occasionally Useful"
+#subtitle: for my benefit more than yours
+#logo: "/assets/images/88x88.png"
+
 email: gregwoodslancs@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Snippets and notes from the realms of programming, microcontrollers, 
-  computing and other hobby projects. 
-  More for my benefit than yours!
+  Personal blog of Greg Woods with an emphasis on microcontroller,
+  computing, and other hobby projects
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gregwoods
 github_username:  gregwoods
+# teaser: /assets/teaser.png
 
 # Build settings
 # theme: minima
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.19.0"
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 
@@ -55,61 +58,46 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 # Site Settings
 locale                   : "en-GB"
 title_separator          : "-"
-name                     : "XGreg WoodsX"
-# description              : "An amazing website."
+name                     : "Greg Woods"
 repository               : "gregwoods/gregwoods.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
+
+
 
 # Site Author
 author:
-  name             : "Greg Woods"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Lancashire, UK"
-  email            : "gregwoodslancs@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - # label: "Facebook"
-      # icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+  #name             : "Greg Woods"
+  #avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Personal blog with an emphasis on microcontrollers, 
+                      computing, and other hobby projects."
+  # bio              : "  I enjoy good design in all forms. 
+  # I am a big fan of microcontroller projects, 
+  # where physical design meets code.
+  # 
+  #
+  # Prone to ranting"
 
-# Site Footer
-footer:
+
+  location         : "Lancashire, UK"
+  # email            : "gregwoodslancs@gmail.com"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - # label: "Facebook"
-      # icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - # label: "GitLab"
-      # icon: "fab fa-fw fa-gitlab"
-      # url:
-    - # label: "Bitbucket"
-      # icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/gregwoodslancs/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gregwoods"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/gregwoods"
+
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light"
+    issue_term: "pathname"
+
+
 
 # Reading Files
 include:
@@ -216,16 +204,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -245,7 +233,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      read_time: false
+      comments: true
+      share: false
+      related: false
+
+      #sidebar:
+      #  - title: "Title"
+      #    image: http://placehold.it/350x250
+      #    image_alt: "image"
+      #    text: "Some text here."
+      #    
+       # - title: "Another Title"
+       #   text: "More text here."
