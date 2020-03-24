@@ -1,7 +1,7 @@
 ! TODO
 
-* Add commenting engine, and somehow re-add good comments form wordpress site.
-  Not sure this is possible unless I hardcode them, or create some gwguest account with disqus (or whoever)
+* Add commenting engine (try utterances), and somehow re-add good comments form wordpress site.
+  Probably add them as me, with a comment identifying the original poster
 
 * adjust spacing in header (main.scss probably)
 

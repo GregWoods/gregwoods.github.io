@@ -8,7 +8,7 @@ excerpt: |
   
   <p>The process has changed in Windows 7, so here’s the steps I took to create a Windows 7 working WinPE boot disk. </p>
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=49
 permalink: /2010/04/creating-a-winpe-boot-dvd-for-disk-cloning/
 categories:

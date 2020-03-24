@@ -4,7 +4,7 @@ title: Removing VirtualBox to get Windows Phone Emulator Working
 date: 2014-05-08T10:32:25+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=474
 permalink: /2014/05/removing-virtualbox-to-get-windows-phone-emulator-working/
 categories: programming sysadmin

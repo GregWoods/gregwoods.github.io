@@ -4,7 +4,7 @@ title: Using my VIM config in Windows (gVim)
 date: 2014-02-03T21:27:23+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=461
 permalink: /2014/02/using-my-vim-config-in-windows-gvim/
 categories: programming sysadmin

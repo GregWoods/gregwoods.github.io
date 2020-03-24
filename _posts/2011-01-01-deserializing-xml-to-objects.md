@@ -4,7 +4,7 @@ title: Deserializing XML to Objects
 date: 2011-01-01T22:34:17+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=137
 permalink: /2011/01/deserializing-xml-to-objects/
 categories:

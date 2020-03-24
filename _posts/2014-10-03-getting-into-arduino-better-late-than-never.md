@@ -4,7 +4,7 @@ title: 'Getting into Arduino - Better late than Never'
 date: 2014-10-03T07:58:28+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=481
 permalink: /2014/10/getting-into-arduino-better-late-than-never/
 categories: microcontroller arduino programming

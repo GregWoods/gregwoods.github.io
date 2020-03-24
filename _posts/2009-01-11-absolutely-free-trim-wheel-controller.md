@@ -4,7 +4,7 @@ title: Absolutely Free Trim Wheel Controller
 date: 2009-01-11T20:24:00+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=184
 permalink: /2009/01/absolutely-free-trim-wheel-controller/
 categories:

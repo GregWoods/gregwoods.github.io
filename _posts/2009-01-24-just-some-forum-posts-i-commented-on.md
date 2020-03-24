@@ -4,7 +4,7 @@ title: Just some forum posts I commented on
 date: 2009-01-24T17:12:39+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=188
 permalink: /2009/01/just-some-forum-posts-i-commented-on/
 categories:

@@ -4,7 +4,7 @@ title: 'PHP Coders  - Please Think More Carefully About Code Layout'
 date: 2010-05-14T08:30:12+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=75
 permalink: /2010/05/php-coders-please-think-more-carefully-about-code-layout/
 categories:

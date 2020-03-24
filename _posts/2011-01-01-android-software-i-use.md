@@ -4,7 +4,7 @@ title: Android Software I Use
 date: 2011-01-01T17:18:25+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=108
 permalink: /2011/01/android-software-i-use/
 categories:

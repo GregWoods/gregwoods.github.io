@@ -4,7 +4,7 @@ title: Android Phone Update Nov 2011
 date: 2011-12-02T15:26:16+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=250
 permalink: /2011/12/android-phone-update-nov-2011/
 categories:

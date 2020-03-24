@@ -4,7 +4,7 @@ title: Coding Katas
 date: 2010-10-07T23:35:52+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=98
 permalink: /2010/10/coding-katas/
 categories:

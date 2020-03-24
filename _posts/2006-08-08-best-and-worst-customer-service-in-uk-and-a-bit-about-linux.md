@@ -4,7 +4,7 @@ title: 'Best and Worst Customer Service in UK... (and a bit about Linux)'
 date: 2006-08-08T21:45:39+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=16
 permalink: /2006/08/best-and-worst-customer-service-in-uk-and-a-bit-about-linux/
 categories:

@@ -4,7 +4,7 @@ title: When Free Goes Bad
 date: 2013-08-31T15:43:01+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=442
 permalink: /2013/08/when-free-goes-bad/
 categories:

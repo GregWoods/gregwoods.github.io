@@ -4,7 +4,7 @@ title: The Future of Your Desktop Computer
 date: 2012-02-23T10:17:11+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=306
 permalink: /2012/02/the-future-of-your-desktop-computer/
 categories:

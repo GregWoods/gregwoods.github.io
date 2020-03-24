@@ -4,7 +4,7 @@ title: A Peek Inside a 757-200 Cockpit
 date: 2009-02-03T23:29:29+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=191
 permalink: /2009/02/a-peek-inside-a-757-200-cockpit/
 categories:

@@ -4,7 +4,7 @@ title: See How It Flies
 date: 2008-11-09T11:53:44+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=509
 permalink: /2008/11/see-how-it-flies-2/
 categories:

@@ -4,7 +4,7 @@ title: 'Adobe Reader 11 - Thumbnails Fix'
 date: 2012-12-21T09:54:26+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=393
 permalink: /2012/12/adobe-releases-reader-11-thumbnails-fix/
 categories:

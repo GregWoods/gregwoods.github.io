@@ -4,7 +4,7 @@ title: Syntax highlighting in VIM on a remote RaspberryPi
 date: 2014-01-11T16:55:59+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=447
 permalink: /2014/01/syntax-highlighting-in-vim-on-a-remote-raspberrypi/
 categories:

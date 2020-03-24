@@ -4,7 +4,7 @@ title: The (Bad) Design of Everyday Things (Part 3)
 date: 2010-04-18T00:15:43+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=221
 permalink: /2010/04/the-bad-design-of-everyday-things-part-3/
 categories:

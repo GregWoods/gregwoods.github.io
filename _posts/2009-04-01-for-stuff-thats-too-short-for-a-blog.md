@@ -4,7 +4,7 @@ title: For stuff that’s too short for a blog
 date: 2009-04-01T17:32:04+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=193
 permalink: '/2009/04/for-stuff-that%e2%80%99s-too-short-for-a-blog/'
 categories:

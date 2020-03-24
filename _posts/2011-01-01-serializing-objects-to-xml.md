@@ -4,7 +4,7 @@ title: Serializing Objects to XML
 date: 2011-01-01T22:25:17+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=122
 permalink: /2011/01/serializing-objects-to-xml/
 categories:

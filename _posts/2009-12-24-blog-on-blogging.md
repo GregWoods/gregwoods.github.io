@@ -4,7 +4,7 @@ title: Blog on Blogging
 date: 2009-12-24T21:30:35+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=11
 permalink: /2009/12/blog-on-blogging/
 categories:

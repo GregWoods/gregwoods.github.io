@@ -4,7 +4,7 @@ title: Attempting to use Wireshark to debug WebSockets traffic
 date: 2012-01-09T17:41:57+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=259
 permalink: /2012/01/attempting-to-use-wireshark-to-debug-websockets-traffic/
 categories:

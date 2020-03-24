@@ -4,7 +4,7 @@ title: Replacing My Kindle DX
 date: 2013-01-03T09:36:26+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=397
 permalink: /2013/01/replacing-my-kindle-dx/
 categories:

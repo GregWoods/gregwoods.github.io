@@ -4,7 +4,7 @@ title: Raspberry Pi as an OwnCloud Server
 date: 2012-08-24T21:14:51+00:00
 
 layout: single
-classes: wide
+
 guid: http://gregwoods.co.uk/?p=355
 permalink: /2012/08/raspberry-pi-as-an-owncloud-server/
 categories:
