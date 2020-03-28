@@ -3,11 +3,11 @@ id: 468
 title: 'Azure Web Site - First Experiment'
 date: 2014-04-18T10:14:22+00:00
 
-layout: revision
+layout: single
 guid: http://gregwoods.co.uk/2014/04/463-revision-v1/
 permalink: /2014/04/463-revision-v1/
 ---
-OK, I'm very late to the party with Windows Azure. My feeble excuse is that I've no use for it in the day job. Like I said.. feeble. Anyway, I decided I wanted to play with Azure, but desired more than 'Hello World' static web page. My WebDev skills need some serious updating, so I wanted a small application which used a database, and built using cutting edge technologies. After a not very exhaustive search, I decided John Papa's CodeCamper app would be ideal. Unfortunately, several half baked or out of date guides on getting it to run on Azure left me frustrated.  So, after about a dozen clone-modify-publish-delete cycles... I got it to work. Here are the steps.
+OK, I'm very late to the party with Windows Azure. My feeble excuse is that I've no use for it in the day job. Like I said.. feeble. Anyway, I decided I wanted to play with Azure, but desired more than 'Hello World' static web page. My WebDev skills need some serious updating, so I wanted a small application which used a database, and built using cutting edge technologies. After a not very exhaustive search, I decided John Papa's CodeCamper app would be ideal. Unfortunately, several half baked or out of date guides on getting it to run on Azure left me frustrated.  So, after about a dozen clone-modify-publish-delete cycles... I got it to work. Here are my very unpolished notes.
 
 ## Software pre-requisities
 
@@ -51,4 +51,12 @@ In order to see the sample data, we need to enable something called 'Data Migrat
 
 ## Publish It
 
-In solution explorer, right click "CodeCamper.web", click Publish... In VS2013, there is an option "Windows Azure Web Sites". Choose it, and log in to your Azure account Create a "New..." website Add a unique site name, choose your locale, and create a new Database server, filling in name and credential fields Go through each page of the wizard NOTE to self: "Execute code first migrations" is disabled. Because we haven't run it, the published app will have no data Under the Settings Tab, you will see 2 entries for database. I have no idea why, but it caused me problems. For the second one ("DefaultConnection"), uncheck "Use this connection string at runtime" WHen finished in the wizard, you'll be taken to a working web site
+In solution explorer, right click "CodeCamper.web", click Publish... 
+
+In VS2013, there is an option "Windows Azure Web Sites". Choose it, and log in to your Azure account 
+
+Create a "New..." website Add a unique site name, choose your locale, and create a new Database server, filling in name and credential fields 
+
+Go through each page of the wizard NOTE to self: "Execute code first migrations" is disabled. Because we haven't run it, the published app will have no data under the Settings Tab, you will see 2 entries for database. I have no idea why, but it caused me problems. For the second one ("DefaultConnection"), uncheck "Use this connection string at runtime" When finished in the wizard, you'll be taken to a working web site.
+
+#oldnotes
