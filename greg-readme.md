@@ -1,13 +1,9 @@
 ! TODO
 
-* Add commenting engine (try utterances), and somehow re-add good comments form wordpress site.
-  Probably add them as me, with a comment identifying the original poster
-
 * adjust spacing in header (main.scss probably)
 
 * ?is it worth tweaking the font sizes? They are generally too big. Test on mobile first.
 
-* Review drafts. publish (with old dates)
 
 * Write new material
 
