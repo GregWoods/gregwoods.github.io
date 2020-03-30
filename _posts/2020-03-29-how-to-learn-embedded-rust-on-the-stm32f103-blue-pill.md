@@ -3,6 +3,7 @@ layout: single
 title:  "How to Learn Embedded Rust on the STM32F103 Blue Pill"
 date:   2020-03-12 19:32:31 +0000
 categories: microcontroller embedded rust stm32
+excerpt: It's a long journey from Arduino to Embedded Rust. So avoid false starts, and take it slow!
 published: true
 ---
 
