@@ -16,10 +16,18 @@ You will find tutorials and blog posts telling you how easy it is to get started
 They lie!
 
 Or at least, they are written by experienced embedded developers who are simply transitioning to Rust.
-Coming from Arduino, you are used to the ease of: downloading the IDE, changing the board type, copy-pasting some demo code, change the odd pin assignment, compile and upload. Done!
+
+As an Arduino developer, you are familiar with: 
+
+* downloading the IDE
+* changing the board type
+* copy-pasting some demo code
+* change the odd pin assignment
+* compile and upload
+* Done!
 
 
-# This is not Arduino
+# This is _not_ Arduino
 
 Instead you are now faced with:
 
@@ -40,18 +48,20 @@ My initial approach to learning, which has usually served me well, was
 * Glue together the various bits of experimentation into your actual project
 
 I wasted a lot of time.
-Rust and the libraries in the ecosystem have changed in the last 3 years, and most of the blog posts were written by seasoned embedded developers who were early adopters in Rust. Although I learned something from every one of them, it was not the right apporoach.
+Rust and the libraries in the ecosystem have changed in the last 3 years, and most of the blog posts were written by seasoned embedded developers who were early adopters in Rust. Although I learned something from every one of them, it was not the right apporoach to learning a whole new language and ecosystem.
 
 
 # Take Your Time, Structure Your Learning
 
 The right way is to take your time and use the official docs - they are excellent, and shouldn't be rushed.
 I am using a multi-faceted approach.
+
 * Learn Rust on its own - with no embedded distractions 
   * [The book](https://doc.rust-lang.org/book/)
   * [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/)
   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) - because it's good to see how other people write Rust
   * [Lots more official Rust documentation](https://www.rust-lang.org/learn)
+  * Various Rust books from my [Packt Publishing subscription](https://www.packtpub.com)
 * [Get started with embedded Rust](https://rust-embedded.github.io/book/) Start at the beginning. Don't fast forward until you've completed the next step, QEMU 
   * [Use the emulator QEMU](https://rust-embedded.github.io/book/start/qemu.html) even if you never plan on using the emulator ever again, it helps you grasp the toolchain and ecosystem.
   * [Get your first blinky working in a VS Code environment](https://github.com/GregWoods/stm32-01-blink)  This is my own quickstart code. It is using a HAL, so it is skipping ahead a few steps, but I find it useful to have a ready to go starter project
