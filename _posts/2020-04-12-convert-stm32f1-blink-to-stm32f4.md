@@ -32,7 +32,7 @@ git remote remove origin
   * change ```thumbv7m-none-eabi``` to ```thumbv7em-none-eabihf``` (2 instances)
   * change ```arm-none-eabi-gdb``` to ```arm-none-eabihf-gdb``` (1 instance)
 * ```cargo.toml```
-  * change your package name from ```stm32f1-01-blink``` with ```stm32f4-01-blink```
+  * change your package name from ```stm32f1-01-blink``` to ```stm32f4-01-blink```
   * change the hal dependency to ```[dependencies.stm32f1xx-hal]```
   * and change the features list: remove ```stm32f103```, use ```stm32f411``` (or ```stm32f401`` for the cheaper verison of the black pill)
   * Add a version number to ```stm32f4xx-hal```. Currently 0.7.0 (we need this the first time, becaue we don't have a valid value in cargo.lock) Trying to build will report a list of possible versions)
@@ -43,7 +43,8 @@ git remote remove origin
 * ```.vscode/launch.json```
   * replace ```STM32F103VCT6``` with ```STM32F411CEU6```
   * Replace ```target/stm32f1x.cfg``` with ```target/stm32f4x.cfg```
-  * Replace ```STM32F103.svd``` with ```STM32F411.svd```
+  * Change the svd from ```STM32F103.svd``` to ```STM32F411.svd```
+  * Change the executable path, replace ```thumbv7m-none-eabi``` with ```thumbv7em-none-eabihf```
 * Go and download [STM32F411.svd](https://www.st.com/en/microcontrollers-microprocessors/stm32f411.html#resource)
 * ```main.rs```
   * change the use statement from ```stm32f1xx_hal``` to ```stm32f4xxx_hal```
