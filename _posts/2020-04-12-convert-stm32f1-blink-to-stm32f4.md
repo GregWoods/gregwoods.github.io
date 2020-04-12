@@ -3,8 +3,7 @@ layout: single
 title:  "Converting a Simple HAL-based STM32F1 blinky to STM32F4"
 date:   2020-04-12 13:55:31 +0000
 categories: microcontroller embedded rust stm32
-excerpt: As part of my Rust on stm32 journey, here I convert a simple HAL based blinky program from the STM32F103 (Blue Pill) 
-to the STM32F411 (Black Pill) before referring to the Reference Manual, PAC and HAL crates.
+excerpt: As part of my Rust on stm32 journey, here I convert a simple HAL based blinky program from the STM32F103 (Blue Pill) to the STM32F411 (Black Pill) before referring to the Reference Manual, PAC and HAL crates.
 published: true
 ---
 
@@ -26,7 +25,6 @@ And disconnect from the remote. We wouldn't want to accidentally push our 'F4' c
 ```shell
 git remote remove origin
 ```
-
 
 ## Change the Setup
 
@@ -175,9 +173,7 @@ Looking at the ```stm32f4xx-hal``` code, in ```timer.rs```, we find:
 
 well, this is handy - the timeout in Hertz is set in the constructor, instead of in the chained ```start_count_down```.
 
-
 Fixing that has shown another error
-
 
 ```Rust
     |
@@ -199,5 +195,3 @@ Our converted line looks like:
 We can fix a couple of compiler warnings about variables which don't need to be mutable, and everything is good.
 
 This should all now build, and the debugger can step into the code.
-
-
