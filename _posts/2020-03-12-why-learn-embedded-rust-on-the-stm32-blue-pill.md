@@ -2,7 +2,7 @@
 layout: single
 title:  "Why Learn Embedded Rust on the STM32F103 Blue Pill"
 date:   2020-03-12 19:32:31 +0000
-categories: microcontroller embedded rust stm32
+categories: microcontroller embedded rust stm32 bluepill
 published: true
 ---
 

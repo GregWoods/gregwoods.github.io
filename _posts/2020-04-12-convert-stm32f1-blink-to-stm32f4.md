@@ -2,7 +2,7 @@
 layout: single
 title:  "Converting a Simple HAL-based STM32F1 blinky to STM32F4"
 date:   2020-04-12 13:55:31 +0000
-categories: microcontroller embedded rust stm32
+categories: microcontroller embedded rust stm32 blackpill bluepill
 excerpt: As part of my Rust on stm32 journey, here I convert a simple HAL based blinky program from the STM32F103 (Blue Pill) to the STM32F411 (Black Pill) before referring to the Reference Manual, PAC and HAL crates.
 published: true
 ---
