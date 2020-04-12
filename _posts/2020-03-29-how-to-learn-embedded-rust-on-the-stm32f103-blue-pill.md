@@ -9,9 +9,9 @@ published: true
 
 ![STM32F103 Blue Pill with STLink V2 Debugger]({{ site.url }}{{ site.baseurl }}/assets/images/bluepill-with-stlink.jpg)
 
-## The water's not _that_ deep - you'll be fine!
+## The water's not _that_ deep - you'll be fine
 
-You will find tutorials and blog posts telling you how easy it is to get started in Rust on an STM32 platform. 
+You will find tutorials and blog posts telling you how easy it is to get started in Rust on an STM32 platform.
 
 They lie!
 
@@ -60,7 +60,7 @@ I am using a multi-faceted approach.
   * [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) - because it's good to see how other people write Rust
   * [Lots more official Rust documentation](https://www.rust-lang.org/learn)
   * Various Rust books from my [Packt Publishing subscription](https://www.packtpub.com)
-* [Get started with embedded Rust](https://rust-embedded.github.io/book/) Start at the beginning. Don't fast forward until you've completed the next step, QEMU 
+* [Get started with embedded Rust](https://rust-embedded.github.io/book/) Start at the beginning. Don't fast forward until you've completed the next step, QEMU
   * [Use the emulator QEMU](https://rust-embedded.github.io/book/start/qemu.html) even if you never plan on using the emulator ever again, it helps you grasp the toolchain and ecosystem.
   * [Get your first blinky working in a VS Code environment](https://github.com/GregWoods/stm32-01-blink)  This is my own quickstart code. It is using a HAL, so it is skipping ahead a few steps, but I find it useful to have a ready to go starter project
 * Learn the chip
@@ -95,11 +95,10 @@ Excerpt...
 |            | If...let  - stupid syntax, blame Swift |
 |            | while...let skipped |
 
-
 I've seen lots of more complex Learning logs online, but for me, just a running virtual bookmark is enough.
 Notes may be a page or chapter reference. Sometimes I'll note an immportant topic I convered. I'll note any code I worked on.
-My log isn't well written or consistent in its type of content. 
-I don't go into great detail about what I've learnt, it isn't a summary. It is more to track progress. 
+My log isn't well written or consistent in its type of content.
+I don't go into great detail about what I've learnt, it isn't a summary. It is more to track progress.
 
 I've found it a great help.
 

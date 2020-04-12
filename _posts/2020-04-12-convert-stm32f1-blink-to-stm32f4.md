@@ -52,7 +52,7 @@ git remote remove origin
 
 ## Change the Code
 
-Run ```cargo build``` and fix the bugs one by one referring to the hal repo: https://github.com/stm32-rs/stm32f4xx-hal
+Run ```cargo build``` and fix the bugs one by one referring to the hal repo: [github.com/stm32-rs/stm32f4xx-hal](https://github.com/stm32-rs/stm32f4xx-hal)
 
 I'm not entirely sure you'll get the errors come back in the same order as listed here! It is likely I fixed more than one at once.
 
@@ -110,10 +110,8 @@ So **I remove the line**. I will have to revisit this sometime, but not today!
 ```
 
 'freeze' doesn't appear to be a feature of RCC_CFGR registers as far as I can tell. This is something "Rusty".
-According to 'freeze' in the stm32f1xx-hal, an 'acr' parameter exists, but is not used! 
+According to 'freeze' in the stm32f1xx-hal, an 'acr' parameter exists, but is not used!
 It looks like the stm32f4 hal has simply removed this unused param, so we should be able to remove it here. Easy!
-
-
 
 ## Error 6
 
@@ -124,9 +122,6 @@ It looks like the stm32f4 hal has simply removed this unused param, so we should
 
 The syntax of 'splitting' the GPIO port remains a mystery to me for now, and passing rcc.apb2 is even more confusing. The fact that the stm32f4 doesn't require this parameter is all I need to know for now!
 
-
-
-
 ## Error 7
 
 ```Rust
@@ -135,7 +130,7 @@ The syntax of 'splitting' the GPIO port remains a mystery to me for now, and pas
      |                              ^^^^^^^^^^^^^^^^^^^^^ expected 0 parameters
 ```
 
-Examine the Reference Manual and HAL. 
+Examine the Reference Manual and HAL.
 In the **stm32f4** reference manual, there are no search results for CRL or CRH. Things are obviously done a bit differently to the **stm32f1**, where ```CRH`` is 'Port Configuration Register High'
 
 ### stm32f1
