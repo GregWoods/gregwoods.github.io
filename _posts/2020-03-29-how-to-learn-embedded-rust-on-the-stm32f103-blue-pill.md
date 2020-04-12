@@ -26,7 +26,6 @@ As an Arduino developer, you are familiar with:
 * compile and upload
 * Done!
 
-
 # This is _not_ Arduino
 
 Instead you are now faced with:
@@ -37,7 +36,6 @@ Instead you are now faced with:
 * Blog posts which are outdated, whose code won't compile anymore
 * Libraries at a much lower level than Arduino ones
 * Having to be very familiar with your chip's data sheets
-
 
 # The Wrong Way to Learn
 
