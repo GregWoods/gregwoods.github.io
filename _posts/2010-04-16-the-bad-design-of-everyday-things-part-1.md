@@ -13,7 +13,9 @@ categories:
 ---
 Recent trends in bathroom design, often seen in hotels, but increasingly so in residences, put style ahead of usability. Here are some observations, from a recent hotel stay in Lisbon. Part 1 - the demise of the shower head rail.
 
-<img class="size-full wp-image-28" style="float: right; padding-left: 1.0em;" title="Fixed position shower head" src="http://gregwoods.co.uk/wp-content/uploads/2010/04/P4032932-Custom.jpg" alt="" width="144" height="200" /> At 6'2", non-height-adjustable showers are just an abomination. It should be illegal based on some sort of heightist discrimination.
+![Fixed position shower head]({{ site.url }}{{ site.baseurl }}/assets/2010/04/P4032932-Custom.jpg)
+
+At 6'2", non-height-adjustable showers are just an abomination. It should be illegal based on some sort of heightist discrimination.
 
 Why do this? I suspect that hotels are sick of repairing flimsy 'chrome' plated plastic rails that have broken in two, pulled off the wall, or had one of the two friction holds fail, so that the shower head either slides to the bottom of the rail, or droops impotently, until turned on - then to soak the opposite wall.
 
