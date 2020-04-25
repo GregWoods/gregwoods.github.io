@@ -33,7 +33,7 @@ Applications are written with a mouse in mind. The user interface has changed on
 ##### The Users Aren't Ready
 
 <div id="attachment_339" style="width: 310px" class="wp-caption alignright">
-  <img class="size-medium wp-image-339" title="SuperCalc" src="http://gregwoods.co.uk/wp-content/uploads/2012/02/SuperCalc-300x194.gif" alt="" width="300" height="194" />
+  <img class="size-medium wp-image-339" title="SuperCalc" src="{{ site.url }}{{ site.baseurl }}/assets/2012/02/SuperCalc-300x194.gif" alt="" width="300" height="194" />
   
   <p class="wp-caption-text">
     Ditching the mouse will be harder than adopting it (image courtesy http://www.e-tech.ca)
@@ -48,7 +48,7 @@ As a result we'll likely see sluggish adoption of Windows 8, once users realise 
 ### Putting the Desktop back into Desktop Computers
 
 <div id="attachment_315" style="width: 310px" class="wp-caption alignright">
-  <a href="http://www.modern50.com/furniture/isis-industrial-cast-iron-drafting-table/"><img class="size-medium wp-image-315" title="vintage drafting table" src="http://gregwoods.co.uk/wp-content/uploads/2012/02/3131_industrial-isis-drafting-table-cast-iron4-300x200.jpg" alt="" width="300" height="200" /></a>
+  <a href="http://www.modern50.com/furniture/isis-industrial-cast-iron-drafting-table/"><img class="size-medium wp-image-315" title="vintage drafting table" src="{{ site.url }}{{ site.baseurl }}/assets/2012/02/3131_industrial-isis-drafting-table-cast-iron4-300x200.jpg" alt="" width="300" height="200" /></a>
   
   <p class="wp-caption-text">
     vintage drafting table
@@ -58,7 +58,7 @@ As a result we'll likely see sluggish adoption of Windows 8, once users realise 
 It doesn't take a lot of imagination to picture a 30" x 40" multi-touch screen in place of the top surface of a drafting table. The key feature of these tables is their adjust-ability. They can adjust for tilt. They adjust for height, often with a big enough range to allow for working sitting or <a title="Lifehacker - Why and How I Changed to a Standing Desk" href="http://lifehacker.com/5735528/why-and-how-i-switched-to-a-standing-desk" target="_blank">standing</a>. This is a screen you can rest your forearms on when required (without the touch screen going crazy).
 
 <div id="attachment_316" style="width: 310px" class="wp-caption alignright">
-  <a href="http://www.artlebedev.com/everything/optimus/popularis/" target="_blank"><img class="alignright size-medium wp-image-316" title="Optimus Popularis LCD Keyboard" src="http://gregwoods.co.uk/wp-content/uploads/2012/02/optimus-popularis-dot-300x192.jpg" alt="Optimus Popularis LCD Keyboard" width="300" height="192" /></a>
+  <a href="http://www.artlebedev.com/everything/optimus/popularis/" target="_blank"><img class="alignright size-medium wp-image-316" title="Optimus Popularis LCD Keyboard" src="{{ site.url }}{{ site.baseurl }}/assets/2012/02/optimus-popularis-dot-300x192.jpg" alt="Optimus Popularis LCD Keyboard" width="300" height="192" /></a>
   
   <p class="wp-caption-text">
     Optimus Popularis Keyboard

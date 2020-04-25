@@ -14,4 +14,4 @@ This fix still works on Adobe Reader 11 on Windows 8 64bit. I use it at work and
 
 [http://www.pretentiousname.com/adobe\_pdf\_x64_fix/](http://www.pretentiousname.com/adobe_pdf_x64_fix/ "http://www.pretentiousname.com/adobe_pdf_x64_fix/")
 
-<img class="alignright size-full wp-image-394" alt="pdf-thumnail-fix" src="http://gregwoods.co.uk/wp-content/uploads/2012/12/pdf-thumnail-fix.png" width="247" height="186" />
+<img class="alignright size-full wp-image-394" alt="pdf-thumnail-fix" src="{{ site.url }}{{ site.baseurl }}/assets/2012/12/pdf-thumnail-fix.png" width="247" height="186" />

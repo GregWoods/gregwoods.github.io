@@ -32,7 +32,7 @@ Installed in this order
 
 ## First Test
 
-<img src="http://gregwoods.co.uk/wp-content/uploads/2012/02/PICKit2Programmer100pc.png" alt="" title="PICKit2 Programmer" width="554" height="675" class="alignright size-full wp-image-294" /> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/2012/02/PICKit2Programmer100pc.png" alt="" title="PICKit2 Programmer" width="554" height="675" class="alignright size-full wp-image-294" /> 
 
 Although, I want to be writing my own code in C, to test the environment is working, I will first send a pre-compiled HEX file to the demo board, and test.
 

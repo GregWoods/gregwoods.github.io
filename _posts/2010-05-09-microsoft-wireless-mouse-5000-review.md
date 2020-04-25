@@ -10,7 +10,7 @@ permalink: /2010/05/microsoft-wireless-mouse-5000-review/
 categories:
   - Review
 ---
-[<img src="http://gregwoods.co.uk/wp-content/uploads/2010/04/dinovofornotebookscropped-300x138.jpg" alt="" title="Logitech DiNovo for Notebooks" width="300" height="138" class="alignright size-medium wp-image-61" />](http://gregwoods.co.uk/wp-content/uploads/2010/04/dinovofornotebookscropped.jpg)At home, my ancient Trust wireless rechargeable mouse died several months ago. I've since been using the mouse bundled with a Logitech DiNovo for Notebooks bundle.  
+[<img src="{{ site.url }}{{ site.baseurl }}/assets/2010/04/dinovofornotebookscropped-300x138.jpg" alt="" title="Logitech DiNovo for Notebooks" width="300" height="138" class="alignright size-medium wp-image-61" />]({{ site.url }}{{ site.baseurl }}/assets/2010/04/dinovofornotebookscropped.jpg)At home, my ancient Trust wireless rechargeable mouse died several months ago. I've since been using the mouse bundled with a Logitech DiNovo for Notebooks bundle.  
 Now I like the DiNovo for Notebooks keyboard. I have a tiny desk, I rarely use a numeric pad, so it stays in the cupboard. I like the fact it's low profile. I love that they haven't squished the vital cursor keys and home, end, pgup, pgdn and delete keys into an unusable space, as so many 'compact' keyboards do. I like the fact that without a number pad, my right hand is closer to my mouse.  
 However, the mouse is not so nice to use. It is tiny. My hands are the same size when I use a laptop as when I use a desktop, so why shrink the mouse? The DiNovo for Notebooks is a great mouse... for a child.
 
@@ -22,7 +22,7 @@ So, my requirements for a mouse are
   * Tracks well with or without a mousemat 
       * Preferably bluetooth - why have yet another USB dongle
       * Look cool (I'd like to pretend this is low-priority, but who wants an ugly piece of hardware on their desk?) </ul> 
-        [<img src="http://gregwoods.co.uk/wp-content/uploads/2010/04/Microsoft_Wireless_Mouse_5000_610x446-300x219.jpg" alt="" title="Microsoft Wireless Mouse 5000" width="300" height="219" class="alignleft size-medium wp-image-68" />](http://gregwoods.co.uk/wp-content/uploads/2010/04/Microsoft_Wireless_Mouse_5000_610x446.jpg)  
+        [<img src="{{ site.url }}{{ site.baseurl }}/assets/2010/04/Microsoft_Wireless_Mouse_5000_610x446-300x219.jpg" alt="" title="Microsoft Wireless Mouse 5000" width="300" height="219" class="alignleft size-medium wp-image-68" />]({{ site.url }}{{ site.baseurl }}/assets/2010/04/Microsoft_Wireless_Mouse_5000_610x446.jpg)  
         I've always liked Microsoft Mice, and use a Wheel Mouse Optical at work, which I paid a whole £10 for, so I didn't have to use an undersized Dell default mechanical mouse. After a browse on the Microsoft Website, I decided on the [Microsoft Wireless Mouse 5000](http://www.microsoft.com/uk/hardware/mouseandkeyboard/productdetails.aspx?pid=120), and bought it for bargain from [www.oyyy.co.uk](http://www.oyyy.co.uk/product.php/90400/microsoft-wireless-mouse-5000-usb-bluetrack).  
         The criteria it doesn't fill is bluetooth, so I now how 2x 2.4Ghz receivers. One for the Logitech keyboard, and one for the Microsoft Mouse. It appears that many of the smaller Notebook mice are bluetooth, but the desktop versions using a proprietory 2.4GHz setup. (the 2.4GHz spectrum must be pretty crowded in my office!)
         
