@@ -17,7 +17,6 @@ my familiarity with the all-important reference manuals.
 
 ```shell
 git clone https://github.com/GregWoods/stm32f1-01-blink.git stm32f4-01-blink
-git remote remove origin
 ```
 
 And disconnect from the remote. We wouldn't want to accidentally push our 'F4' code out to the 'F1' repo
