@@ -23,9 +23,9 @@ Although there has now been a marked switch in emphasis at long last to .NET cod
 
 So I need to work out some simple exercises to flex the following .NET muscles
 
-  * Linq - there are lots of ways to use it, so practice practice practice!
-  * MVC - vital for all new web UI
-  * TDD - it's still not instinctive to do it
-  * Mocking - the techniques are still vague
+* Linq - there are lots of ways to use it, so practice practice practice!
+* MVC - vital for all new web UI
+* TDD - it's still not instinctive to do it
+* Mocking - the techniques are still vague
 
 Making the time is another problem altogether!
