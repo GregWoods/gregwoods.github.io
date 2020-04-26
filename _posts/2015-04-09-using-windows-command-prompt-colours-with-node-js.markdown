@@ -14,7 +14,7 @@ I have happily used the Windows command prompt for years. As a matter of habit, 
 
 As you can see, some of the text from the output of the REPL session has disappearred into the background.
 
-![My incorrect idea of how the colours dialog works]({{ site.url }}{{ site.baseurl }}/assets/2015/04cmd-prompt-colors-dialog-bad-annotated.png)
+![My incorrect idea of how the colours dialog works]({{ site.url }}{{ site.baseurl }}/assets/2015/04/cmd-prompt-colors-dialog-bad-annotated.png)
 
 Above: My incorrect idea of how the colours dialog works
 
