@@ -45,8 +45,9 @@ cd ~
 mkdir .vim
 cd .vim
 mkdir colors
-wget <a href="https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim">https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
-</a>vim
+wget https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
+vim
+
 :e $HOME/.vimrc
 i     (insert mode)
   
