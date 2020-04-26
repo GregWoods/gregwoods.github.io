@@ -15,9 +15,11 @@ My .vimrc file, created for VIM on the RaspberryPi, is also usable on gVim in Wi
 
 Open an elevated command prompt (run as administrator)
 
-<pre>cd \users\greg
+```sh
+cd \users\greg
 git clone https://github.com/GregWoods/.vim.git vimfiles
-mklink _vimrc vimfiles\.vimrc</pre>
+mklink _vimrc vimfiles\.vimrc
+```
 
 Job done!
 
@@ -31,4 +33,6 @@ Variable: $HOME Value: %USERPROFILE%
 Requires log off / login  
 Then create the link (it's a hardlink rather than the softlink which mklink creates. For explanation, see <a title="overview to understanding hard links, junction points and symbolic links in windows" href="http://comptb.cects.com/overview-to-understanding-hard-links-junction-points-and-symbolic-links-in-windows/" target="_blank">overview-to-understanding-hard-links-junction-points-and-symbolic-links-in-windows</a> )
 
-<pre>fsutil hardlinks create _vimrc vimfiles\.vimrc</pre>
+```sh
+fsutil hardlinks create _vimrc vimfiles\.vimrc
+```
