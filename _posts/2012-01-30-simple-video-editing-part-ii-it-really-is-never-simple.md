@@ -25,5 +25,3 @@ So, I am reluctantly going to re-encode clips I want to use. This is a problem b
 Currently I'm converting using the SourceForge hosted project: [MP4Cam2AVI Easy Converter](http://sourceforge.net/projects/mp4cam2avi/?source=directory "Find out more about MP4Cam2AVI Easy Converter") - which I suspect was born from someone else's frustrations at trying to accomplish the same thing.
 
 I will re-encode using "XVid MPEG-4 TV HD 16:9", and PCM (uncompressed audio)
-
-I'll report on results.

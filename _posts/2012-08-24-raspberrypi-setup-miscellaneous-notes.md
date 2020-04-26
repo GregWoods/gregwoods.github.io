@@ -13,11 +13,10 @@ categories:
 ---
 For basic setup, see [http://gregwoods.co.uk/2012/08/setting-up-the-raspberry-pi-the-basics/](http://gregwoods.co.uk/2012/08/setting-up-the-raspberry-pi-the-basics/ "http://gregwoods.co.uk/2012/08/setting-up-the-raspberry-pi-the-basics/")
 
-## 
 
 ## Remote Access - Graphical
 
-<pre><strong id="internal-source-marker_0.667615579906851"> </strong>sudo apt-get install xrdp</pre>
+```sudo apt-get install xrdp```
 
 The remote desktop to that IP address. Full LXDE desktop shown, even though ‘startx’ was never run on the Pi itself. The remote desktop operates at the resolution of the connecting computer.
 
@@ -31,5 +30,7 @@ already enabled in Wheezy
 
 ## Console Font Sizes
 
-<pre>sudo dpkg-reconfigure console-setup
-sudo reboot</pre>
+```
+sudo dpkg-reconfigure console-setup
+sudo reboot
+```

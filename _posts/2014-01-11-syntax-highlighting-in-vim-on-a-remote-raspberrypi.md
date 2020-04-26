@@ -39,7 +39,8 @@ You will need to recreate any existing sessions to get the new defaults
 
 Connect and login using Putty. Your shell session will already have the new colour scheme
 
-<pre>sudo apt-get install vim
+```sh
+sudo apt-get install vim
 cd ~
 mkdir .vim
 cd .vim
@@ -47,53 +48,53 @@ mkdir colors
 wget <a href="https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim">https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
 </a>vim
 :e $HOME/.vimrc
-i     (insert mode)</pre>
-
-<pre style="padding-left: 30px;"><span style="font-family: Consolas, Monaco, monospace; font-size: 12px; line-height: 18px;">syntax enable
-</span>set background=dark
-colorscheme solarized</pre>
-
-<pre>:wq!      (save and close)</pre>
+i     (insert mode)
+  
+  syntax enable
+  set background=dark
+  colorscheme solarized</pre>
+  
+:wq!      (save and close)
+```
 
 Now to add my VIM config to source control, we copy it to the .vim folder and symlink it first
 
-<pre>cd ~
+```sh
+cd ~
 mv .vimrc .vim/.vimrc
 ln -s .vim/.vimrc .vimrc
 cd .vim
 git init
 ls -la         (shows hidden files)
+```
 
-Configure GIT</pre>
+### Configure GIT
 
-<pre>git config --global user.name "your full name"
+```sh
+git config --global user.name "your full name"
 git config --local user.name "your full name"
 git config --global user.email "your email id"
 git config --local user.email "your email id"
-git config -l</pre>
+git config -l
+```
 
 still in the ~/.vim folder...
 
-<pre>git add .
-git commit -m "Initial commit of my vim configuration"</pre>
-
-<pre>git remote add origin https://github.com/GregWoods/.vim
-
+```sh
+git add .
+git commit -m "Initial commit of my vim configuration"
+git remote add origin https://github.com/GregWoods/.vim
 //had to do a git pull first
-git pull https://github.com/GregWoods/.vim</pre>
-
-<pre>git push origin master</pre>
-
-&nbsp;
+git pull https://github.com/GregWoods/.vim
+git push origin master
+```
 
 My VIMconfiguration is now on github.
 
 ### To install my Vim Config onto a new server...
 
-    cd ~
-    git clone https://github.com/GregWoods/.vim.git .vim
-    ln -s .vim/.vimrc .vimrc
-
-     
-
-&nbsp;
+```sh
+cd ~
+git clone https://github.com/GregWoods/.vim.git .vim
+ln -s .vim/.vimrc .vimrc
+```
