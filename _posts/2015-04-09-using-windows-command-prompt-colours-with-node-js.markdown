@@ -8,14 +8,13 @@ categories: windows shell
 
 > **UPDATE:** 5 years after the original post... Microsoft has improved the UI for the command prompt colours... by introducing the new "Windows Terminal". It is in the Microsoft Store. Go and get it. It has json based config just like VS Code, easy colour schemes, and support for various shells, including command prompt, Powershell, Powershell Core, and Linux through Windows Subsystem for Linux (WSL)
 
-
 I have happily used the Windows command prompt for years. As a matter of habit, I always change the font to Consolas 14pt and background colour to something a little less harsh than #000000. Usually a muted dark blue or green. When doing so, I’ve simply changed any one of the colour swatches to my desired colour and assign it to the “Screen Background” radio button. This seems to be how the dialog was designed, and it works fine when using standard windows command prompt. However, some recent tinkering with Node.Js made it all go horribly wrong.
 
-![node in windows command prompt, with invisible text](/assets/node-prompt-gone-wrong.png)
+![node in windows command prompt, with invisible text]({{ site.url }}{{ site.baseurl }}/assets/node-prompt-gone-wrong.png)
 
 As you can see, some of the text from the output of the REPL session has disappearred into the background.
 
-![My incorrect idea of how the colours dialog works](/assets/cmd-prompt-colors-dialog-bad-annotated.png)
+![My incorrect idea of how the colours dialog works]({{ site.url }}{{ site.baseurl }}/assets/cmd-prompt-colors-dialog-bad-annotated.png)
 
 Above: My incorrect idea of how the colours dialog works
 
@@ -33,11 +32,9 @@ This mental model works fine if you are only every using ‘DOS’ commands. But
 
 It turns out that windows command prompt has a lot more in common with Linux than I ever thought. It seems that these 16 colour chips correspond with the ANSI colours used by all terminals. They are not simply a colour palette to pick and choose from.
 
-![A better mental model of how this dialog works](/assets/cmd-prompt-colors-dialog-annotated1.png)
+![A better mental model of how this dialog works]({{ site.url }}{{ site.baseurl }}/assets/cmd-prompt-colors-dialog-annotated1.png)
 
 Above: A better mental model of how this dialog works
- 
- 
 
 Therefore the correct way to use this dialog appears to be
 
@@ -63,18 +60,3 @@ Here is my colour scheme after 10 minutes of playing around. They are shown in t
 I’ve ignored the other 8 colours, I’ve yet to see them used.
 
 If nothing else, this post is a reminder to me how this obscure dialog works.  I suspect this dialog has been around since Windows 3! It would be a good exercise in UI Design to re-fashion it to better fit how it works.
-
-
-
-
-
-
-
-
-
-
-
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
