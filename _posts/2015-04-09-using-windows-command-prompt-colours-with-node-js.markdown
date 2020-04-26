@@ -10,11 +10,11 @@ categories: windows shell
 
 I have happily used the Windows command prompt for years. As a matter of habit, I always change the font to Consolas 14pt and background colour to something a little less harsh than #000000. Usually a muted dark blue or green. When doing so, I’ve simply changed any one of the colour swatches to my desired colour and assign it to the “Screen Background” radio button. This seems to be how the dialog was designed, and it works fine when using standard windows command prompt. However, some recent tinkering with Node.Js made it all go horribly wrong.
 
-![node in windows command prompt, with invisible text]({{ site.url }}{{ site.baseurl }}/assets/node-prompt-gone-wrong.png)
+![node in windows command prompt, with invisible text]({{ site.url }}{{ site.baseurl }}/assets/2015/04/node-prompt-gone-wrong.png)
 
 As you can see, some of the text from the output of the REPL session has disappearred into the background.
 
-![My incorrect idea of how the colours dialog works]({{ site.url }}{{ site.baseurl }}/assets/cmd-prompt-colors-dialog-bad-annotated.png)
+![My incorrect idea of how the colours dialog works]({{ site.url }}{{ site.baseurl }}/assets/2015/04cmd-prompt-colors-dialog-bad-annotated.png)
 
 Above: My incorrect idea of how the colours dialog works
 
@@ -32,7 +32,7 @@ This mental model works fine if you are only every using ‘DOS’ commands. But
 
 It turns out that windows command prompt has a lot more in common with Linux than I ever thought. It seems that these 16 colour chips correspond with the ANSI colours used by all terminals. They are not simply a colour palette to pick and choose from.
 
-![A better mental model of how this dialog works]({{ site.url }}{{ site.baseurl }}/assets/cmd-prompt-colors-dialog-annotated1.png)
+![A better mental model of how this dialog works]({{ site.url }}{{ site.baseurl }}/assets/2015/04/cmd-prompt-colors-dialog-annotated1.png)
 
 Above: A better mental model of how this dialog works
 
