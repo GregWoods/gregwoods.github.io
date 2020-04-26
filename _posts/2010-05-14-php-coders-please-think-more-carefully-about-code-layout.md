@@ -17,28 +17,30 @@ I've only recently started to use PHP again, but have coded a lot of classic ASP
 
 My second gripe is around indenting, and placement of php tags.  Here's a php code fragment from the WordPress Codex:
 
-<pre>&lt;?php $my_query = new WP_Query('category_name=featured&#038;posts_per_page=1');
+```php
+<?php $my_query = new WP_Query('category_name=featured&#038;posts_per_page=1');
 while ($my_query-&gt;have_posts()) : $my_query-&gt;the_post();
-    $do_not_duplicate = $post-&gt;ID; ?&gt;
+    $do_not_duplicate = $post-&gt;ID; ?>
 Html block here
-&lt;?php endwhile; ?&gt;
-</pre>
+<?php endwhile; ?>
+```
 
 I find the above pretty nasty. The sample below is my preferred formatting. I have:
 
   1. Given priority to the server-side code for indenting. Everything between the while and endwhile is indented one tab, even the code outside of the php tags
-  2. Made it clear when we switch between server-side and client-side code, but putting the opening and closing php tags on their own line. It will be easier to read context switches between server-side and html code
+  2. Made it clear when we switch between server-side and client-side code. By putting the opening and closing php tags on their own line. It will be easier to read context switches between server-side and html code.
 
-<pre>&lt;?php 
+```php
+<?php
 $my_query = new WP_Query('category_name=featured&posts_per_page=1');
 while ($my_query-&gt;have_posts()) :
     $my_query-&gt;the_post();
     $do_not_duplicate = $post-&gt;ID;
-    ?&gt;
+    ?>
     Html block here
-    &lt;?php
+    <?php
 endwhile;
-?&gt;
-</pre>
+?>
+```
 
 My formatting may be more lines of code, but it is easier to see what is going on.
