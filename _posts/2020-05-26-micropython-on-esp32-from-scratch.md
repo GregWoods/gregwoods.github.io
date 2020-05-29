@@ -4,7 +4,8 @@ title:  "MicroPython on ESP32 from scratch"
 date:   2020-05-26 13:55:31 +0000
 categories: microcontroller embedded micropython esp32
 excerpt: How to get microPython onto an ESP32, how to connect to it and write code. Some example code includes displaying text on an onboard OLED. I've tried to make this page completely noob friendly, and focused on Windows (the official docs are Linux-biased)
-published: false
+permalink: 2020-05-26-micropython-on-esp32-from-scratch
+published: true
 ---
 
 Notes: tidy up later
