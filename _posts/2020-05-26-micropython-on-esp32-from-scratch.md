@@ -16,14 +16,14 @@ This is a little diversion from Rust on the STM32. My nephew has been doing some
 ## Setting up your host PC 
 
 * **Essential:** Install [Python 3.x 64bit Windows](https://www.python.org/downloads/windows/) - you're host PC uses various Python tools to flash microPython to the board, upload your code, and perform other tasks
-* **Recommended:** [Install Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). You need a way to communicate with serial ports. Putty is one way to do it, and is commonly used for a variety of tasks, so it is worth getting used to its quirky UI.  Use the 64bit MSI ("Windows Installer")
-* **Recommended:** [Visual Studio Code](https://code.visualstudio.com/) Because you don't want to be writing code in teh REPL, or Notepad!
-* **Recommended** [Windows Terminal](https://aka.ms/terminal). Because it is a lot more user friendly than the 30 year old Command Prompt.
+* **Recommended:** Install [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). You need a way to communicate with serial ports. Putty is one way to do it, and is commonly used for a variety of tasks, so it is worth getting used to its quirky UI.  Use the 64bit MSI ("Windows Installer")
+* **Recommended:** Install [Visual Studio Code](https://code.visualstudio.com/) Because you don't want to be writing code in the REPL, or Notepad!
+* **Recommended** Install [Windows Terminal](https://aka.ms/terminal). Because it is a lot more user friendly than the 30 year old Command Prompt.
 * **Optional:** Python Virtual Environments are very useful, as they allow you to create independent environments for different projects, each with their own sets of packages. Read about [Virtual Environments here](https://docs.python.org/3/tutorial/venv.html). I'll be using venv in this tutorial.
 
 ## Be Organised!
 
-Don't just dump your code anywhere, make a decision! For me, this is **C:\Users\Gregw\MicroPython**
+Don't just dump your code anywhere, make a decision about where to put it! For me, this is **C:\Users\Gregw\MicroPython**
 
 From Windows Terminal, or Command Prompt
 
@@ -42,6 +42,7 @@ python -m venv esp32-blinky
 esp32-blinky\Scripts\activate.bat
 ```
 * or, simply make a directory without a venv
+
 ```dos
 mkdir esp32-blinky
 ```
@@ -58,7 +59,7 @@ pip install esptool adafruit-ampy rshell mpfshell-lite
 code esp32-blinky
 ```
 
-You can now use the terminal built into VS-Code ```Ctrl-'```, if you like! 
+You can now use the terminal built into VS-Code ```Ctrl+'```, if you like! 
 
 ## Getting MicroPython on the ESP32
 
@@ -84,7 +85,7 @@ Reference (and additonal info if things go wrong): [Getting started with MicroPy
 
 ## Using it
 
-After initial setup, the only way to get a REPL prompt is over a serial port. This is where Putty comes in. Putty can be used for various types of connection to remote devices and servers, but we are just interested in the simple case of a Serial connection.
+After initial setup, the only way to get a REPL prompt is over a serial port. This is where **Putty** comes in. Putty can be used for various types of connection to remote devices and servers, but we are just interested in the simple case of a **Serial** connection.
 1. Select the **Serial** radio button
 1. Change **Serial line** to that used by your ESP32 board. Mine was COM3
 1. Change the Speed (also known as baud rate) to 115200
@@ -120,6 +121,8 @@ To list, upload or download files - use **ampy**
 Once again, holding down the **boot** button maybe needed, especially on first run.
 
 ## Try out ampy
+
+Note: that if you open a new command prompt, or a new terminal in VS Code, these commands will not work if you used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat`` in your project folder.
 
 List files ```ampy --port COM3 --baud 115200 ls```
 Download a file ```ampy --port COM3 --baud 115200 get boot.py```
