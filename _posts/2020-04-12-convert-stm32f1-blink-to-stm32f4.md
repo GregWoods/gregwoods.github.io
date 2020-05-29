@@ -19,10 +19,12 @@ my familiarity with the all-important reference manuals.
 git clone https://github.com/GregWoods/stm32f1-01-blink.git stm32f4-01-blink
 ```
 
-And disconnect from the remote. We wouldn't want to accidentally push our 'F4' code out to the 'F1' repo
+* Create the new repo in github
+* And follow the instructions on the new repo default page, to connect your new remote to your local repo
 
 ```shell
-git remote remove origin
+git remote add origin https://github.com/GregWoods/stm32f4-01-blink.git
+git push -u origin master
 ```
 
 ## Change the Setup
