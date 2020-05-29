@@ -1,3 +1,7 @@
+Use WSL to launch VS Code and open this folder
+```bundle exec jekyll serve --unpublished```  to run it
+
+
 ! TODO
 
 * adjust spacing in header (main.scss probably)
