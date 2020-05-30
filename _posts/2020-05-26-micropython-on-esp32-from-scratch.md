@@ -5,11 +5,12 @@ date:   2020-05-26 13:55:31 +0000
 categories: microcontroller embedded micropython esp32
 excerpt: How to get microPython onto an ESP32, how to connect to it and write code. Some example code includes displaying text on an onboard OLED. I've tried to make this page completely noob friendly, and focused on Windows (the official docs are Linux-biased)
 permalink: 2020-05-26-micropython-on-esp32-from-scratch
-published: false
+published: true
 ---
 
-Notes: tidy up later
-Add Image later. iNCLUDE MICROPYTHON LOGO
+Notes: WORK IN PROGRESS: tidy up later
+ToDO: Add header image with board and micropython logo
+
 
 This is a little diversion from Rust on the STM32. My nephew has been doing some Python at school, and also had a project in mind for an ESP8266/ESP32. I had a couple of spares, so it's time to flash MicroPython onto them and have a play.
 
@@ -135,7 +136,7 @@ Upload a file to the board ```ampy --port COM3 --baud 115200 put boot.py```
 ### rshell commands
 
 ```connect serial com3```
-## DOESN'T WORK!
+## DOESN'T WORK! INVESTIGATE!
 
 
 
