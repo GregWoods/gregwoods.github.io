@@ -123,7 +123,7 @@ Once again, holding down the **boot** button maybe needed, especially on first r
 
 ## Try out ampy
 
-Note: that if you open a **new** command prompt, or a **new** terminal in VS Code, the following python commands will not work if you initially used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat``` in your project folder.
+> **Note:** that if you open a **new** command prompt, or a **new** terminal in VS Code, the following python commands will not work if you initially used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat``` in your project folder.
 
 List files 
 ```ampy --port COM3 --baud 115200 ls```
@@ -134,7 +134,10 @@ Upload a file to the board
 
 ## Try out rshell
 
-```rshell``` Nothing much seems to happen, but your command prompt has changed colour. You can now run rshell commands, e.g.
+```rshell``` 
+
+Nothing much seems to happen, but your command prompt has changed colour. You can now run rshell commands, e.g.
+
 ```
 help
 help [command]
