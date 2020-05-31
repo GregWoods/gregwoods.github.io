@@ -8,11 +8,17 @@ permalink: 2020-05-26-micropython-on-esp32-from-scratch
 published: true
 ---
 
+> **UPDATE:** I would not advise following this blog post at the moment. It is very much a work in progress. I am still trying to figure out the best way to get a reliable, easy to use development environment set up.
+
+
 * Notes: WORK IN PROGRESS: tidy up later
 * ToDO: Add header image with board and micropython logo
 
 
 This is a little diversion from Rust on the STM32. My nephew has been doing some Python at school, and also had a project in mind for an ESP8266/ESP32. I had a couple of spares, so it's time to flash MicroPython onto them and have a play.
+
+It is worth noting that developing using microPython on a board like the ESP32 is not a well polished experience. It may be worth going for a more expensive board that was built with microPython in mind, or going for the even more polished [CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/what-is-circuitpython).
+
 
 ## Setting up your host PC 
 
@@ -100,6 +106,46 @@ You can mess around in REPL getting WiFi to work, and this is good for testing s
 
 The tutorial at [docs.micropython.org](https://docs.micropython.org/en/latest/esp8266) are excellent. From this point I would skip straight to [tutorial/network_basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html) to learn how to do stuff with Wifi. They do everything in REPL, but if you want something to happen at every boot of the device, you should add it to **boot.py**
 
+
+To list, upload or download files - use **ampy**
+
+## Try out ampy
+
+> **Note:** that if you open a **new** command prompt, or a **new** terminal in VS Code, the following python commands will not work if you initially used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat``` in your project folder.
+
+> **Error**. If you get the following error: ```ampy. pyboard. ... PyboardError: could not enter raw repl```, it means your board is running a script rather than the REPL prompt. Press the boot button, and try again.
+
+
+## List, Download and Upload Files
+
+I recommend making sure you can connect to the **REPL** prompt with **Putty** before running the following commands. If ampy can't connect to the REPL, it tends to just hang forever.
+
+```python
+ampy --port COM3 --baud 115200 ls
+ampy --port COM3 --baud 115200 get boot.py
+ampy --port COM3 --baud 115200 put boot.py
+```
+
+When you "get" a file, it is output to the console. To turn this into a local file, you will need to "pipe" it to a file
+
+```python
+ampy --port COM3 --baud 115200 get boot.py > boot.py
+```
+
+The initial boot.py (note: it is all commented out)
+
+```python
+# This file is executed on every boot (including wake-boot from deepsleep)
+#import esp
+#esp.osdebug(None)
+#import webrepl
+#webrepl.start()
+```
+
+uncomment the last 4 lines, and reupload, or just run them one-by-one in the REPL prompt, to enable webREPL.
+
+## WiFi: Connecting the ESP32 to your router
+
 Here is a sample boot.py to connect to your home WiFi. You will need to change the SSID and password before uploading
 
 ```python
@@ -116,25 +162,16 @@ def do_connect():
 
 do_connect()
 ```
+```
 
-To list, upload or download files - use **ampy**
+The commented out code allows you to start a WebREPL session. I find WebREPL more useful than ampy for uploading and downloading files. But eventually, we will attempt to get a slick plugin for VS Code which takes some of the pain out of uploading new files.
 
-Once again, holding down the **boot** button maybe needed, especially on first run.
-
-## Try out ampy
-
-> **Note:** that if you open a **new** command prompt, or a **new** terminal in VS Code, the following python commands will not work if you initially used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat``` in your project folder.
-
-List files 
-```ampy --port COM3 --baud 115200 ls```
-Download a file 
-```ampy --port COM3 --baud 115200 get boot.py```
-Upload a file to the board 
-```ampy --port COM3 --baud 115200 put boot.py```
 
 ## Try out rshell
 
-```rshell``` 
+```python
+rshell
+``` 
 
 Nothing much seems to happen, but your command prompt has changed colour. You can now run rshell commands, e.g.
 
@@ -150,6 +187,9 @@ connect serial com3
 
 ## References
 
+* [**READ THIS NEXT!** VS Code and PyMakr](https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide)
+* [Micropython, ESP8266 and VSCode](https://www.agilepartner.net/en/micropython-esp8266-and-vscode/)
+* [VS Code, more autocomplete info](https://lemariva.com/blog/2019/08/micropython-vsc-ide-intellisense)
 * [Installing ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 * [Getting a MicroPython REPL prompt - official docs](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
 * [Running MicroPython on the ESP8266 - a useful guide](https://pythonforundergradengineers.com/upload-py-files-to-esp8266-running-micropython.html)
