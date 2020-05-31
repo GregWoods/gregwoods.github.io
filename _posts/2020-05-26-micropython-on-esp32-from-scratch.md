@@ -8,8 +8,8 @@ permalink: 2020-05-26-micropython-on-esp32-from-scratch
 published: true
 ---
 
-Notes: WORK IN PROGRESS: tidy up later
-ToDO: Add header image with board and micropython logo
+* Notes: WORK IN PROGRESS: tidy up later
+* ToDO: Add header image with board and micropython logo
 
 
 This is a little diversion from Rust on the STM32. My nephew has been doing some Python at school, and also had a project in mind for an ESP8266/ESP32. I had a couple of spares, so it's time to flash MicroPython onto them and have a play.
@@ -123,26 +123,31 @@ Once again, holding down the **boot** button maybe needed, especially on first r
 
 ## Try out ampy
 
-Note: that if you open a new command prompt, or a new terminal in VS Code, these commands will not work if you used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat`` in your project folder.
+Note: that if you open a **new** command prompt, or a **new** terminal in VS Code, the following python commands will not work if you initially used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat``` in your project folder.
 
-List files ```ampy --port COM3 --baud 115200 ls```
-Download a file ```ampy --port COM3 --baud 115200 get boot.py```
-Upload a file to the board ```ampy --port COM3 --baud 115200 put boot.py```
+List files 
+```ampy --port COM3 --baud 115200 ls```
+Download a file 
+```ampy --port COM3 --baud 115200 get boot.py```
+Upload a file to the board 
+```ampy --port COM3 --baud 115200 put boot.py```
 
 ## Try out rshell
 
-```rshell`` Nothing much seems to happen, but your command prompt has changed colour. You can now run rshell commands, or ```help``` to list commands, or ```help [command]``` to show how to use a command.
+```rshell``` Nothing much seems to happen, but your command prompt has changed colour. You can now run rshell commands, e.g.
+```
+help
+help [command]
+connect serial com3
+```
 
-### rshell commands
-
-```connect serial com3```
-## DOESN'T WORK! INVESTIGATE!
+## rshell connect DOESN'T WORK! INVESTIGATE!
 
 
 
 ## References
 
-** [Installing ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
+* [Installing ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 * [Getting a MicroPython REPL prompt - official docs](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
 * [Running MicroPython on the ESP8266 - a useful guide](https://pythonforundergradengineers.com/upload-py-files-to-esp8266-running-micropython.html)
 
