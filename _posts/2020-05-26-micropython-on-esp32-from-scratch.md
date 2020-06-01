@@ -107,100 +107,30 @@ You can mess around in REPL getting WiFi to work, and this is good for testing s
 The tutorial at [docs.micropython.org](https://docs.micropython.org/en/latest/esp8266) are excellent. From this point I would skip straight to [tutorial/network_basics](https://docs.micropython.org/en/latest/esp8266/tutorial/network_basics.html) to learn how to do stuff with Wifi. They do everything in REPL, but if you want something to happen at every boot of the device, you should add it to **boot.py**
 
 
-To list, upload or download files - use **ampy**
 
-## Try out ampy
+## Setting up your VS Code Development Environment
 
-> **Note:** that if you open a **new** command prompt, or a **new** terminal in VS Code, the following python commands will not work if you initially used a python virtual environment. In this case you need to 'activate' that venv again with ```scripts\activate.bat``` in your project folder.
+Getting to a REPL prompt is a good start, but you need to be able to write code in a capable editor, with intellisense, or context-aware auto-completion, because you're 50x more production when you can type a dot after the name of a type, and your editor suggests all applicable properties and methods on that type. Without this, you'll be spending over 99% of your time trawling documentation. 
 
-> **Error**. If you get the following error: ```ampy. pyboard. ... PyboardError: could not enter raw repl```, it means your board is running a script rather than the REPL prompt. Press the boot button, and try again.
+I've tried out VS Code extensions for ```ampy```, ```rshell``` and the ```MicroPython IDE```, with varied degrees of success (tip: don't bother even trying the MicroPyhton IDE, it does nothing, at least not on Windows).
 
+The Best Option I can find...
 
-## List, Download and Upload Files
+* micropy-cli
+* Pymakr
 
-I recommend making sure you can connect to the **REPL** prompt with **Putty** before running the following commands. If ampy can't connect to the REPL, it tends to just hang forever.
+And a great guide to get you started is here... [Setup **microPy** and **PyMakr** in VS Code](https://lemariva.com/blog/2019/08/micropython-vsc-ide-intellisense)
 
-```python
-ampy --port COM3 --baud 115200 ls
-ampy --port COM3 --baud 115200 get boot.py
-ampy --port COM3 --baud 115200 put boot.py
-```
-
-When you "get" a file, it is output to the console. To turn this into a local file, you will need to "pipe" it to a file
-
-```python
-ampy --port COM3 --baud 115200 get boot.py > boot.py
-```
-
-The initial boot.py (note: it is all commented out)
-
-```python
-# This file is executed on every boot (including wake-boot from deepsleep)
-#import esp
-#esp.osdebug(None)
-#import webrepl
-#webrepl.start()
-```
-
-uncomment the last 4 lines, and reupload, or just run them one-by-one in the REPL prompt, to enable webREPL.
-
-## WiFi: Connecting the ESP32 to your router
-
-Here is a sample boot.py to connect to your home WiFi. You will need to change the SSID and password before uploading
-
-```python
-def do_connect():
-    import network
-    sta_if = network.WLAN(network.STA_IF)
-    if not sta_if.isconnected():
-        print('connecting to network...')
-        sta_if.active(True)
-        sta_if.connect('<essid>', '<password>')
-        while not sta_if.isconnected():
-            pass
-    print('network config:', sta_if.ifconfig())
-
-do_connect()
-```
-```
-
-The commented out code allows you to start a WebREPL session. I find WebREPL more useful than ampy for uploading and downloading files. But eventually, we will attempt to get a slick plugin for VS Code which takes some of the pain out of uploading new files.
-
-
-## Try out rshell
-
-```python
-rshell
-``` 
-
-Nothing much seems to happen, but your command prompt has changed colour. You can now run rshell commands, e.g.
-
-```
-help
-help [command]
-connect serial com3
-```
-
-## rshell connect DOESN'T WORK! INVESTIGATE!
+**TODO:** Add my own 2020 version of the above guide
 
 
 
-## References
+## Other References
 
-* [**READ THIS NEXT!** VS Code and PyMakr](https://lemariva.com/blog/2018/12/micropython-visual-studio-code-as-ide)
 * [Micropython, ESP8266 and VSCode](https://www.agilepartner.net/en/micropython-esp8266-and-vscode/)
-* [VS Code, more autocomplete info](https://lemariva.com/blog/2019/08/micropython-vsc-ide-intellisense)
-* [Installing ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 * [Getting a MicroPython REPL prompt - official docs](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html)
 * [Running MicroPython on the ESP8266 - a useful guide](https://pythonforundergradengineers.com/upload-py-files-to-esp8266-running-micropython.html)
 
-
-
-
-
-
-
-## Controlling the Onboard Display
 
 
 
