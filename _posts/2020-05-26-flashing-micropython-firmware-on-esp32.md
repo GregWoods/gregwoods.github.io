@@ -43,7 +43,7 @@ It is worth noting that using microPython on a board like the ESP32 is not a wel
     * Hold down the **Boot** button on the ESP32 board as you hit *Enter* on the following command, and keep it pressed until you see something useful happening. This may or may not be needed for the next step as well.
 
 ```dos
-esptool.py --port COM3 erase_flash```
+esptool.py --port COM3 erase_flash
 esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 esp32-idf3-20191220-v1.12.bin
 ```
 

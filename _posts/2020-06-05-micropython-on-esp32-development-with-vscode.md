@@ -72,10 +72,10 @@ After a *lot* of thought, I've decided on the following project naming conventio
 Once you get hundreds of projects stacking up, you come to realise that good naming matters a lot. More on naming in another post.
 
 ```dos
-micropy init blinky-esp32-upy
+micropy init oled-esp32-upy
     select all 5 options using space bar and up/down arrows, with Enter to Ok your selection
     then select the stub: esp32-micropython-1.12.0
-cd blinky-esp32-upy
+cd oled-esp32-upy
 code .
 ```
 
@@ -90,13 +90,18 @@ I will not be using VS Code's Workspaces feature, but if you regularly switch be
 Once the above steps have been done once in a project folder, next time you want to work on that same project, you just need to navigate to that folder and start VS Code.
 
 ```dos
-cd c:\users\gregw\microcontroller-home\blinky-esp32-upy
+cd c:\users\gregw\microcontroller-home\oled-esp32-upy
 code .
 ```
 
 ## Add Code
 
-TODO: simplest possible LED blink code
+TODO: show something on the onboard OLED
+
+```python
+
+
+```
 
 ## References
 
