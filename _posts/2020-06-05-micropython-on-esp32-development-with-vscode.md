@@ -94,15 +94,35 @@ cd c:\users\gregw\microcontroller-home\oled-esp32-upy
 code .
 ```
 
-## Add Code
+## Hello World on the Display
 
-TODO: show something on the onboard OLED
+Copy code from https://raw.githubusercontent.com/micropython/micropython/master/drivers/display/ssd1306.py
+to src/ssd1306.py
+
+* "install" it using micropy's package manager so we get intellisense
+
+```dos
+micropy install -p ./src/ssd1306.py ssd1306
+```
+
+* main.py
 
 ```python
-
-
+import machine, ssd1306
+i2c = machine.I2C(scl=machine.Pin(4), sda=machine.Pin(5))
+oled = ssd1306.SSD1306_I2C(128, 64, i2c, 0x3c)
+oled.fill(0)
+oled.text("Hello World", 0, 0)
+oled.show()
 ```
+
+* Upload your modified main.py
+
+TODO: screenshot of vscode pymakr integration (animated gif better)
 
 ## References
 
 [Setup **microPy** and **PyMakr** in VS Code](https://lemariva.com/blog/2019/08/micropython-vsc-ide-intellisense)
+[Pinout of ESP32 with onboard OLED](https://randomnerdtutorials.com/esp32-built-in-oled-ssd1306/)
+[sample code to print Hello World on the OLED](https://diyprojects.io/)
+[Another example using the OLED and a digital barometer](oled-display-ssd1306-micropython-example-digital-barometer-bme280-i2c/#.XtrFi0VKiKc)
