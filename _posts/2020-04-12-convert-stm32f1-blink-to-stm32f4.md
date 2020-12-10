@@ -16,14 +16,19 @@ my familiarity with the all-important reference manuals.
 * Then disconnect it from the original remote, because you wouldn't want to push the converted code to the original repo
 
 ```shell
-git clone https://github.com/GregWoods/stm32f1-01-blink.git stm32f4-01-blink
+git clone https://github.com/GregWoods/01-blink-f1-rs.git 01-blink-f4-rs
 ```
 
 * Create the new repo in github
+
+```shell
+gh repo create 01-blink-f4-rs
+```
+
 * And follow the instructions on the new repo default page, to connect your new remote to your local repo
 
 ```shell
-git remote add origin https://github.com/GregWoods/stm32f4-01-blink.git
+git remote add origin https://github.com/GregWoods/01-blink-f4-rs.git
 git push -u origin master
 ```
 
@@ -33,7 +38,7 @@ git push -u origin master
   * change ```thumbv7m-none-eabi``` to ```thumbv7em-none-eabihf``` (2 instances)
   * change ```arm-none-eabi-gdb``` to ```arm-none-eabihf-gdb``` (1 instance)
 * ```cargo.toml```
-  * change your package name from ```stm32f1-01-blink``` to ```stm32f4-01-blink```
+  * change your package name from ```01-blink-f1-rs``` to ```01-blink-f4-rs```
   * change the hal dependency to ```[dependencies.stm32f1xx-hal]```
   * and change the features list: remove ```stm32f103```, use ```stm32f411``` (or ```stm32f401`` for the cheaper verison of the black pill)
   * Add a version number to ```stm32f4xx-hal```. Currently 0.7.0 (we need this the first time, becaue we don't have a valid value in cargo.lock) Trying to build will report a list of possible versions)
