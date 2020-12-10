@@ -28,6 +28,7 @@ gh repo create 01-blink-f4-rs
 * And follow the instructions on the new repo default page, to connect your new remote to your local repo
 
 ```shell
+got remote remove origin
 git remote add origin https://github.com/GregWoods/01-blink-f4-rs.git
 git push -u origin master
 ```
