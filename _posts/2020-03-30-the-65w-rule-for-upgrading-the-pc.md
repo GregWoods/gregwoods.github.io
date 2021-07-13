@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "How to Learn Embedded Rust on the STM32F103 Blue Pill"
-date:   2020-03-12 19:32:31 +0000
-categories: microcontroller embedded rust stm32 bluepill
-excerpt: It's a long journey from Arduino to Embedded Rust. So avoid false starts, and take it slow!
+title:  "Buying a CPU... My 65W rule"
+date:   2020-03-30 19:32:31 +0000
+categories: hardware budget
+excerpt: So much choice and so little money. How do you decide your priorities when upgrading your PC. Here is my thought process...
 published: true
 ---
 
