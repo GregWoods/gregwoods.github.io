@@ -10,10 +10,12 @@ published: true
 
 > **UPDATE:** This post is a work in progress, it reflects my current thinking on the best way to start and run a micropython project on an ESP32, but I've been looking into this for only a few days, so it may change a lot. 
 
+<!---
 PREVIOUS: Flashing the MicroPython firmware on an ESP32
 
 * Notes: WORK IN PROGRESS: tidy up later
 * ToDO: Add header image with board and micropython logo
+--->
 
 ## Be Organised!
 
